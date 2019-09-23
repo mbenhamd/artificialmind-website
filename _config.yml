@@ -29,7 +29,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   but there are articles about my projects and some about 
   new concepts in the field of artificial intelligence.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mbenhamd.github.io/"
+url: "https://www.artificialmind.io"
 twitter_username: mbenhamdtw
 github_username:  mbenhamd
 linkedin_username: mohamed-ben-hamdoune-73197392

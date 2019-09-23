@@ -1,0 +1,32 @@
+I"¬<p><em>Presentation of a Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-analysis">Github repository</a> and <a href="https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf">Publication</a></em>:</p>
+
+<h3 id="technologies">Technologies</h3>
+<p>Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).</p>
+<h6 id="website-for-a-demo-here">Website for a demo: <a href="https://twitter.yannistannier.io">here</a></h6>
+
+<!--more-->
+
+<h3 id="define-a-problem-you-want-to-solve">Define a problem you want to solve</h3>
+
+<p>Our main purpose is to build a powerful platform system for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6 To). All this data analysis will be accessible via a web interface that will be developed. We want to build a powerful system of sentiments analysis by making a database structure of tweets which is relevant about impacts and effects. The system should provide a faster way to execute Machine Learning methodologies behind data extracted from Twitter. Analysis news actuality by getting an analysis on actual trends with real stream data and building an efficient web interface to get results easily and keep a control on data continuously.
+We also wanted to make a comparison of sentiment analysis methods, for which we have taken a publication and tried to improve the results obtained and to propose new methods.</p>
+
+<h3 id="results-by-month-for-joy-and-sadness-emotions-during-the-2017">Results by month for joy and sadness emotions during the 2017</h3>
+<p align="center"> 
+<img src="https://github.com/mbenhamd/database-publication-latex/blob/master/monthly_analysis_joy_sadness-exemple.png?raw=true" />
+</p>
+
+<p>The complete archive was downloaded on <a href="https://archive.org/details/twitterstream">Archive.org</a> for a total of 5,8 Terabytes of data and we count 1,7 billion of tweets.
+A simple collection of JSON grabbed from the general twitter stream, for the purposes of research, history, testing and memory. This is the Spritzer version, the most light and shallow of Twitter grabs. Unfortunately, we do not currently have access to the Sprinkler or Garden Hose versions of the stream.
+For some technical reasons, only English tweets were analysed.
+The email of the uploader <a href="jscott@archive.org">here</a></p>
+
+<h2 id="what-do-we-conclude-">What do we conclude ?</h2>
+
+<p>In this report we have presented a sentiment analysis tool on a Web interface. In one hand we used data from an archive and in the other hand we used real time stream analysis. Due to the absence of labelled data we couldnâ€™t argue on reliability of data.  This recent publication really question us about the limit on software engineering <a href="http://www.inf.usi.ch/phd/lin/downloads/Lin2018a.pdf">here</a>, but they did not explored deep learning <a href="https://www.researchgate.net/publication/320101315_Textmining_at_EmoInt-2017_A_Deep_Learning_Approach_to_Sentiment_Intensity_Scoring_of_English_Tweets">here</a> and what we could achieve with this learning techniques using neural network fully connected that we always only get better with time because of optimized function behind and great computation that we have due to GPU in aim to build deep learning classifier <a href="https://reader.elsevier.com/reader/sd/94DCC5BBC6744B82108E1435810AE13BED6ED08D41531BA6CD0114B7355D4C44FEC2A6F8C55F0B14ABCFEFF5655CD608">here</a>. 
+There are also other features for the real stream <a href="https://twitter.yannistannier.io/#/realtime">here</a> such as geolocation of people, we could then generate a graph as a center to any user and know its impact on an interactive map, this would allow among other things to know the influence for example. To conclude, we think that having access to geolocation data and build a powerful neural network trained and design for sentiment analysis could be a great idea for future work.</p>
+
+<h3 id="keywords">Keywords</h3>
+<p>Data Mining, Natural Languages Processing,  Sentiment  Analysis,  Classification,  Text  Mining,  Convolutional Neural Network, TensorFlow, Spark.</p>
+
+:ET

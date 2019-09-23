@@ -1,0 +1,9 @@
+I"ò<p><em>Presentation of a Multi Agent System Project available on my <a href="https://github.com/mbenhamd/twitter-analysis-mas">Github repository</a></em>:</p>
+
+<p>Itâ€™s an application using JADE Framework with Swing for the graphical interface.
+The aim is to analyse sentiment between a conversation between two agents.</p>
+
+<!--more-->
+
+<p>At the end of the conversation, we do the confusion matrix after the sentiment analysis using Indico API <a href="https://indico.io/">Website here</a>.</p>
+:ET

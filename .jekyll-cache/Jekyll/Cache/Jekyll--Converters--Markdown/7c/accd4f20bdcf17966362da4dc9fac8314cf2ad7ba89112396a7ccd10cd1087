@@ -1,0 +1,19 @@
+I"î<p><em>Presentation of a Decision Tree From Scratch available on my <a href="https://github.com/mbenhamd/decision-tree-scratch">Github repository</a></em>:</p>
+
+<h1 id="decision-tree">Decision Tree</h1>
+<p><em>This repository was created as part of a course application:</em> <a href="http://www.math-info.univ-paris5.fr/~bouzy/Doc/AA1/InductionDecisionTree.pdf">ici</a></p>
+
+<!--more-->
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Decision trees are a method used in machine learning to perform the <strong>classification</strong> and <strong>prediction</strong> of many phenomena such as weather events for example.</p>
+
+<p>They are popular because the <strong>final model</strong> is easy to understand by practitioners and experts in the field of supervised learning. The final decision tree can explain exactly why a specific <strong>prediction</strong> has been made, which makes it very attractive for operational use.</p>
+
+<p>Decision trees also provide the basis for more advanced ensemble methods such as <strong>random forests</strong> (Random Forest).</p>
+
+<p>A script generating a data set has been put in place.</p>
+
+<p><img src="http://crsouza.com/wp-content/uploads/2012/01/image_thumb-25255B16-25255D.png" alt="alt text" title="Exemple" /></p>
+:ET

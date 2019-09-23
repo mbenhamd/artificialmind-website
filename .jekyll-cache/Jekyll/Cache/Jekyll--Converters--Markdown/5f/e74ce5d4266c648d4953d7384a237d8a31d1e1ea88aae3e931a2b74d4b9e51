@@ -1,0 +1,26 @@
+I"c<p><em>Presentation of a comparison of different reinforcement learning algorithms available on my <a href="https://github.com/mbenhamd/reinforcement-learning-benchs">Github repository</a></em>:</p>
+
+<p>Reinforcement Learning (RA) is about learning what to do, how to relate actions to situations, and how to maximize a reward. The learner is not told what action to take, but instead he must find out which actions give the most reward by trying them. In the most interesting case, actions can affect not only the immediate rewards but also the next situation, and hence the longer term rewards. These two properties - trial-and-error and long-term reward - are the two most important features of reinforcement learning.</p>
+
+<!--more-->
+
+<h1 id="agent-oriented-learning">Agent Oriented Learning</h1>
+<h3 id="mini-project-comparison-of-different-reinforcement-learning-algorithms">Mini-project: Comparison of different reinforcement learning algorithms.</h3>
+
+<p>We will use the library <strong>Open IA Gym</strong> including many games so we can then develop an AI able to learn to maximize its score.</p>
+
+<p>The game we will use is “N-chain”.</p>
+
+<p>This game presents movements along a linear chain of states, with two actions:
+forward, which moves along the chain but gives no reward back, which returns to the
+start and has a small reward.
+The end of the chain, however, offers a great reward, and moving forward to the end of the chain, this important reward can be repeated.</p>
+
+<p>At each action, there is a low probability that the agent “slips” and the opposite transition is taken instead.</p>
+
+<p>The observed state is the current state in the chain (0 to n-1).</p>
+
+<p>The game was designed and used by Malcolm J. A. Strens: <a href="http://ceit.aut.ac.ir/~shiry/lecture/machine-
+learning/papers/BRL-2000.pdf">A Bayesian Framework
+for Reinforcement Learning</a></p>
+:ET

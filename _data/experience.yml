@@ -1,0 +1,41 @@
+# Experience template
+- layout: left
+  company: Laboratoire IBISC - CNRS
+  link: https://www.ibisc.univ-evry.fr/
+  job_title: Deep Learning Research Intern
+  dates: February 2019 to September 2019
+  quote: >
+   The IBISC laboratory is attached to the University Paris-Saclay and the University of Evry Val d'Essonne
+  description: | # this will include new lines to allow paragraphs
+    The interpretation of neural networks and their predictions is a major challenge. Neural networks
+    are considered as "black boxes" so there is a real need to make neural networks more interpretable
+    and this is particularly true in the medical field (Biological interpretation of deep neural networks learned from transcriptomic data).
+
+- layout: left
+  company: Eiffage Systèmes Informations
+  link: https://www.eiffage.com/
+  job_title: Data Scientist Intern
+  dates: June 2018 to September 2018
+  quote: >
+   Company in operation for 7 years, specialized in the activity sector of the management of computer facilities. Information Systems Department of the Eiffage Group.
+  description: | # this will include new lines to allow paragraphs
+    * POC (Proof Of Concept) on Computer Vision Project and Predictive Maintenance.
+    * Project "Opere" with the SNCF: Detect a problem of rail transport on the LGV Bretagne-Pays de la Loire.
+    Data base containing the images with an anomaly, the goal being to realize a system of detection of anomaly on the rails.
+    * Smart city project named "Expercite", in partnership with Microsoft and the start-up company called Busit. I collected data from IOTs (electrical cabinet connected) to perform predictive maintenance.
+
+- layout: left
+  company: IAE Poitiers
+  link: https://iae.univ-poitiers.fr/
+  job_title: Software Developer Intern
+  dates: April 2016 to July 2016
+  quote: >
+   The Institute of Business Administration of Poitiers is the School of Management of the University of Poitiers.
+  description: | # this will include new lines to allow paragraphs
+    * The CEREGE laboratory of the University of Poitiers is working on a project in the digital domain.
+    In this one, we propose capturing and processing datasets from platforms like Facebook, Twitter
+    and Youtube that must be linked with data provided by companies and the statistics department
+    of a ministry.
+    * Development of a database needed for these processes (MySQL, Python, etc.) and capture (API
+    RESTful).
+    * RELOC project with ULULE and KKBB databases.

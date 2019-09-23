@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparison of Discrimination Characteristic Extraction Models</title>
+  <meta name="description" content="Discrimination Characteristic Extraction Models">
+  <link rel="canonical" href="https://mbenhamd.github.io//p8">
+  <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
+    href="https://mbenhamd.github.io//feed.xml">
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">Artificial Mind Blog.</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/curriculum-vitae/">Curriculum Vitae</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags/">Archive</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">About</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2019-01-13">January 13, 2019</time>
+      <h1 class="post-title">Comparison of Discrimination Characteristic Extraction Models</h1>
+      <div class="post-meta">
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Autoencoder" rel="tag">Autoencoder</a>, <a href="/tags/#PCA" rel="tag">PCA</a>, <a href="/tags/#t-SNE" rel="tag">t-SNE</a>, <a href="/tags/#K-means" rel="tag">K-means</a></span>
+      </div><!-- .post-meta -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p><em>Presentation of comparison of discrimination characteristic extraction models available on my <a href="https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques">Github repository</a></em>:</p>
+
+<h1 id="abstract">Abstract</h1>
+
+<p>In machine learning, feature extraction starts from
+of an initial set of measured data and constructs derived values
+(characteristics) intended to be informative and not redundant. This has
+as a consequence of facilitating the subsequent stages of learning and
+generalization by leading to better human interpretations.
+In this document, we will propose some visualization techniques and
+Data Reduction on the Fashion-MNIST Dataset in Combination
+with a learning model.
+<!--more--></p>
+
+<p>The idea of auto-encoders was mentioned for the first time in 1986,
+in an article analyzing in depth the backpropagation.
+In the following years, the idea resurfaced in other documents
+of research. An article published in 1989 allowed to introduce further
+auto-encoders by putting in the ability to extract the characteristics
+linear. Subsequently, it was discovered that one could discover
+nonlinear factorial representations.
+In this context, we had as mini-project to make the comparison between the ACP and the auto-encoders to a complex data set
+somehow.
+Then we will try to visualize these results using a method
+clustering to see the consequences of encoding.</p>
+
+<p>We learned a lot through this mini project since it involves visualization and clustering techniques. We could also see
+the different characteristics of the auto-encoders and their variants. Following
+of the exercise on encoders, we found that auto-encoders
+could help us improve the results of clustering in the context of
+a dataset that we do not know the class or classes associated.
+Then the t-SNE will allow us to visualize the meaning of our data to
+through the distribution of points. In addition, we found that the divergence of Kullback-Leibler and its relationship with mutual information was useful
+to evaluate our results. For the rest, we could have built an architecture using a variational autoencoder in addition to the convolutional layers and then tried several parameters for K-means to retain
+the one that would have given us the best precision. Finally, it was a
+project that allowed us to explore, visualize and classify the dataset
+Fashion-MNIST which is more complex than MNIST.</p>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=Comparison%20of%20Discrimination%20Characteristic%20Extraction%20Models&amp;url=https://mbenhamd.github.io//p8" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https://mbenhamd.github.io//p8&amp;t=Comparison%20of%20Discrimination%20Characteristic%20Extraction%20Models" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('/images/author.png')"><span class="screen-reader-text">Mohamed BEN HAMDOUNE's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
+        <div class="author-bio"><p>Mohamed is a data scientist currently searching for work.</p>
+</div>
+        
+        <span class="author-location">Paris, France</span>
+        
+        
+        <span class="author-website"><a href="https://mbenhamd.github.io/" target="_blank" rel="noopener">https://mbenhamd.github.io/</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/mbenhamdtw" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/mbenhamd" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>Artificial Mind Blog. Jekyll Theme Forked <a href="https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme">Here</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>

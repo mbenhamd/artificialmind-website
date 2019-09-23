@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Quality of embeddings documents"
+title: "Quality of documents embeddings"
 description: "Analysis of the following technical documents"
-date: 2019-01-12
+date: 2019-09-13
 #feature_image: /ressources/ensemble-method/boxplot.png
 tags: [NMF,  LSA, Doc2Vec, Data Mining]
 ---

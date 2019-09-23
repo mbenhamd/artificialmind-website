@@ -2,7 +2,7 @@
 layout: post
 title: "Mixture models applied to usual image data"
 description: "Implementation of different learning algorithms by reinforcement"
-date: 2019-01-09
+date: 2019-09-18
 #feature_image: https://github.com/mbenhamd/twitter-analysis-mas/blob/master/app-screenshot.png?raw=true 
 tags: [Mixture Models, Image Analaysis, Unsupervised Learning]
 ---

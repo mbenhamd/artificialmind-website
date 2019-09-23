@@ -189,3 +189,6 @@ about_content: | # this will include new lines to allow paragraphs
 # Education Section
 # education_title: Education #(Use this to override about education section title)
 
+driver_license : Permis B
+nationality : French
+age : 26

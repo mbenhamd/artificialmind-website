@@ -90,16 +90,31 @@
           Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
-      {%- if site.phone -%}
-        <p>
-          Phone: {{ site.phone | escape }}
-        </p>
-      {%- endif -%}
       {%- if site.url -%}
         <p>
           Web: {% include a.html href=site.url %}{{ site.url | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.driver_license -%}
+        <p>
+          Driving License: {{ site.driver_license }}
+        </p>
+      {%- endif -%}
+      {%- if site.nationality -%}
+        <p>
+          Nationality: {{ site.nationality }}
+        </p>
+      {%- endif -%}
+      {%- if site.age -%}
+        <p>
+          Age: {{ site.age }}
+        </p>
+      {%- endif -%}
+      {%- if site.phone -%}
+        <p>
+          Phone: {{ site.phone | escape }}
+        </p>
+      {%- endif -%}      
     </div>
   </div>
 </div>

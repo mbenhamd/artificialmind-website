@@ -2,7 +2,7 @@
 layout: post
 title: "Automatic classification of data temporal in ordered classes"
 description: "Implementing Fisher's algorithm (dynamic programming)"
-date: 2019-01-10
+date: 2019-09-07
 feature_image: /ressources/time-series/time-series.png
 tags: [R, Time series, Unsupervised Learning, Dynamic Programming]
 ---

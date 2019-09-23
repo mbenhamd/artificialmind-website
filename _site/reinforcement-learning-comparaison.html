@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mixture models applied to usual image data</title>
+  <title>Reinforcement Learning Algorithms Comparaison</title>
   <meta name="description" content="Implementation of different learning algorithms by reinforcement">
-  <link rel="canonical" href="https://mbenhamd.github.io//p4">
+  <link rel="canonical" href="http://localhost:4000/reinforcement-learning-comparaison">
   <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
-    href="https://mbenhamd.github.io//feed.xml">
+    href="http://localhost:4000/feed.xml">
   
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -65,49 +65,51 @@
 
   <article class="post">
     <header class="post-header">
-      <time class="post-date" datetime="2019-01-09">January 9, 2019</time>
-      <h1 class="post-title">Mixture models applied to usual image data</h1>
+      <time class="post-date" datetime="2019-09-15">September 15, 2019</time>
+      <h1 class="post-title">Reinforcement Learning Algorithms Comparaison</h1>
       <div class="post-meta">
-        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Mixture+Models" rel="tag">Mixture Models</a>, <a href="/tags/#Image+Analaysis" rel="tag">Image Analaysis</a>, <a href="/tags/#Unsupervised+Learning" rel="tag">Unsupervised Learning</a></span>
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Reinforcement+Learning" rel="tag">Reinforcement Learning</a>, <a href="/tags/#Q-Learning" rel="tag">Q-Learning</a>, <a href="/tags/#TD-Learning" rel="tag">TD-Learning</a>, <a href="/tags/#Double+Q-learning" rel="tag">Double Q-learning</a>, <a href="/tags/#Keras" rel="tag">Keras</a>, <a href="/tags/#Open+IA+Gym" rel="tag">Open IA Gym</a></span>
       </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="https://softwareengineeringdaily.com/wp-content/uploads/2018/06/OpenAI.png" alt="Reinforcement Learning Algorithms Comparaison">
+      </figure><!-- .post-thumbnail -->
       
     </header><!-- .post-header -->
     <div class="post-content">
-      <p><em>Presentation of mixture models applied to usual image data available on my <a href="https://github.com/mbenhamd/mixture-model-images">Github repository</a></em>:</p>
+      <p><em>Presentation of a comparison of different reinforcement learning algorithms available on my <a href="https://github.com/mbenhamd/reinforcement-learning-benchs">Github repository</a></em>:</p>
 
-<h1 id="abstract">Abstract</h1>
+<p>Reinforcement Learning (RA) is about learning what to do, how to relate actions to situations, and how to maximize a reward. The learner is not told what action to take, but instead he must find out which actions give the most reward by trying them. In the most interesting case, actions can affect not only the immediate rewards but also the next situation, and hence the longer term rewards. These two properties - trial-and-error and long-term reward - are the two most important features of reinforcement learning.</p>
 
-<p>Mixture models are routinely used to extract features from speech data, but also in object detection from images. By deducing parameters from the distribution of the data, they make it possible to predict the location of the objects with each image of a video sequence. The Gaussian mixing model is a probabilistic model that will be used to represent normally distributed subpopulations within a global population. Mixing models in general do not require knowing which subpopulation belongs to a data point, which allows the model to automatically learn subpopulations. As the assignment of subpopulations is not known, it is a form of unsupervised learning.</p>
+<!--more-->
 
-<p><img src="https://github.com/mbenhamd/mixture-model-images/blob/master/plot/show_images_mnist.png?raw=true" alt="alt text" title="MNIST Sample" />
-<!--more--></p>
+<h1 id="agent-oriented-learning">Agent Oriented Learning</h1>
+<h3 id="mini-project-comparison-of-different-reinforcement-learning-algorithms">Mini-project: Comparison of different reinforcement learning algorithms.</h3>
 
-<h1 id="introduction">Introduction</h1>
-<p>The classification of images is one of the major challenges of image processing and computer vision. However, the application of mixture models applied to segmentation presents some difficulties. For the classic blend statistical model, each pixel must be associated with exactly one class. This hypothesis may not be realistic. So,
-several methods have been proposed to work around this problem (such as fuzzy classification). This approach gives satisfactory results in many cases, but in most cases the assumption of a single Gaussian generally limits the accuracy of the model.
-We will use the EM algorithm to estimate the parameters of Gaussian mixtures.
-Then the Gaussian mixing model is a flexible probabilistic model and a powerful modeling tool. It can be used to provide a group-based model in the area of ​​pattern recognition.
-However, the application presents some difficulties since it is sensitive to noise.</p>
+<p>We will use the library <strong>Open IA Gym</strong> including many games so we can then develop an AI able to learn to maximize its score.</p>
 
-<p><img src="https://github.com/mbenhamd/mixture-model-images/blob/master/plot/pca_eig_mnist5.png?raw=true" alt="alt text" title="MNIST Sample" /></p>
+<p>The game we will use is “N-chain”.</p>
 
-<p><img src="https://github.com/mbenhamd/mixture-model-images/blob/master/plot/t-sne_mnist_mm.png?raw=true" alt="alt text" title="MNIST Sample" /></p>
+<p>This game presents movements along a linear chain of states, with two actions:
+forward, which moves along the chain but gives no reward back, which returns to the
+start and has a small reward.
+The end of the chain, however, offers a great reward, and moving forward to the end of the chain, this important reward can be repeated.</p>
 
-<h1 id="conclusion">Conclusion</h1>
+<p>At each action, there is a low probability that the agent “slips” and the opposite transition is taken instead.</p>
 
-<p>In this project, we made a lot of comparisons between the 5 different datasets. We have seen several types of classification methods (hierarchical ascending classification, partitioning with Kmeans) but we have been able to explore the models of mixtures in several ways.
-Indeed, we have noticed that factor analysis methods can help to learn a mixing model without having to envy auto-encoders, but finally the temporal complexity of them leaves something to be desired.
-Moreover the mathematics behind the mix models are more difficult to access and therefore less attractive to the general public.
-The project was very informative as we were able to implement many methods from unsupervised learning.</p>
+<p>The observed state is the current state in the chain (0 to n-1).</p>
 
+<p>The game was designed and used by Malcolm J. A. Strens: <a href="http://ceit.aut.ac.ir/~shiry/lecture/machine-
+learning/papers/BRL-2000.pdf">A Bayesian Framework
+for Reinforcement Learning</a></p>
 
     </div><!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
       <a target="_blank"
-        href="https://twitter.com/intent/tweet?text=Mixture%20models%20applied%20to%20usual%20image%20data&amp;url=https://mbenhamd.github.io//p4" rel="noopener">Twitter</a>
+        href="https://twitter.com/intent/tweet?text=Reinforcement%20Learning%20Algorithms%20Comparaison&amp;url=http://localhost:4000/reinforcement-learning-comparaison" rel="noopener">Twitter</a>
       <a target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=https://mbenhamd.github.io//p4&amp;t=Mixture%20models%20applied%20to%20usual%20image%20data" rel="noopener">Facebook</a>
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/reinforcement-learning-comparaison&amp;t=Reinforcement%20Learning%20Algorithms%20Comparaison" rel="noopener">Facebook</a>
     </div><!-- .share-post -->
     <div class="author-box">
       

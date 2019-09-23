@@ -2,7 +2,7 @@
 layout: post
 title: "Reinforcement Learning Algorithms Comparaison"
 description: "Implementation of different learning algorithms by reinforcement"
-date: 2019-01-08
+date: 2019-09-15
 feature_image : https://softwareengineeringdaily.com/wp-content/uploads/2018/06/OpenAI.png
 tags: [Reinforcement Learning, Q-Learning, TD-Learning, Double Q-learning, Keras, Open IA Gym]
 ---

@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visual exploration of genomic data</title>
-  <meta name="description" content="Using different visualization techniques">
-  <link rel="canonical" href="https://mbenhamd.github.io//p9">
+  <title>Multi Agent System Project</title>
+  <meta name="description" content="The aim is to analyse sentiment between a conversation between two agents.">
+  <link rel="canonical" href="http://localhost:4000/multi-agent-system-twitter">
   <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
-    href="https://mbenhamd.github.io//feed.xml">
+    href="http://localhost:4000/feed.xml">
   
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -65,69 +65,34 @@
 
   <article class="post">
     <header class="post-header">
-      <time class="post-date" datetime="2019-01-14">January 14, 2019</time>
-      <h1 class="post-title">Visual exploration of genomic data</h1>
+      <time class="post-date" datetime="2019-09-17">September 17, 2019</time>
+      <h1 class="post-title">Multi Agent System Project</h1>
       <div class="post-meta">
-        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Visualisation" rel="tag">Visualisation</a>, <a href="/tags/#PCA" rel="tag">PCA</a>, <a href="/tags/#MDS" rel="tag">MDS</a>, <a href="/tags/#Isomap" rel="tag">Isomap</a>, <a href="/tags/#LLE" rel="tag">LLE</a>, <a href="/tags/#LDA" rel="tag">LDA</a></span>
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Multi+Agent+System" rel="tag">Multi Agent System</a>, <a href="/tags/#Twitter" rel="tag">Twitter</a>, <a href="/tags/#Sentiment+Analysis" rel="tag">Sentiment Analysis</a></span>
       </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="https://github.com/mbenhamd/twitter-analysis-mas/blob/master/app-screenshot.png?raw=true" alt="Multi Agent System Project">
+      </figure><!-- .post-thumbnail -->
       
     </header><!-- .post-header -->
     <div class="post-content">
-      <p><em>Presentation of visual exploration of genomic data available on my <a href="https://github.com/mbenhamd/exploration-visuelles-genomique">Github repository</a></em>:</p>
+      <p><em>Presentation of a Multi Agent System Project available on my <a href="https://github.com/mbenhamd/twitter-analysis-mas">Github repository</a></em>:</p>
 
-<h1 id="abstract">Abstract</h1>
+<p>It’s an application using JADE Framework with Swing for the graphical interface.
+The aim is to analyse sentiment between a conversation between two agents.</p>
 
-<p>Interpretation and visual exploration of data from multidimensional data sets can be
-a real headache for the human. While the 2D / 3D datasets are very easy to display: it is easy to represent the inherent structure of their data, it is not easy to
-perform intuitive visualization for large data sets. In order to improve the visualization and interpretation capacity of these large multidimensional data sets, the
-should be reduced while trying to keep as much information as possible. The purpose of the methods presented in this paper are twofold: to realize a reduction of the dimension by extraction of characteristics
-but also allow the visual interpretation of the information kept
-<!--more--></p>
+<!--more-->
 
-<p>We will study current visualization techniques as well as techniques for reducing
-dimension to improve learning and its interpretation. It should be remembered that the family
-methods of data analysis can be subdivided into two families of methods:</p>
-<ol>
-  <li>Linear: The axes used are linear combinations of the initial variables. These algorithms
-try to choose the linear projection “optimal / interesting” points on a vector space
-reduced. They can be powerful, but do not take into account nonlinear structures
-in the data.</li>
-  <li>Non-linear: Most of these methods are based on the notion of neighborhood, with graphs, or
-simply linear combination of neighbors. These methods are more sensitive to the structures
-non-linear data and tries to preserve the global / local properties of the data.
-These two types of methods are based both on the idea that the size of many
-The data is often artificially high and can be reduced without raising a loss.
-significant information.
-At first we will present in a rather brief way each of the algorithms used, then we
-will perform a comparative study of some linear and non-linear dimension reduction algorithms
-on datasets: Gordon and Pomeroy.</li>
-</ol>
-
-<p>In this project, we discussed different techniques used for visualization and analysis
-Datas. These techniques can be used to reduce multivariate data dimensions
-explanatory notes and their classification. We noticed the ACP can be useful for decorrelating variables
-initial and thus be used for an ADL. It has also been noted that the LDA due to this knowledge
-classes, works wonders, although it can not capture nonlinear phenomena.
-The PCR used as initialization for ADL facilitates interpretation and improves results in
-certain cases.
-the ACP looks for relationships between variables while the MDS looks for similarities between observations
-so that we can interpret the axes of the PCA using the variables while the MDS does not allow it
-(simply because there are no more variables). MDS therefore remains more a method of reducing
-dimension than visualization.
-For LLE and Isomap, we varied the number of neighbors to the nearest maximum for each
-datasets because it remains extremely weak. Isomap tends to have a cloud of points where the
-classes are separated and dense whereas the LLE will tend to search locally for each particularity
-individuals and gives a scatter when viewing each individual while remaining readable.
-Finally, this project allowed us to realize several techniques seen in progress on two datasets
-where the number of observation observations were extremely low compared to the variables.</p>
+<p>At the end of the conversation, we do the confusion matrix after the sentiment analysis using Indico API <a href="https://indico.io/">Website here</a>.</p>
 
     </div><!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
       <a target="_blank"
-        href="https://twitter.com/intent/tweet?text=Visual%20exploration%20of%20genomic%20data&amp;url=https://mbenhamd.github.io//p9" rel="noopener">Twitter</a>
+        href="https://twitter.com/intent/tweet?text=Multi%20Agent%20System%20Project&amp;url=http://localhost:4000/multi-agent-system-twitter" rel="noopener">Twitter</a>
       <a target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=https://mbenhamd.github.io//p9&amp;t=Visual%20exploration%20of%20genomic%20data" rel="noopener">Facebook</a>
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/multi-agent-system-twitter&amp;t=Multi%20Agent%20System%20Project" rel="noopener">Facebook</a>
     </div><!-- .share-post -->
     <div class="author-box">
       

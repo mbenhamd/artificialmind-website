@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Multi Agent System Project</title>
-  <meta name="description" content="The aim is to analyse sentiment between a conversation between two agents.">
-  <link rel="canonical" href="https://mbenhamd.github.io//p14">
+  <title>Automatic classification of data temporal in ordered classes</title>
+  <meta name="description" content="Implementing Fisher&#39;s algorithm (dynamic programming)">
+  <link rel="canonical" href="http://localhost:4000/time-series-fisher">
   <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
-    href="https://mbenhamd.github.io//feed.xml">
+    href="http://localhost:4000/feed.xml">
   
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -65,34 +65,67 @@
 
   <article class="post">
     <header class="post-header">
-      <time class="post-date" datetime="2019-01-01">January 1, 2019</time>
-      <h1 class="post-title">Multi Agent System Project</h1>
+      <time class="post-date" datetime="2019-09-07">September 7, 2019</time>
+      <h1 class="post-title">Automatic classification of data temporal in ordered classes</h1>
       <div class="post-meta">
-        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Multi+Agent+System" rel="tag">Multi Agent System</a>, <a href="/tags/#Twitter" rel="tag">Twitter</a>, <a href="/tags/#Sentiment+Analysis" rel="tag">Sentiment Analysis</a></span>
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#R" rel="tag">R</a>, <a href="/tags/#Time+series" rel="tag">Time series</a>, <a href="/tags/#Unsupervised+Learning" rel="tag">Unsupervised Learning</a>, <a href="/tags/#Dynamic+Programming" rel="tag">Dynamic Programming</a></span>
       </div><!-- .post-meta -->
       
       <figure class="post-thumbnail image-card width-wide">
-        <img src="https://github.com/mbenhamd/twitter-analysis-mas/blob/master/app-screenshot.png?raw=true" alt="Multi Agent System Project">
+        <img src="/ressources/time-series/time-series.png" alt="Automatic classification of data temporal in ordered classes">
       </figure><!-- .post-thumbnail -->
       
     </header><!-- .post-header -->
     <div class="post-content">
-      <p><em>Presentation of a Multi Agent System Project available on my <a href="https://github.com/mbenhamd/twitter-analysis-mas">Github repository</a></em>:</p>
+      <p><em>Presentation of automatic classification of data temporal in ordered classes available on my <a href="https://github.com/mbenhamd/series-temporelles-fisher">Github repository</a></em>:</p>
 
-<p>It’s an application using JADE Framework with Swing for the graphical interface.
-The aim is to analyse sentiment between a conversation between two agents.</p>
+<h1 id="abstract">Abstract</h1>
+
+<p>Automatic classification or clustering consists of partioning a set of objects (instances) described by a set of variables
+in homogeneous groups (classes). It turns out that for some data,
+these are a sequence of numerical values ​​representing the evolution of a
+specific quantity over time, hence the notion of time series. The aim will be to propose a classification system from
+various datasets using Fisher’s dynamic algorithm and
+to see its effectiveness by comparing it to other methods.</p>
 
 <!--more-->
 
-<p>At the end of the conversation, we do the confusion matrix after the sentiment analysis using Indico API <a href="https://indico.io/">Website here</a>.</p>
+<h1 id="introduction">Introduction</h1>
+<p>As part of our school curriculum, we are required to carry out a project
+concerning unsupervised learning. The objective of this project is to study
+a clustering method that searches for ordered classes in a timeline. Fisher’s dynamic programming method is used
+for segmentation of time signals, or for change detection
+in a data sequence.
+In speech recognition systems, for example, this type is exploited.
+method for partitioning audio signals into associated time ranges
+to different speakers who are then identified. More generally,
+organizing a sequence of data into homogeneous segments is a
+process that helps to better organize them.</p>
+
+<p><img src="/ressources/time-series/data.png" alt="alt text" title="MNIST Sample" /></p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>This non-superimposed learning project allowed us to implement Fisher’s dynamic programming algorithm and compare it to the CAH and
+K-means. We could see that Fisher’s algorithm is clearly appropriate
+within the framework of time series since it takes into account the temporality of
+data while K-Means and CAH Ward have a spatial approach. Indeed
+these two other methods look at the datasets as a set of
+points in a space with one or more dimensions without taking into account the
+temporal criterion. Even though we have some optimizations
+thanks to the use of appropriate package, we have as prospects to
+see the efficiency of the algorithm on a GPU (more appropriate component for the
+intensive matrix computation) because when we are dealing with larger data sets it is very likely that the nonlinear complexity of
+the algorithm poses a big problem.</p>
+
 
     </div><!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
       <a target="_blank"
-        href="https://twitter.com/intent/tweet?text=Multi%20Agent%20System%20Project&amp;url=https://mbenhamd.github.io//p14" rel="noopener">Twitter</a>
+        href="https://twitter.com/intent/tweet?text=Automatic%20classification%20of%20data%20temporal%20in%20ordered%20classes&amp;url=http://localhost:4000/time-series-fisher" rel="noopener">Twitter</a>
       <a target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=https://mbenhamd.github.io//p14&amp;t=Multi%20Agent%20System%20Project" rel="noopener">Facebook</a>
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/time-series-fisher&amp;t=Automatic%20classification%20of%20data%20temporal%20in%20ordered%20classes" rel="noopener">Facebook</a>
     </div><!-- .share-post -->
     <div class="author-box">
       

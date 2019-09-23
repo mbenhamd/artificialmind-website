@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ensemble method applied to Detection of financial fraud</title>
-  <meta name="description" content="Implementing Fisher&#39;s algorithm (dynamic programming)">
-  <link rel="canonical" href="https://mbenhamd.github.io//p6">
+  <title>Quality of documents embeddings</title>
+  <meta name="description" content="Analysis of the following technical documents">
+  <link rel="canonical" href="http://localhost:4000/quality-document-embeddings">
   <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
-    href="https://mbenhamd.github.io//feed.xml">
+    href="http://localhost:4000/feed.xml">
   
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -65,85 +65,79 @@
 
   <article class="post">
     <header class="post-header">
-      <time class="post-date" datetime="2019-01-11">January 11, 2019</time>
-      <h1 class="post-title">Ensemble method applied to Detection of financial fraud</h1>
+      <time class="post-date" datetime="2019-09-13">September 13, 2019</time>
+      <h1 class="post-title">Quality of documents embeddings</h1>
       <div class="post-meta">
-        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Ensemble+Method" rel="tag">Ensemble Method</a>, <a href="/tags/#SMOTE" rel="tag">SMOTE</a>, <a href="/tags/#Imbalanced+Dataset" rel="tag">Imbalanced Dataset</a></span>
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#NMF" rel="tag">NMF</a>, <a href="/tags/#LSA" rel="tag">LSA</a>, <a href="/tags/#Doc2Vec" rel="tag">Doc2Vec</a>, <a href="/tags/#Data+Mining" rel="tag">Data Mining</a></span>
       </div><!-- .post-meta -->
-      
-      <figure class="post-thumbnail image-card width-wide">
-        <img src="/ressources/ensemble-method/boxplot.png" alt="Ensemble method applied to Detection of financial fraud">
-      </figure><!-- .post-thumbnail -->
       
     </header><!-- .post-header -->
     <div class="post-content">
-      <p><em>Presentation of ensemble method applied to Detection of financial fraud available on my <a href="https://github.com/mbenhamd/methodes-ensemblistes-fraudes">Github repository</a></em>:</p>
+      <p><em>Presentation of quality of embeddings documents available on my <a href="https://github.com/mbenhamd/documents-embeddings">Github repository</a></em>:</p>
 
 <h1 id="abstract">Abstract</h1>
 
-<p>Fraud represents a loss of turnover of several billion
-dollars and increases every year. The economic crime survey
-PwC global survey in 2018 revealed that half (49%) of the 7,200
-respondents had been the victim of some type of fraud. It’s about
-of an increase over the 2016 PwC study in which a little
-more than one third of the organizations surveyed (36%) had been victims of
-economic crime.
-Traditional methods of data analysis have been used for a long time to detect fraud and it is in this context that we will carry out
-several ways to approach the problem in order to see the advantages and disadvantages of each learning model and the one that gives the best
-prediction results.</p>
+<p>Text Mining is a branch of Data Mining that specializes in
+text corpus processing to analyze the content and extract it
+knowledge. In our case, the objective is to evaluate the quality of a
+set of embedding dies that represent documents. We
+will perform a clustering on documents and will compare the values of
+clustering with different evaluation criteria.</p>
 
 <!--more-->
 
 <h1 id="introduction">Introduction</h1>
 
-<p>Techniques used to detect fraud require investigation
-complex and tedious then they deal with different areas of knowledge such as finance, economics.
-Here are some examples of statistical data analysis techniques:</p>
-<ul>
-  <li>Pre-processing techniques for detecting, validating, correcting errors and filling missing data
-or incorrect.</li>
-  <li>Calculation of various statistical parameters such as averages, quantiles, performance measures, probability distributions, etc.</li>
-  <li>Chronological analysis of time-dependent data (time series).</li>
-</ul>
-
-<p><img src="/ressources/ensemble-method/features.png" alt="alt text" title="MNIST Sample" /></p>
-
-<p>In our case, we will use models of supervised learning and
-we will not use clustering methods.
-This type of model only detects frauds similar to those
-that took place previously and were classified by a human.
-Regarding the detection of fraud by credit card payment,
-the problem of ranking involves the creation of sufficiently intelligent models to properly classify transactions into legitimate transactions
-or fraudulent, depending on the details of the transaction such as the amount,
-the trader, the location, the time and others.</p>
+<p>Paragraph vectors (Doc2Vec) have recently been proposed as
+unsupervised method for learning documents. In their
+works, the authors showed that the method can learn to integrate
+Movie review texts that can be used for sentiment analysis. This proof of concept, while encouraging, was rather
+narrow.
+Indeed, the word embedding has opened new perspectives across
+a reduction in dimensionality and a new vision of words (a
+semantic vision).
+In the same way the document embedding is an extension brought
+when the number of documents becomes important and we seek to have
+a result of similarity, then be able to classify and have a technique to discriminate documents (e.g., books of mechanics and
+Botanical).
+Here we consider tasks other than the analysis of feelings, we
+use two datasets (Class3 and Reut8) with other analysis algorithms, such as the NMF and the LSA to evaluate the quality of
+their embeddings. Then we will evaluate the performances to see
+what are the strengths and weaknesses of the different analyzes.</p>
 
 <h1 id="conclusion">Conclusion</h1>
 
-<p>To conclude, we have been very interested in the set-up methods in our approach to this problem in order to be original.
-The decision tree-based methods are interesting because
-model architecture reduces over-fitting, but poor sampling practices can lead to misleading conclusions
-the quality of a model.
-The main purpose of model validation is to estimate how
-whose model will generalize to new data. If the decision to put
-a model in production depends on how it works on a
-validation set, it is essential that the oversampling be performed
-correctly.
-In fact, by oversampling only the training data, none of the information contained in the validation data is used
-to create synthetic observations therefore, these results should be
-generalizable.
-Then oversampling is a well-known way to potentially improve the models formed on unbalanced data but it is important to remember that incorrect oversampling can lead to
-think that a model will generalize better than it actually does.
-Our results may seem weak compared to what is available on the internet but it is appropriate to use cross validation correctly with
-good sampling method as well as an appropriate metric when
-our data is out of balance.</p>
+<p>As part of this project we learned a lot about the methods
+such as the LSA, NMF as well as Doc2Vec.
+Each method seen in these projects has strong and weak points
+like how fast the LSA does to Doc2Vec and the NMF, or
+the ability of the NMF to have a decomposition taking into account the
+weight of each cluster and thus to be more easily interpretable following
+each column of the matrix W then the LSA had an ability to retrieve
+the different meanings of the words.
+Then we realized without real surprise that Doc2Vec was the method bringing the best results knowing that we can load a
+pre-trained model on a very large dataset to be able to transfer
+knowledge (in other words, initialize the weights of the neural network), this
+which lets us think that this is a very promising method.
+Doc2Vec appears as an ideal method in itself, even if they are
+classic data sets, we could see that the defects of Reters8 were able to
+to be exceeded by modifying the algorithm through the two approaches of this
+method.
+This project allowed us to use several popular python library,
+with their lots of varieties and to be able to analyze and model our games of
+data as well as learning in many ways.
+We could have improved the results on the datasets by performing
+further pre-processing, but the purpose of this project was rather to evaluate
+quality in a general way without being specific according to the context of the
+data.</p>
 
     </div><!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
       <a target="_blank"
-        href="https://twitter.com/intent/tweet?text=Ensemble%20method%20applied%20to%20Detection%20of%20financial%20fraud&amp;url=https://mbenhamd.github.io//p6" rel="noopener">Twitter</a>
+        href="https://twitter.com/intent/tweet?text=Quality%20of%20documents%20embeddings&amp;url=http://localhost:4000/quality-document-embeddings" rel="noopener">Twitter</a>
       <a target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=https://mbenhamd.github.io//p6&amp;t=Ensemble%20method%20applied%20to%20Detection%20of%20financial%20fraud" rel="noopener">Facebook</a>
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/quality-document-embeddings&amp;t=Quality%20of%20documents%20embeddings" rel="noopener">Facebook</a>
     </div><!-- .share-post -->
     <div class="author-box">
       

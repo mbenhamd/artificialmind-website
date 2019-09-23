@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artificial Mind Blog.</title>
   <meta name="description" content="Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial in...">
-  <link rel="canonical" href="https://mbenhamd.github.io//">
+  <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
-    href="https://mbenhamd.github.io//feed.xml">
+    href="http://localhost:4000/feed.xml">
   
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -70,28 +70,30 @@
   
   <article class="post">
     <header class="post-header">
-      <time class="post-date" datetime="2019-01-14">January 14, 2019</time>
-      <h2 class="post-title"><a href="/p9" rel="bookmark">Visual exploration of genomic data</a></h2>
+      <time class="post-date" datetime="2019-09-23">September 23, 2019</time>
+      <h2 class="post-title"><a href="/twitter-sentiment-analysis" rel="bookmark">Twitter Sentiment Analysis</a></h2>
       <div class="post-meta">
         By <span class="post-author">Mohamed BEN HAMDOUNE</span><span
           class="post-tags"> in
-          <a href="/tags/#Visualisation" rel="tag">Visualisation</a>, <a href="/tags/#PCA" rel="tag">PCA</a>, <a href="/tags/#MDS" rel="tag">MDS</a>, <a href="/tags/#Isomap" rel="tag">Isomap</a>, <a href="/tags/#LLE" rel="tag">LLE</a>, <a href="/tags/#LDA" rel="tag">LDA</a></span>
+          <a href="/tags/#Twitter" rel="tag">Twitter</a>, <a href="/tags/#Sentiment+Analysis" rel="tag">Sentiment Analysis</a>, <a href="/tags/#Streaming" rel="tag">Streaming</a>, <a href="/tags/#Spark" rel="tag">Spark</a></span>
       </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <a href="/twitter-sentiment-analysis"><img src="https://github.com/mbenhamd/database-publication-latex/blob/master/real_stream-schema.png?raw=true"
+            alt="Twitter Sentiment Analysis"></a>
+      </figure><!-- .post-thumbnail -->
       
     </header><!-- .post-header -->
     <div class="post-content">
       
-      <p><em>Presentation of visual exploration of genomic data available on my <a href="https://github.com/mbenhamd/exploration-visuelles-genomique">Github repository</a></em>:</p>
+      <p><em>Presentation of a Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-analysis">Github repository</a> and <a href="https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf">Publication</a></em>:</p>
 
-<h1 id="abstract">Abstract</h1>
+<h3 id="technologies">Technologies</h3>
+<p>Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).</p>
+<h6 id="website-for-a-demo-here">Website for a demo: <a href="https://twitter.yannistannier.io">here</a></h6>
 
-<p>Interpretation and visual exploration of data from multidimensional data sets can be
-a real headache for the human. While the 2D / 3D datasets are very easy to display: it is easy to represent the inherent structure of their data, it is not easy to
-perform intuitive visualization for large data sets. In order to improve the visualization and interpretation capacity of these large multidimensional data sets, the
-should be reduced while trying to keep as much information as possible. The purpose of the methods presented in this paper are twofold: to realize a reduction of the dimension by extraction of characteristics
-but also allow the visual interpretation of the information kept
 
-      <p class="read-more"><a href="/p9" class="read-more-link">Continue reading &rarr;</a>
+      <p class="read-more"><a href="/twitter-sentiment-analysis" class="read-more-link">Continue reading &rarr;</a>
       </p>
       
     </div><!-- .post-content -->
@@ -99,8 +101,61 @@ but also allow the visual interpretation of the information kept
   
   <article class="post">
     <header class="post-header">
-      <time class="post-date" datetime="2019-01-13">January 13, 2019</time>
-      <h2 class="post-title"><a href="/p8" rel="bookmark">Comparison of Discrimination Characteristic Extraction Models</a></h2>
+      <time class="post-date" datetime="2019-09-22">September 22, 2019</time>
+      <h2 class="post-title"><a href="/twitter-sentiment-analysis-cnn" rel="bookmark">Twitter Sentiment Analysis with a CNN</a></h2>
+      <div class="post-meta">
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span
+          class="post-tags"> in
+          <a href="/tags/#Sentiment+Analysis" rel="tag">Sentiment Analysis</a>, <a href="/tags/#Twitter" rel="tag">Twitter</a>, <a href="/tags/#CNN" rel="tag">CNN</a>, <a href="/tags/#Convolutional" rel="tag">Convolutional</a>, <a href="/tags/#Neural+Network" rel="tag">Neural Network</a>, <a href="/tags/#Deep+Learning" rel="tag">Deep Learning</a>, <a href="/tags/#Tensorflow" rel="tag">Tensorflow</a></span>
+      </div><!-- .post-meta -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      
+      <p><em>Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-cnn">Github repository</a></em>:</p>
+
+<h1 id="tensorflow-implementation-of-a-cnn">TensorFlow implementation of a CNN.</h1>
+<h2 id="part-of-the-twitter-sentiment-analysis-project">Part of the Twitter Sentiment Analysis Project</h2>
+<p>Link of the publication : <a href="https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf">here</a></p>
+
+<p>We used those settings for training the CNN :</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flags:
+	batch_size = 128
+	checkpoint_freq = 1
+	custom_input = 
+	dataset_fraction = 1.0
+	device = gpu
+	embedding_size = 128
+	epochs = 10
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = None
+	num_filters = 128
+	save = True
+	save_protobuf = False
+	test_data_ratio = 0.1
+	train = True
+	valid_freq = 1
+
+Dataset:
+	Train set size = 1420766
+	Test set size = 157862
+	Vocabulary size = 274562
+	Input layer size = 117
+	Number of classes = 2
+</code></pre></div></div>
+
+
+      <p class="read-more"><a href="/twitter-sentiment-analysis-cnn" class="read-more-link">Continue reading &rarr;</a>
+      </p>
+      
+    </div><!-- .post-content -->
+  </article><!-- .post -->
+  
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2019-09-21">September 21, 2019</time>
+      <h2 class="post-title"><a href="/convolutional-autoencoder" rel="bookmark">Convolutional Autoencoder and clustering improvement</a></h2>
       <div class="post-meta">
         By <span class="post-author">Mohamed BEN HAMDOUNE</span><span
           class="post-tags"> in
@@ -123,38 +178,7 @@ In this document, we will propose some visualization techniques and
 Data Reduction on the Fashion-MNIST Dataset in Combination
 with a learning model.
 
-      <p class="read-more"><a href="/p8" class="read-more-link">Continue reading &rarr;</a>
-      </p>
-      
-    </div><!-- .post-content -->
-  </article><!-- .post -->
-  
-  <article class="post">
-    <header class="post-header">
-      <time class="post-date" datetime="2019-01-12">January 12, 2019</time>
-      <h2 class="post-title"><a href="/p7" rel="bookmark">Quality of embeddings documents</a></h2>
-      <div class="post-meta">
-        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span
-          class="post-tags"> in
-          <a href="/tags/#NMF" rel="tag">NMF</a>, <a href="/tags/#LSA" rel="tag">LSA</a>, <a href="/tags/#Doc2Vec" rel="tag">Doc2Vec</a>, <a href="/tags/#Data+Mining" rel="tag">Data Mining</a></span>
-      </div><!-- .post-meta -->
-      
-    </header><!-- .post-header -->
-    <div class="post-content">
-      
-      <p><em>Presentation of quality of embeddings documents available on my <a href="https://github.com/mbenhamd/documents-embeddings">Github repository</a></em>:</p>
-
-<h1 id="abstract">Abstract</h1>
-
-<p>Text Mining is a branch of Data Mining that specializes in
-text corpus processing to analyze the content and extract it
-knowledge. In our case, the objective is to evaluate the quality of a
-set of embedding dies that represent documents. We
-will perform a clustering on documents and will compare the values of
-clustering with different evaluation criteria.</p>
-
-
-      <p class="read-more"><a href="/p7" class="read-more-link">Continue reading &rarr;</a>
+      <p class="read-more"><a href="/convolutional-autoencoder" class="read-more-link">Continue reading &rarr;</a>
       </p>
       
     </div><!-- .post-content -->

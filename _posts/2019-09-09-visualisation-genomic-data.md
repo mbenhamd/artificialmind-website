@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Visual exploration of genomic data"
+title: "Visualisation method applied on genomic data"
 description: "Using different visualization techniques"
-date: 2019-01-14
+date: 2019-09-09
 #feature_image: /ressources/ensemble-method/boxplot.png
 tags: [Visualisation, PCA, MDS, Isomap, LLE, LDA]
 ---

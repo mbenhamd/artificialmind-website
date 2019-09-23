@@ -2,7 +2,7 @@
 layout: post
 title: "R Project with Cereals Food Dataset"
 description: "A Project to introduce R and Statistics"
-date: 2019-01-04
+date: 2019-09-01
 feature_image: ressources/r-food/cercle_correlation.png
 tags: [Project, R, Statistics]
 permalink : /r-food/

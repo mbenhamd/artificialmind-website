@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter Sentiment Analysis"
 description: "Build a powerful platform system for real-time data analysis of tweets on twitter trends."
-date: 2019-01-03
+date: 2019-09-23
 feature_image: https://github.com/mbenhamd/database-publication-latex/blob/master/real_stream-schema.png?raw=true
 tags: [Twitter, Sentiment Analysis, Streaming, Spark]
 ---

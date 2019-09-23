@@ -2,7 +2,7 @@
 layout: post
 title: "Multi Agent System Project"
 description: "The aim is to analyse sentiment between a conversation between two agents."
-date: 2019-01-01
+date: 2019-09-17
 feature_image: https://github.com/mbenhamd/twitter-analysis-mas/blob/master/app-screenshot.png?raw=true 
 tags: [Multi Agent System, Twitter, Sentiment Analysis]
 ---

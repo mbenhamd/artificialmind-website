@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Ensemble method applied to Detection of financial fraud"
+title: "Ensemble method applied to detection of financial fraud"
 description: "Implementing Fisher's algorithm (dynamic programming)"
-date: 2019-01-11
+date: 2019-09-20
 feature_image: /ressources/ensemble-method/boxplot.png
 tags: [Ensemble Method,  SMOTE, Imbalanced Dataset]
 ---

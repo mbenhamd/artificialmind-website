@@ -2,7 +2,7 @@
 layout: post
 title: "Non-negative matrix factorization and image classification"
 description: "Clustering on images."
-date: 2019-01-02
+date: 2019-09-12
 feature_image: https://www.researchgate.net/profile/Hongping_Cai/publication/290324486/figure/fig4/AS:613900601012249@1523376717327/Our-photo-art-dataset-containing-50-object-categories-Each-category-is-displayed-with.png
 tags: [Unsupervised Learning, Image Analaysis, NMF]
 ---

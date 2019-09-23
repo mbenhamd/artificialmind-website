@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Comparison of Discrimination Characteristic Extraction Models</title>
-  <meta name="description" content="Discrimination Characteristic Extraction Models">
-  <link rel="canonical" href="https://mbenhamd.github.io//p8">
+  <title>Ensemble method applied to detection of financial fraud</title>
+  <meta name="description" content="Implementing Fisher&#39;s algorithm (dynamic programming)">
+  <link rel="canonical" href="http://localhost:4000/ensemble-method-fraud">
   <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
-    href="https://mbenhamd.github.io//feed.xml">
+    href="http://localhost:4000/feed.xml">
   
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -65,59 +65,85 @@
 
   <article class="post">
     <header class="post-header">
-      <time class="post-date" datetime="2019-01-13">January 13, 2019</time>
-      <h1 class="post-title">Comparison of Discrimination Characteristic Extraction Models</h1>
+      <time class="post-date" datetime="2019-09-20">September 20, 2019</time>
+      <h1 class="post-title">Ensemble method applied to detection of financial fraud</h1>
       <div class="post-meta">
-        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Autoencoder" rel="tag">Autoencoder</a>, <a href="/tags/#PCA" rel="tag">PCA</a>, <a href="/tags/#t-SNE" rel="tag">t-SNE</a>, <a href="/tags/#K-means" rel="tag">K-means</a></span>
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Ensemble+Method" rel="tag">Ensemble Method</a>, <a href="/tags/#SMOTE" rel="tag">SMOTE</a>, <a href="/tags/#Imbalanced+Dataset" rel="tag">Imbalanced Dataset</a></span>
       </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="/ressources/ensemble-method/boxplot.png" alt="Ensemble method applied to detection of financial fraud">
+      </figure><!-- .post-thumbnail -->
       
     </header><!-- .post-header -->
     <div class="post-content">
-      <p><em>Presentation of comparison of discrimination characteristic extraction models available on my <a href="https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques">Github repository</a></em>:</p>
+      <p><em>Presentation of ensemble method applied to Detection of financial fraud available on my <a href="https://github.com/mbenhamd/methodes-ensemblistes-fraudes">Github repository</a></em>:</p>
 
 <h1 id="abstract">Abstract</h1>
 
-<p>In machine learning, feature extraction starts from
-of an initial set of measured data and constructs derived values
-(characteristics) intended to be informative and not redundant. This has
-as a consequence of facilitating the subsequent stages of learning and
-generalization by leading to better human interpretations.
-In this document, we will propose some visualization techniques and
-Data Reduction on the Fashion-MNIST Dataset in Combination
-with a learning model.
-<!--more--></p>
+<p>Fraud represents a loss of turnover of several billion
+dollars and increases every year. The economic crime survey
+PwC global survey in 2018 revealed that half (49%) of the 7,200
+respondents had been the victim of some type of fraud. It’s about
+of an increase over the 2016 PwC study in which a little
+more than one third of the organizations surveyed (36%) had been victims of
+economic crime.
+Traditional methods of data analysis have been used for a long time to detect fraud and it is in this context that we will carry out
+several ways to approach the problem in order to see the advantages and disadvantages of each learning model and the one that gives the best
+prediction results.</p>
 
-<p>The idea of auto-encoders was mentioned for the first time in 1986,
-in an article analyzing in depth the backpropagation.
-In the following years, the idea resurfaced in other documents
-of research. An article published in 1989 allowed to introduce further
-auto-encoders by putting in the ability to extract the characteristics
-linear. Subsequently, it was discovered that one could discover
-nonlinear factorial representations.
-In this context, we had as mini-project to make the comparison between the ACP and the auto-encoders to a complex data set
-somehow.
-Then we will try to visualize these results using a method
-clustering to see the consequences of encoding.</p>
+<!--more-->
 
-<p>We learned a lot through this mini project since it involves visualization and clustering techniques. We could also see
-the different characteristics of the auto-encoders and their variants. Following
-of the exercise on encoders, we found that auto-encoders
-could help us improve the results of clustering in the context of
-a dataset that we do not know the class or classes associated.
-Then the t-SNE will allow us to visualize the meaning of our data to
-through the distribution of points. In addition, we found that the divergence of Kullback-Leibler and its relationship with mutual information was useful
-to evaluate our results. For the rest, we could have built an architecture using a variational autoencoder in addition to the convolutional layers and then tried several parameters for K-means to retain
-the one that would have given us the best precision. Finally, it was a
-project that allowed us to explore, visualize and classify the dataset
-Fashion-MNIST which is more complex than MNIST.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>Techniques used to detect fraud require investigation
+complex and tedious then they deal with different areas of knowledge such as finance, economics.
+Here are some examples of statistical data analysis techniques:</p>
+<ul>
+  <li>Pre-processing techniques for detecting, validating, correcting errors and filling missing data
+or incorrect.</li>
+  <li>Calculation of various statistical parameters such as averages, quantiles, performance measures, probability distributions, etc.</li>
+  <li>Chronological analysis of time-dependent data (time series).</li>
+</ul>
+
+<p><img src="/ressources/ensemble-method/features.png" alt="alt text" title="MNIST Sample" /></p>
+
+<p>In our case, we will use models of supervised learning and
+we will not use clustering methods.
+This type of model only detects frauds similar to those
+that took place previously and were classified by a human.
+Regarding the detection of fraud by credit card payment,
+the problem of ranking involves the creation of sufficiently intelligent models to properly classify transactions into legitimate transactions
+or fraudulent, depending on the details of the transaction such as the amount,
+the trader, the location, the time and others.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>To conclude, we have been very interested in the set-up methods in our approach to this problem in order to be original.
+The decision tree-based methods are interesting because
+model architecture reduces over-fitting, but poor sampling practices can lead to misleading conclusions
+the quality of a model.
+The main purpose of model validation is to estimate how
+whose model will generalize to new data. If the decision to put
+a model in production depends on how it works on a
+validation set, it is essential that the oversampling be performed
+correctly.
+In fact, by oversampling only the training data, none of the information contained in the validation data is used
+to create synthetic observations therefore, these results should be
+generalizable.
+Then oversampling is a well-known way to potentially improve the models formed on unbalanced data but it is important to remember that incorrect oversampling can lead to
+think that a model will generalize better than it actually does.
+Our results may seem weak compared to what is available on the internet but it is appropriate to use cross validation correctly with
+good sampling method as well as an appropriate metric when
+our data is out of balance.</p>
 
     </div><!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
       <a target="_blank"
-        href="https://twitter.com/intent/tweet?text=Comparison%20of%20Discrimination%20Characteristic%20Extraction%20Models&amp;url=https://mbenhamd.github.io//p8" rel="noopener">Twitter</a>
+        href="https://twitter.com/intent/tweet?text=Ensemble%20method%20applied%20to%20detection%20of%20financial%20fraud&amp;url=http://localhost:4000/ensemble-method-fraud" rel="noopener">Twitter</a>
       <a target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=https://mbenhamd.github.io//p8&amp;t=Comparison%20of%20Discrimination%20Characteristic%20Extraction%20Models" rel="noopener">Facebook</a>
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/ensemble-method-fraud&amp;t=Ensemble%20method%20applied%20to%20detection%20of%20financial%20fraud" rel="noopener">Facebook</a>
     </div><!-- .share-post -->
     <div class="author-box">
       

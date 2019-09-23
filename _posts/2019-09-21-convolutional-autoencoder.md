@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Comparison of Discrimination Characteristic Extraction Models"
+title: "Convolutional Autoencoder and clustering improvement"
 description: "Discrimination Characteristic Extraction Models"
-date: 2019-01-13
+date: 2019-09-21
 #feature_image: /ressources/ensemble-method/boxplot.png
 tags: [Autoencoder , PCA, t-SNE, K-means]
 ---

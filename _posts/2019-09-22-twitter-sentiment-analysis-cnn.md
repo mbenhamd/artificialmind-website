@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Twitter Sentiment Analysis"
+title: "Twitter Sentiment Analysis with a CNN"
 description: "TensorFlow implementation of a CNN for Twitter Sentiment Analysis"
-date: 2019-01-07
+date: 2019-09-22
 tags: [Sentiment Analysis, Twitter, CNN, Convolutional, Neural Network, Deep Learning, Tensorflow]
 ---
 

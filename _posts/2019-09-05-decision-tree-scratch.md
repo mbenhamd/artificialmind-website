@@ -2,7 +2,7 @@
 layout: post
 title: "Decision Tree From Scratch "
 description: "Understand the basic of decision tree"
-date: 2019-01-06
+date: 2019-09-05
 tags: [Multi Agent System, Twitter, Sentiment Analysis]
 ---
 

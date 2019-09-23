@@ -3,6 +3,7 @@ layout: page
 title: About this blog
 description: About the authour of this blog.
 feature_image: images/about.jpg
+permalink : /about/
 ---
 
 **Mohamed BEN HAMDOUNE** is a Data Scientist from Paris, France. After graduating from [University Paris Descartes](https://www.parisdescartes.fr/en/homepage/) with a master's degree in Artificial Intelligence, he is currently searching for work.

@@ -41,6 +41,7 @@ avatar: assets/images/avatar.jpg
 
 # Google Analytics Tracking ID goes here:
 google_analytics: UA-126712513-1
+google_site_verification: jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg
 
 # Build settings
 github: [metadata]

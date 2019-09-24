@@ -102,6 +102,16 @@ sass:
   sass_dir: _sass
   style: compressed
 
+social:
+  name: Mohamed Ben Hamdoune
+  links:
+    - https://twitter.com/BenBalter
+    - https://www.facebook.com/ben.balter
+    - https://www.linkedin.com/in/BenBalter
+    - https://github.com/benbalter
+    - https://keybase.io/benbalter
+
+
 
 jekyll-archives:
   enabled: []

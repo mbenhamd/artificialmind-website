@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "Decision Tree From Scratch "
-description: "Understand the basic of decision tree"
-date: 2019-09-05
-tags: [Multi Agent System, Twitter, Sentiment Analysis]
+title: Decision Tree From Scratch
+description: Understand the basic of decision tree
+date: 2019-09-05 00:00:00
+tags:
+  - Multi Agent System
+  - Twitter
+  - Sentiment Analysis
 ---
 
-*Presentation of a Decision Tree From Scratch available on my [Github repository](https://github.com/mbenhamd/decision-tree-scratch)*:
+*Presentation of a Decision Tree From Scratch available on my [Github repository](https://github.com/mbenhamd/decision-tree-scratch)*\:
 
-# Decision Tree
 *This repository was created as part of a course application:* [ici](http://www.math-info.univ-paris5.fr/~bouzy/Doc/AA1/InductionDecisionTree.pdf)
-
 <!--more-->
 
-## Introduction
+###### Introduction
 
 Decision trees are a method used in machine learning to perform the **classification** and **prediction** of many phenomena such as weather events for example.
 

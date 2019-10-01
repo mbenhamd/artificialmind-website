@@ -11,8 +11,7 @@ tags: [Unsupervised Learning, Image Analaysis, NMF]
 
 ###### Abstract
 
-Automatic classification or clustering consists of partioning a set of objects (instances) described by a set of variables into homogeneous groups (classes). With the advent of Big Data and data science, clustering has become a very important task in various fields including imaging. The images are very widespread data especially on the web and social networks (Instagram, Pinterest, Flickr, Google, etc …). The goal will be to propose a classification system for images from various databases (photos , paintings, comics, etc.). The non-negative matrix factorization makes it possible to approximate a positive data matrix by the product of two matrices of lower and positive dimensions. By its simplicity, this method has become popular and is used both in size reduction and also in clustering in a user-defined number of classes k.
-<!--more-->
+Automatic classification or clustering consists of partioning a set of objects (instances) described by a set of variables into homogeneous groups (classes). With the advent of Big Data and data science, clustering has become a very important task in various fields including imaging. The images are very widespread data especially on the web and social networks (Instagram, Pinterest, Flickr, Google, etc …). The goal will be to propose a classification system for images from various databases (photos , paintings, comics, etc.). The non-negative matrix factorization makes it possible to approximate a positive data matrix by the product of two matrices of lower and positive dimensions. By its simplicity, this method has become popular and is used both in size reduction and also in clustering in a user-defined number of classes k. <!--more-->
 
 ###### Data Set
 
@@ -20,7 +19,7 @@ We used this data set from : [People Art](https://github.com/BathVisArtData/Peop
 
 ###### Example
 
-###### Explained variance for SepNMF with Spherical K-means using Norm L2 (rank = \[20;70\]).
+**Explained variance for SepNMF with Spherical K-means using Norm L2 (rank = \[20;70\]).**
 
 ![](https://github.com/mbenhamd/nmf-ter/blob/master/nmf_result/sepnmf-norm-2-skmeans--EVAR.png?raw=true)
 

@@ -13,7 +13,7 @@ tags: [Sentiment Analysis, Twitter, CNN, Convolutional, Neural Network, Deep Lea
 ###### Part of the Twitter Sentiment Analysis Project
 
 *Link of the publication : [here](https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf)*
-
+<!--more-->
 We used those settings for training the CNN :
 
 ~~~

@@ -13,7 +13,7 @@ tags: [Sentiment Analysis, Twitter, CNN, Convolutional, Neural Network, Deep Lea
 ###### Part of the Twitter Sentiment Analysis Project
 
 *Link of the publication : [here](https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf)*
-<!--more-->
+
 We used those settings for training the CNN :
 
 ~~~
@@ -41,11 +41,10 @@ Dataset:
 	Vocabulary size = 274562
 	Input layer size = 117
 	Number of classes = 2
-~~~<!--more-->
 
 On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 ~~~
-
+<!--more-->
 The CNN is about 424,1 Mo, it is a result of (round) 2h20 minute of computation with the GPU. At the end, the neural network comes up with a validation accuracy of 82%.
 
 Here some plot about the validation accuracy and training loss : ![alt text](https://github.com/mbenhamd/twitter-sentiment-cnn/blob/master/validation-accuracy.png?raw=true "Validation Accuracy") ![alt text](https://github.com/mbenhamd/twitter-sentiment-cnn/blob/master/training-loss.png?raw=true "Training Loss")

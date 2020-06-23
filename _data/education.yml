@@ -4,7 +4,6 @@
   dates: September 2017 to September 2019
   qualification: Master's degree
   quote: >
-    Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     Specialized in articial intelligence (Machine Learning for Data Scientist).
     We study unsupervised, semi-supervised and supervised learning methods and visualization
@@ -17,7 +16,6 @@
   dates: September 2014 to June 2017
   qualification: Bachelor of Mathematical and Computer Sciences
   quote: >
-    Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     Easily use the basics of probabilistic reasoning and implement a statistical approach to data processing.
     Write and implement basic algorithms for scientic computing.

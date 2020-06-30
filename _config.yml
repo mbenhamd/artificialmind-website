@@ -180,9 +180,10 @@ about_content: | # this will include new lines to allow paragraphs
   I am currently looking for work after completing my research internship in a public laboratory. This internship allowed me to learn many things in the field of research and taught me how to ask a methodology and write about scientific research.
   Here is an exhaustive list of tools that I use daily. <br/>
   Software Development / Cloud :
-    - Python, C, C++, R, Java
-    - Scikit-Learn
-    - Tensorfow / Keras
+    - Python, C, C++, R, Java, Scala
+    - Scikit-Learn, Numpy, Pandas, Sci-Py
+    - Tensorfow / Keras, Pytorch
+    - Kubernetes, Docker
     - Apache Spark / Hadoop
     - Elasticsearch
     - AWS (Amazon Web Service)

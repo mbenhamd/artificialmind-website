@@ -177,7 +177,7 @@ more_content: | # this will include new lines to allow paragraphs
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/avatar.jpg
 about_content: | # this will include new lines to allow paragraphs    
-  I am currently looking for work after completing my research internship in a public laboratory. This internship allowed me to learn many things in the field of research and taught me how to ask a methodology and write about scientific research.
+  I am currently working as a Data Scientist at Zifo RnD Solutions.
   Here is an exhaustive list of tools that I use daily. <br/>
   Software Development / Cloud :
     - Python, C, C++, R, Java, Scala

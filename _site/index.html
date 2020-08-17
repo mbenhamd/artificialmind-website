@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artificial Mind Blog.</title>
@@ -12,6 +13,23 @@
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
   <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Artificial Mind Blog. | Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial intelligence.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Artificial Mind Blog." />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial intelligence." />
+<meta property="og:description" content="Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial intelligence." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<link rel="next" href="http://localhost:4000/page/2" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","name":"Mohamed Ben Hamdoune","sameAs":["https://twitter.com/mbenhamdtw","https://www.facebook.com/mohamed.benhamdoune","https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/","https://github.com/mbenhamd"],"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial intelligence.","@type":"WebSite","headline":"Artificial Mind Blog.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
 </head>
 <body>
 
@@ -89,9 +107,10 @@
       <p><em>Presentation of a Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-analysis">Github repository</a> and <a href="https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf">Publication</a></em>:</p>
 
 <h3 id="technologies">Technologies</h3>
-<p>Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).</p>
-<h6 id="website-for-a-demo-here">Website for a demo: <a href="https://twitter.yannistannier.io">here</a></h6>
 
+<p>Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).</p>
+
+<p><em>Website for a demo: <a href="https://twitter.yannistannier.io">here</a></em>
 
       <p class="read-more"><a href="/twitter-sentiment-analysis" class="read-more-link">Continue reading &rarr;</a>
       </p>
@@ -102,7 +121,7 @@
   <article class="post">
     <header class="post-header">
       <time class="post-date" datetime="2019-09-22">September 22, 2019</time>
-      <h2 class="post-title"><a href="/twitter-sentiment-analysis-cnn" rel="bookmark">Twitter Sentiment Analysis with a CNN</a></h2>
+      <h2 class="post-title"><a href="/twitter-sentiment-analysis-with-a-cnn" rel="bookmark">Twitter Sentiment Analysis with a CNN</a></h2>
       <div class="post-meta">
         By <span class="post-author">Mohamed BEN HAMDOUNE</span><span
           class="post-tags"> in
@@ -114,15 +133,18 @@
       
       <p><em>Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-cnn">Github repository</a></em>:</p>
 
-<h1 id="tensorflow-implementation-of-a-cnn">TensorFlow implementation of a CNN.</h1>
-<h2 id="part-of-the-twitter-sentiment-analysis-project">Part of the Twitter Sentiment Analysis Project</h2>
-<p>Link of the publication : <a href="https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf">here</a></p>
+<h3 id="tensorflow-implementation-of-a-cnn">TensorFlow implementation of a CNN.</h3>
+
+<h6 id="part-of-the-twitter-sentiment-analysis-project">Part of the Twitter Sentiment Analysis Project</h6>
+
+<p><em>Link of the publication : <a href="https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf">here</a></em></p>
 
 <p>We used those settings for training the CNN :</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flags:
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flags:
 	batch_size = 128
 	checkpoint_freq = 1
-	custom_input = 
+	custom_input =
 	dataset_fraction = 1.0
 	device = gpu
 	embedding_size = 128
@@ -143,10 +165,11 @@ Dataset:
 	Vocabulary size = 274562
 	Input layer size = 117
 	Number of classes = 2
+
+On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 </code></pre></div></div>
 
-
-      <p class="read-more"><a href="/twitter-sentiment-analysis-cnn" class="read-more-link">Continue reading &rarr;</a>
+      <p class="read-more"><a href="/twitter-sentiment-analysis-with-a-cnn" class="read-more-link">Continue reading &rarr;</a>
       </p>
       
     </div><!-- .post-content -->
@@ -155,7 +178,7 @@ Dataset:
   <article class="post">
     <header class="post-header">
       <time class="post-date" datetime="2019-09-21">September 21, 2019</time>
-      <h2 class="post-title"><a href="/convolutional-autoencoder" rel="bookmark">Convolutional Autoencoder and clustering improvement</a></h2>
+      <h2 class="post-title"><a href="/convolutional-autoencoder-and-clustering-improvement" rel="bookmark">Convolutional Autoencoder and clustering improvement</a></h2>
       <div class="post-meta">
         By <span class="post-author">Mohamed BEN HAMDOUNE</span><span
           class="post-tags"> in
@@ -167,18 +190,10 @@ Dataset:
       
       <p><em>Presentation of comparison of discrimination characteristic extraction models available on my <a href="https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques">Github repository</a></em>:</p>
 
-<h1 id="abstract">Abstract</h1>
+<h3 id="abstract">Abstract</h3>
 
-<p>In machine learning, feature extraction starts from
-of an initial set of measured data and constructs derived values
-(characteristics) intended to be informative and not redundant. This has
-as a consequence of facilitating the subsequent stages of learning and
-generalization by leading to better human interpretations.
-In this document, we will propose some visualization techniques and
-Data Reduction on the Fashion-MNIST Dataset in Combination
-with a learning model.
-
-      <p class="read-more"><a href="/convolutional-autoencoder" class="read-more-link">Continue reading &rarr;</a>
+<p>In machine learning, feature extraction starts from of an initial set of measured data and constructs derived values (characteristics) intended to be informative and not redundant. This has as a consequence of facilitating the subsequent stages of learning and generalization by leading to better human interpretations. In this document, we will propose some visualization techniques and Data Reduction on the Fashion-MNIST Dataset in Combination with a learning model. 
+      <p class="read-more"><a href="/convolutional-autoencoder-and-clustering-improvement" class="read-more-link">Continue reading &rarr;</a>
       </p>
       
     </div><!-- .post-content -->

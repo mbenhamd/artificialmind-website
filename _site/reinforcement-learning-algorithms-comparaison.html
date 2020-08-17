@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reinforcement Learning Algorithms Comparaison</title>
+  <meta name="description" content="Implementation of different learning algorithms by reinforcement">
+  <link rel="canonical" href="http://localhost:4000/reinforcement-learning-algorithms-comparaison">
+  <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Reinforcement Learning Algorithms Comparaison | Artificial Mind Blog.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Reinforcement Learning Algorithms Comparaison" />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Implementation of different learning algorithms by reinforcement" />
+<meta property="og:description" content="Implementation of different learning algorithms by reinforcement" />
+<link rel="canonical" href="http://localhost:4000/reinforcement-learning-algorithms-comparaison" />
+<meta property="og:url" content="http://localhost:4000/reinforcement-learning-algorithms-comparaison" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-15T00:00:00+01:00" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/reinforcement-learning-algorithms-comparaison","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/reinforcement-learning-algorithms-comparaison"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Implementation of different learning algorithms by reinforcement","@type":"BlogPosting","headline":"Reinforcement Learning Algorithms Comparaison","dateModified":"2019-09-15T00:00:00+01:00","datePublished":"2019-09-15T00:00:00+01:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">Artificial Mind Blog.</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/curriculum-vitae/">Curriculum Vitae</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags/">Archive</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">About</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2019-09-15">September 15, 2019</time>
+      <h1 class="post-title">Reinforcement Learning Algorithms Comparaison</h1>
+      <div class="post-meta">
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Reinforcement+Learning" rel="tag">Reinforcement Learning</a>, <a href="/tags/#Q-Learning" rel="tag">Q-Learning</a>, <a href="/tags/#TD-Learning" rel="tag">TD-Learning</a>, <a href="/tags/#Double+Q-learning" rel="tag">Double Q-learning</a>, <a href="/tags/#Keras" rel="tag">Keras</a>, <a href="/tags/#Open+IA+Gym" rel="tag">Open IA Gym</a></span>
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="https://softwareengineeringdaily.com/wp-content/uploads/2018/06/OpenAI.png" alt="Reinforcement Learning Algorithms Comparaison">
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p><em>Presentation of a comparison of different reinforcement learning algorithms available on my <a href="https://github.com/mbenhamd/reinforcement-learning-benchs">Github repository</a></em>:</p>
+
+<p>Reinforcement Learning (RA) is about learning what to do, how to relate actions to situations, and how to maximize a reward. The learner is not told what action to take, but instead he must find out which actions give the most reward by trying them. In the most interesting case, actions can affect not only the immediate rewards but also the next situation, and hence the longer term rewards. These two properties - trial-and-error and long-term reward - are the two most important features of reinforcement learning.
+<!--more--></p>
+
+<h6 id="agent-oriented-learning">Agent Oriented Learning</h6>
+
+<p><strong>Mini-project: Comparison of different reinforcement learning algorithms.</strong></p>
+
+<p>We will use the library <strong>Open IA Gym</strong> including many games so we can then develop an AI able to learn to maximize its score.</p>
+
+<p>The game we will use is “N-chain”.</p>
+
+<p>This game presents movements along a linear chain of states, with two actions: forward, which moves along the chain but gives no reward back, which returns to the start and has a small reward. The end of the chain, however, offers a great reward, and moving forward to the end of the chain, this important reward can be repeated.</p>
+
+<p>At each action, there is a low probability that the agent “slips” and the opposite transition is taken instead.</p>
+
+<p>The observed state is the current state in the chain (0 to n-1).</p>
+
+<p>The game was designed and used by Malcolm J. A. Strens: <a href="http://ceit.aut.ac.ir/~shiry/lecture/machine-
+learning/papers/BRL-2000.pdf">A Bayesian Framework for Reinforcement Learning</a></p>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=Reinforcement%20Learning%20Algorithms%20Comparaison&amp;url=http://localhost:4000/reinforcement-learning-algorithms-comparaison" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/reinforcement-learning-algorithms-comparaison&amp;t=Reinforcement%20Learning%20Algorithms%20Comparaison" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('/images/author.png')"><span class="screen-reader-text">Mohamed BEN HAMDOUNE's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
+        <div class="author-bio"><p>Mohamed is a data scientist currently searching for work.</p>
+</div>
+        
+        <span class="author-location">Paris, France</span>
+        
+        
+        <span class="author-website"><a href="https://www.artificialmind.io/" target="_blank" rel="noopener">https://www.artificialmind.io/</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/mbenhamdtw" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/mbenhamd" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>Artificial Mind Blog. Jekyll Theme Forked <a href="https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme">Here</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>

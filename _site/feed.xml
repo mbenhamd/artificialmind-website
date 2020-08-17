@@ -5,45 +5,36 @@
         <description>Welcome to my website, it includes a part about my career,  but there are articles about my projects and some about  new concepts in the field of artificial intelligence.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 23 Sep 2019 21:27:13 +0200</pubDate>
-        <lastBuildDate>Mon, 23 Sep 2019 21:27:13 +0200</lastBuildDate>
-        <generator>Jekyll v4.0.0</generator>
+        <pubDate>Mon, 17 Aug 2020 21:16:04 +0100</pubDate>
+        <lastBuildDate>Mon, 17 Aug 2020 21:16:04 +0100</lastBuildDate>
+        <generator>Jekyll v4.1.1</generator>
         
             <item>
                 <title>Twitter Sentiment Analysis</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of a Twitter Sentiment Analysis available on my &lt;a href=&quot;https://github.com/mbenhamd/twitter-sentiment-analysis&quot;&gt;Github repository&lt;/a&gt; and &lt;a href=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h3 id=&quot;technologies&quot;&gt;Technologies&lt;/h3&gt;
+
 &lt;p&gt;Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).&lt;/p&gt;
-&lt;h6 id=&quot;website-for-a-demo-here&quot;&gt;Website for a demo: &lt;a href=&quot;https://twitter.yannistannier.io&quot;&gt;here&lt;/a&gt;&lt;/h6&gt;
 
-&lt;!--more--&gt;
+&lt;p&gt;&lt;em&gt;Website for a demo: &lt;a href=&quot;https://twitter.yannistannier.io&quot;&gt;here&lt;/a&gt;&lt;/em&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;define-a-problem-you-want-to-solve&quot;&gt;Define a problem you want to solve&lt;/h3&gt;
+&lt;h5 id=&quot;define-a-problem-you-want-to-solve&quot;&gt;Define a problem you want to solve&lt;/h5&gt;
 
-&lt;p&gt;Our main purpose is to build a powerful platform system for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6 To). All this data analysis will be accessible via a web interface that will be developed. We want to build a powerful system of sentiments analysis by making a database structure of tweets which is relevant about impacts and effects. The system should provide a faster way to execute Machine Learning methodologies behind data extracted from Twitter. Analysis news actuality by getting an analysis on actual trends with real stream data and building an efficient web interface to get results easily and keep a control on data continuously.
-We also wanted to make a comparison of sentiment analysis methods, for which we have taken a publication and tried to improve the results obtained and to propose new methods.&lt;/p&gt;
+&lt;p&gt;Our main purpose is to build a powerful platform system for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6 To). All this data analysis will be accessible via a web interface that will be developed. We want to build a powerful system of sentiments analysis by making a database structure of tweets which is relevant about impacts and effects. The system should provide a faster way to execute Machine Learning methodologies behind data extracted from Twitter. Analysis news actuality by getting an analysis on actual trends with real stream data and building an efficient web interface to get results easily and keep a control on data continuously. We also wanted to make a comparison of sentiment analysis methods, for which we have taken a publication and tried to improve the results obtained and to propose new methods.&lt;/p&gt;
 
-&lt;h3 id=&quot;results-by-month-for-joy-and-sadness-emotions-during-the-2017&quot;&gt;Results by month for joy and sadness emotions during the 2017&lt;/h3&gt;
-&lt;p align=&quot;center&quot;&gt; 
-&lt;img src=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/monthly_analysis_joy_sadness-exemple.png?raw=true&quot; /&gt;
-&lt;/p&gt;
+&lt;h5 id=&quot;results-by-month-for-joy-and-sadness-emotions-during-the-2017&quot;&gt;Results by month for joy and sadness emotions during the 2017&lt;/h5&gt;
 
-&lt;p&gt;The complete archive was downloaded on &lt;a href=&quot;https://archive.org/details/twitterstream&quot;&gt;Archive.org&lt;/a&gt; for a total of 5,8 Terabytes of data and we count 1,7 billion of tweets.
-A simple collection of JSON grabbed from the general twitter stream, for the purposes of research, history, testing and memory. This is the Spritzer version, the most light and shallow of Twitter grabs. Unfortunately, we do not currently have access to the Sprinkler or Garden Hose versions of the stream.
-For some technical reasons, only English tweets were analysed.
-The email of the uploader &lt;a href=&quot;jscott@archive.org&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/monthly_analysis_joy_sadness-exemple.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;what-do-we-conclude-&quot;&gt;What do we conclude ?&lt;/h2&gt;
+&lt;p&gt;The complete archive was downloaded on &lt;a href=&quot;https://archive.org/details/twitterstream&quot;&gt;Archive.org&lt;/a&gt; for a total of 5,8 Terabytes of data and we count 1,7 billion of tweets. A simple collection of JSON grabbed from the general twitter stream, for the purposes of research, history, testing and memory. This is the Spritzer version, the most light and shallow of Twitter grabs. Unfortunately, we do not currently have access to the Sprinkler or Garden Hose versions of the stream. For some technical reasons, only English tweets were analysed. The email of the uploader &lt;a href=&quot;jscott@archive.org&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;In this report we have presented a sentiment analysis tool on a Web interface. In one hand we used data from an archive and in the other hand we used real time stream analysis. Due to the absence of labelled data we couldn’t argue on reliability of data.  This recent publication really question us about the limit on software engineering &lt;a href=&quot;http://www.inf.usi.ch/phd/lin/downloads/Lin2018a.pdf&quot;&gt;here&lt;/a&gt;, but they did not explored deep learning &lt;a href=&quot;https://www.researchgate.net/publication/320101315_Textmining_at_EmoInt-2017_A_Deep_Learning_Approach_to_Sentiment_Intensity_Scoring_of_English_Tweets&quot;&gt;here&lt;/a&gt; and what we could achieve with this learning techniques using neural network fully connected that we always only get better with time because of optimized function behind and great computation that we have due to GPU in aim to build deep learning classifier &lt;a href=&quot;https://reader.elsevier.com/reader/sd/94DCC5BBC6744B82108E1435810AE13BED6ED08D41531BA6CD0114B7355D4C44FEC2A6F8C55F0B14ABCFEFF5655CD608&quot;&gt;here&lt;/a&gt;. 
-There are also other features for the real stream &lt;a href=&quot;https://twitter.yannistannier.io/#/realtime&quot;&gt;here&lt;/a&gt; such as geolocation of people, we could then generate a graph as a center to any user and know its impact on an interactive map, this would allow among other things to know the influence for example. To conclude, we think that having access to geolocation data and build a powerful neural network trained and design for sentiment analysis could be a great idea for future work.&lt;/p&gt;
+&lt;h5 id=&quot;what-do-we-conclude-&quot;&gt;What do we conclude ?&lt;/h5&gt;
 
-&lt;h3 id=&quot;keywords&quot;&gt;Keywords&lt;/h3&gt;
-&lt;p&gt;Data Mining, Natural Languages Processing,  Sentiment  Analysis,  Classification,  Text  Mining,  Convolutional Neural Network, TensorFlow, Spark.&lt;/p&gt;
-
+&lt;p&gt;In this report we have presented a sentiment analysis tool on a Web interface. In one hand we used data from an archive and in the other hand we used real time stream analysis. Due to the absence of labelled data we couldn’t argue on reliability of data. This recent publication really question us about the limit on software engineering &lt;a href=&quot;http://www.inf.usi.ch/phd/lin/downloads/Lin2018a.pdf&quot;&gt;here&lt;/a&gt;, but they did not explored deep learning &lt;a href=&quot;https://www.researchgate.net/publication/320101315_Textmining_at_EmoInt-2017_A_Deep_Learning_Approach_to_Sentiment_Intensity_Scoring_of_English_Tweets&quot;&gt;here&lt;/a&gt; and what we could achieve with this learning techniques using neural network fully connected that we always only get better with time because of optimized function behind and great computation that we have due to GPU in aim to build deep learning classifier &lt;a href=&quot;https://reader.elsevier.com/reader/sd/94DCC5BBC6744B82108E1435810AE13BED6ED08D41531BA6CD0114B7355D4C44FEC2A6F8C55F0B14ABCFEFF5655CD608&quot;&gt;here&lt;/a&gt;. There are also other features for the real stream &lt;a href=&quot;https://twitter.yannistannier.io/#/realtime&quot;&gt;here&lt;/a&gt; such as geolocation of people, we could then generate a graph as a center to any user and know its impact on an interactive map, this would allow among other things to know the influence for example. To conclude, we think that having access to geolocation data and build a powerful neural network trained and design for sentiment analysis could be a great idea for future work.&lt;/p&gt;
 </description>
-                <pubDate>Mon, 23 Sep 2019 00:00:00 +0200</pubDate>
+                <pubDate>Mon, 23 Sep 2019 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/twitter-sentiment-analysis</link>
                 <guid isPermaLink="true">http://localhost:4000/twitter-sentiment-analysis</guid>
                 
@@ -62,15 +53,18 @@ There are also other features for the real stream &lt;a href=&quot;https://twitt
                 <title>Twitter Sentiment Analysis with a CNN</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my &lt;a href=&quot;https://github.com/mbenhamd/twitter-sentiment-cnn&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h1 id=&quot;tensorflow-implementation-of-a-cnn&quot;&gt;TensorFlow implementation of a CNN.&lt;/h1&gt;
-&lt;h2 id=&quot;part-of-the-twitter-sentiment-analysis-project&quot;&gt;Part of the Twitter Sentiment Analysis Project&lt;/h2&gt;
-&lt;p&gt;Link of the publication : &lt;a href=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;tensorflow-implementation-of-a-cnn&quot;&gt;TensorFlow implementation of a CNN.&lt;/h3&gt;
+
+&lt;h6 id=&quot;part-of-the-twitter-sentiment-analysis-project&quot;&gt;Part of the Twitter Sentiment Analysis Project&lt;/h6&gt;
+
+&lt;p&gt;&lt;em&gt;Link of the publication : &lt;a href=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;We used those settings for training the CNN :&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Flags:
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Flags:
 	batch_size = 128
 	checkpoint_freq = 1
-	custom_input = 
+	custom_input =
 	dataset_fraction = 1.0
 	device = gpu
 	embedding_size = 128
@@ -91,99 +85,74 @@ Dataset:
 	Vocabulary size = 274562
 	Input layer size = 117
 	Number of classes = 2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;!--more--&gt;
+&lt;p&gt;The CNN is about 424,1 Mo, it is a result of (round) 2h20 minute of computation with the GPU. At the end, the neural network comes up with a validation accuracy of 82%.&lt;/p&gt;
 
-&lt;p&gt;On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :&lt;/p&gt;
+&lt;p&gt;Here some plot about the validation accuracy and training loss : &lt;img src=&quot;https://github.com/mbenhamd/twitter-sentiment-cnn/blob/master/validation-accuracy.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;Validation Accuracy&quot; /&gt; &lt;img src=&quot;https://github.com/mbenhamd/twitter-sentiment-cnn/blob/master/training-loss.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;Training Loss&quot; /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Step 11099 of 110990 (epoch 1), validation accuracy: 0.770467, validation loss: 61.3758
-Saving checkpoint...
-Step 22198 of 110990 (epoch 2), validation accuracy: 0.79854, validation loss: 55.6074
-Saving checkpoint...
-Step 33297 of 110990 (epoch 3), validation accuracy: 0.80864, validation loss: 53.4248
-Saving checkpoint...
-Step 44396 of 110990 (epoch 4), validation accuracy: 0.814606, validation loss: 52.1589
-Saving checkpoint...
-Step 55495 of 110990 (epoch 5), validation accuracy: 0.81792, validation loss: 51.3007
-Saving checkpoint...
-Step 66594 of 110990 (epoch 6), validation accuracy: 0.820338, validation loss: 50.7547
-Saving checkpoint...
-Step 77693 of 110990 (epoch 7), validation accuracy: 0.821946, validation loss: 50.318
-Saving checkpoint...
-Step 88792 of 110990 (epoch 8), validation accuracy: 0.823447, validation loss: 50.049
-Saving checkpoint...
-Step 99891 of 110990 (epoch 9), validation accuracy: 0.823153, validation loss: 49.945
-Saving checkpoint...
-Step 110990 of 110990 (epoch 10), validation accuracy: 0.825287, validation loss: 49.6865
-Saving checkpoint...
-End of training, validation accuracy: 0.825293, validation loss: 49.6842
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;It is based on a previous work of Daniele Grattarola&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;The CNN is about 424,1 Mo, it is a result of (round) 2h20 minute of computation with the GPU. 
-At the end, the neural network comes up with a validation accuracy of 82%.&lt;/p&gt;
+&lt;h6 id=&quot;description&quot;&gt;Description&lt;/h6&gt;
 
-&lt;p&gt;Here some plot about the validation accuracy and training loss :
-&lt;img src=&quot;https://github.com/mbenhamd/twitter-sentiment-cnn/blob/master/validation-accuracy.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;Validation Accuracy&quot; /&gt;
-&lt;img src=&quot;https://github.com/mbenhamd/twitter-sentiment-cnn/blob/master/training-loss.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;Training Loss&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;it-is-based-on-a-previous-work-of-daniele-grattarola&quot;&gt;It is based on a previous work of Daniele Grattarola&lt;/h2&gt;
-&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;This code is meant to have an educational value, to train the model by
-yourself and play with different configurations, and was not developed
-to be deployed as-is (although it has been used in &lt;a href=&quot;https://linkedin.com/pulse/real-time-twitter-sentiment-analytics-tensorflow-spring-tzolov/&quot;&gt;professional
-contexts&lt;/a&gt;).
-The dataset used for training is taken from &lt;a href=&quot;http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/&quot;&gt;here&lt;/a&gt;
-(someone reported to me that the link to the dataset appears to be dead
-sometimes, so &lt;code class=&quot;highlighter-rouge&quot;&gt;dataset_downloader.py&lt;/code&gt; &lt;strong&gt;might&lt;/strong&gt; not work. I successfully
-ran the script on January 20, 2018, but please report it to me if
-you have any problems).&lt;/p&gt;
+&lt;p&gt;This code is meant to have an educational value, to train the model by yourself and play with different configurations, and was not developed to be deployed as-is (although it has been used in &lt;a href=&quot;https://linkedin.com/pulse/real-time-twitter-sentiment-analytics-tensorflow-spring-tzolov/&quot;&gt;professional contexts&lt;/a&gt;). The dataset used for training is taken from &lt;a href=&quot;http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/&quot;&gt;here&lt;/a&gt; (someone reported to me that the link to the dataset appears to be dead sometimes, so &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dataset_downloader.py&lt;/code&gt; &lt;strong&gt;might&lt;/strong&gt; not work. I successfully ran the script on January 20, 2018, but please report it to me if you have any problems).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;NOTE: this script is for Python 2.7 only&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
-&lt;p&gt;You’ll need Tensorflow &amp;gt;=1.1.0 and its dependecies installed in order
-for the script to work (see &lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+&lt;h6 id=&quot;setup&quot;&gt;Setup&lt;/h6&gt;
 
-&lt;p&gt;Once you’ve installed and configured Tensorflow, download the source
-files and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; into the folder:&lt;/p&gt;
+&lt;p&gt;You’ll need Tensorflow &amp;gt;=1.1.0 and its dependecies installed in order for the script to work (see &lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Once you’ve installed and configured Tensorflow, download the source files and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; into the folder:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://gitlab.com/danielegrattarola/twitter-sentiment-cnn.git
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;twitter-sentiment-cnn
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Before being able to use the script, some setup is needed; download the
-dataset from the link above by running:&lt;/p&gt;
+
+&lt;p&gt;Before being able to use the script, some setup is needed; download the dataset from the link above by running:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python dataset_downloader.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;Read the dataset from the CSV into two files (.pos and .neg) with:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python csv_parser.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;And generate a CSV with the vocabulary (and its inverse mapping) with:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python vocab_builder.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The files will be created in the &lt;code class=&quot;highlighter-rouge&quot;&gt;twitter-sentiment-dataset/&lt;/code&gt; folder.
-Finally, create an &lt;code class=&quot;highlighter-rouge&quot;&gt;output/&lt;/code&gt; folder that will contain all session
-checkpoints needed to restore the trained models:&lt;/p&gt;
+
+&lt;p&gt;The files will be created in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;twitter-sentiment-dataset/&lt;/code&gt; folder. Finally, create an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output/&lt;/code&gt; folder that will contain all session checkpoints needed to restore the trained models:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;output
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;Now everything is set up and you’re ready to start training the model.&lt;/p&gt;
 
-&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+&lt;h6 id=&quot;usage&quot;&gt;Usage&lt;/h6&gt;
+
 &lt;p&gt;The simplest way to run the script is:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python twitter-sentiment-cnn.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;which will load the dataset in memory, create the computation graph, and
-quit. Try to run the script like this to see if everything is set up
-correctly.
-To run a training session on the full dataset (and save the result so
-that we can reuse the network later, or perform more training) run:&lt;/p&gt;
+
+&lt;p&gt;which will load the dataset in memory, create the computation graph, and quit. Try to run the script like this to see if everything is set up correctly. To run a training session on the full dataset (and save the result so that we can reuse the network later, or perform more training) run:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python twitter-sentiment-cnn.py &lt;span class=&quot;nt&quot;&gt;--train&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--save&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;After training, we can test the network as follows:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python twitter-sentiment-cnn.py &lt;span class=&quot;nt&quot;&gt;--load&lt;/span&gt; path/to/ckpt/folder/ &lt;span class=&quot;nt&quot;&gt;--custom_input&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'I love neural networks!'&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;which will eventually output:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
 Processing custom input: I love neural networks!
 Custom input evaluation: POS
 Actual output: [ 0.19249919  0.80750078]
@@ -191,43 +160,34 @@ Actual output: [ 0.19249919  0.80750078]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;By running:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python twitter-sentiment-cnn.py &lt;span class=&quot;nt&quot;&gt;-h&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;the script will output a list of all customizable flags and parameters.
-The parameters are:&lt;/p&gt;
+
+&lt;p&gt;the script will output a list of all customizable flags and parameters. The parameters are:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;train&lt;/code&gt;: train the network;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;save&lt;/code&gt;: save session checkpoints;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;save_protobuf&lt;/code&gt;: save model as binary protobuf;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;evaluate_batch&lt;/code&gt;: evaluate the network on a held-out batch from the
-  dataset and print the results (for debugging/educational purposes);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;load&lt;/code&gt;: restore a model from the given path;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;custom_input&lt;/code&gt;: evaluate the model on the given string;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;filter_sizes&lt;/code&gt;: comma-separated filter sizes for the convolutional
-  layers (default: ‘3,4,5’);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dataset_fraction&lt;/code&gt;: fraction of the dataset to load in memory, to
-  reduce memory usage (default: 1.0; uses all dataset);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;embedding_size&lt;/code&gt;: size of the word embeddings (default: 128);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;num_filters&lt;/code&gt;: number of filters per filter size (default: 128);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;batch_size&lt;/code&gt;: batch size (default: 128);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;epochs&lt;/code&gt;: number of training epochs (default: 3);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;valid_freq&lt;/code&gt;: how many times per epoch to perform validation testing
-  (default: 1);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;checkpoint_freq&lt;/code&gt;: how many times per epoch to save the model
-  (default: 1);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;test_data_ratio&lt;/code&gt;: fraction of the dataset to use for validation
-  (default: 0.1);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;device&lt;/code&gt;: device to use for running the model (can be either ‘cpu’ or
-  ‘gpu’).&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;train&lt;/code&gt;: train the network;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;save&lt;/code&gt;: save session checkpoints;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;save_protobuf&lt;/code&gt;: save model as binary protobuf;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;evaluate_batch&lt;/code&gt;: evaluate the network on a held-out batch from the dataset and print the results (for debugging/educational purposes);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;load&lt;/code&gt;: restore a model from the given path;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;custom_input&lt;/code&gt;: evaluate the model on the given string;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filter_sizes&lt;/code&gt;: comma-separated filter sizes for the convolutional layers (default: ‘3,4,5’);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dataset_fraction&lt;/code&gt;: fraction of the dataset to load in memory, to reduce memory usage (default: 1.0; uses all dataset);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;embedding_size&lt;/code&gt;: size of the word embeddings (default: 128);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_filters&lt;/code&gt;: number of filters per filter size (default: 128);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;batch_size&lt;/code&gt;: batch size (default: 128);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;epochs&lt;/code&gt;: number of training epochs (default: 3);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;valid_freq&lt;/code&gt;: how many times per epoch to perform validation testing (default: 1);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;checkpoint_freq&lt;/code&gt;: how many times per epoch to save the model (default: 1);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test_data_ratio&lt;/code&gt;: fraction of the dataset to use for validation (default: 0.1);&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;device&lt;/code&gt;: device to use for running the model (can be either ‘cpu’ or ‘gpu’).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;pre-trained-model&quot;&gt;Pre-trained model&lt;/h3&gt;
-&lt;p&gt;User &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt; kindly trained the model
-for three epochs on the full dataset and shared the summary folder for
-quick deploy.
-The folder is available on &lt;a href=&quot;https://mega.nz/#!xVg0ARYK!oVyBZatotQGOD_FFSzZl5gTS1Z49048vjFEbyzftcFY&quot;&gt;Mega&lt;/a&gt;,
-to load the model simply unpack the zip file and use the &lt;code class=&quot;highlighter-rouge&quot;&gt;--load&lt;/code&gt; flag
-as follows:&lt;/p&gt;
+&lt;h6 id=&quot;pre-trained-model&quot;&gt;Pre-trained model&lt;/h6&gt;
+
+&lt;p&gt;User &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt; kindly trained the model for three epochs on the full dataset and shared the summary folder for quick deploy. The folder is available on &lt;a href=&quot;https://mega.nz/#!xVg0ARYK!oVyBZatotQGOD_FFSzZl5gTS1Z49048vjFEbyzftcFY&quot;&gt;Mega&lt;/a&gt;, to load the model simply unpack the zip file and use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--load&lt;/code&gt; flag as follows:&lt;/p&gt;
 
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Current directoty: twitter-sentiment-cnn/&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;unzip path/to/run20180201-231509.zip
@@ -236,7 +196,7 @@ as follows:&lt;/p&gt;
 
 &lt;p&gt;Running this command should give you something like:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;======================= START! ========================
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;======================= START! ========================
 	data_helpers: loading positive examples...
 	data_helpers: [OK]
 	data_helpers: loading negative examples...
@@ -286,47 +246,35 @@ Custom input evaluation: POS
 Actual output: [0.04109644 0.95890355]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;NOTE: loading this model won’t work if you change anything in the
-default network architecture, so don’t set the &lt;code class=&quot;highlighter-rouge&quot;&gt;--filter_sizes&lt;/code&gt; flag&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE: loading this model won’t work if you change anything in the default network architecture, so don’t set the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--filter_sizes&lt;/code&gt; flag&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;According to the &lt;code class=&quot;highlighter-rouge&quot;&gt;log.log&lt;/code&gt; file provided by &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt;,
-the model had a final validation accuracy of 0.80976, and a validation
-loss of 53.3314.&lt;/p&gt;
+&lt;p&gt;According to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;log.log&lt;/code&gt; file provided by &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt;, the model had a final validation accuracy of 0.80976, and a validation loss of 53.3314.&lt;/p&gt;
 
-&lt;p&gt;I sincerely thank &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt; for providing
-the computational power and sharing the model with me.&lt;/p&gt;
+&lt;p&gt;I sincerely thank &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt; for providing the computational power and sharing the model with me.&lt;/p&gt;
 
-&lt;h3 id=&quot;model-description&quot;&gt;Model description&lt;/h3&gt;
-&lt;p&gt;The network implemented in this script is a single layer CNN structured
-as follows:&lt;/p&gt;
+&lt;h6 id=&quot;model-description&quot;&gt;Model description&lt;/h6&gt;
+
+&lt;p&gt;The network implemented in this script is a single layer CNN structured as follows:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Embedding layer&lt;/strong&gt;: takes as input the tweets (as strings) and maps
-  each word to an n-dimensional space so that it is represented as a
-  sparse vector (see &lt;a href=&quot;https://en.wikipedia.org/wiki/Word2vec&quot;&gt;word2vec&lt;/a&gt;).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Convolution layers&lt;/strong&gt;: a set of parallel 1D convolutional layers
-  with the given filter sizes and 128 output channels.
-  A filter’s size is the number of embedded words that the
-  filter covers.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pooling layers&lt;/strong&gt;: a set of pooling layers associated to each of the
-  convolutional layers.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Concat layer&lt;/strong&gt;: concatenates the output of the different pooling
-  layers into a single tensor.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dropout layer&lt;/strong&gt;: performs neuron dropout (some neurons are randomly
-  not considered during training).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Output layer&lt;/strong&gt;: fully connected layer with a softmax activation
-  function to perform classification.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Embedding layer&lt;/strong&gt;: takes as input the tweets (as strings) and maps each word to an n-dimensional space so that it is represented as a sparse vector (see &lt;a href=&quot;https://en.wikipedia.org/wiki/Word2vec&quot;&gt;word2vec&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Convolution layers&lt;/strong&gt;: a set of parallel 1D convolutional layers with the given filter sizes and 128 output channels. A filter’s size is the number of embedded words that the filter covers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pooling layers&lt;/strong&gt;: a set of pooling layers associated to each of the convolutional layers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Concat layer&lt;/strong&gt;: concatenates the output of the different pooling layers into a single tensor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dropout layer&lt;/strong&gt;: performs neuron dropout (some neurons are randomly not considered during training).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Output layer&lt;/strong&gt;: fully connected layer with a softmax activation function to perform classification.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The script will automatically log the session with Tensorboard. To
-visualize the computation graph and training metrics run:&lt;/p&gt;
+&lt;p&gt;The script will automatically log the session with Tensorboard. To visualize the computation graph and training metrics run:&lt;/p&gt;
+
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;tensorboard &lt;span class=&quot;nt&quot;&gt;--logdir&lt;/span&gt; output/path/to/summaries/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;and then navigate to &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost:6006&lt;/code&gt; from your browser (you’ll see the
-computation graph in the &lt;em&gt;Graph&lt;/em&gt; section).&lt;/p&gt;
+
+&lt;p&gt;and then navigate to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost:6006&lt;/code&gt; from your browser (you’ll see the computation graph in the &lt;em&gt;Graph&lt;/em&gt; section).&lt;/p&gt;
 </description>
-                <pubDate>Sun, 22 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/twitter-sentiment-analysis-cnn</link>
-                <guid isPermaLink="true">http://localhost:4000/twitter-sentiment-analysis-cnn</guid>
+                <pubDate>Sun, 22 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/twitter-sentiment-analysis-with-a-cnn</link>
+                <guid isPermaLink="true">http://localhost:4000/twitter-sentiment-analysis-with-a-cnn</guid>
                 
                 <category>Sentiment Analysis</category>
                 
@@ -349,45 +297,17 @@ computation graph in the &lt;em&gt;Graph&lt;/em&gt; section).&lt;/p&gt;
                 <title>Convolutional Autoencoder and clustering improvement</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of comparison of discrimination characteristic extraction models available on my &lt;a href=&quot;https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
 
-&lt;p&gt;In machine learning, feature extraction starts from
-of an initial set of measured data and constructs derived values
-(characteristics) intended to be informative and not redundant. This has
-as a consequence of facilitating the subsequent stages of learning and
-generalization by leading to better human interpretations.
-In this document, we will propose some visualization techniques and
-Data Reduction on the Fashion-MNIST Dataset in Combination
-with a learning model.
-&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;In machine learning, feature extraction starts from of an initial set of measured data and constructs derived values (characteristics) intended to be informative and not redundant. This has as a consequence of facilitating the subsequent stages of learning and generalization by leading to better human interpretations. In this document, we will propose some visualization techniques and Data Reduction on the Fashion-MNIST Dataset in Combination with a learning model. &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;The idea of auto-encoders was mentioned for the first time in 1986,
-in an article analyzing in depth the backpropagation.
-In the following years, the idea resurfaced in other documents
-of research. An article published in 1989 allowed to introduce further
-auto-encoders by putting in the ability to extract the characteristics
-linear. Subsequently, it was discovered that one could discover
-nonlinear factorial representations.
-In this context, we had as mini-project to make the comparison between the ACP and the auto-encoders to a complex data set
-somehow.
-Then we will try to visualize these results using a method
-clustering to see the consequences of encoding.&lt;/p&gt;
+&lt;p&gt;The idea of auto-encoders was mentioned for the first time in 1986, in an article analyzing in depth the backpropagation. In the following years, the idea resurfaced in other documents of research. An article published in 1989 allowed to introduce further auto-encoders by putting in the ability to extract the characteristics linear. Subsequently, it was discovered that one could discover nonlinear factorial representations. In this context, we had as mini-project to make the comparison between the ACP and the auto-encoders to a complex data set somehow. Then we will try to visualize these results using a method clustering to see the consequences of encoding.&lt;/p&gt;
 
-&lt;p&gt;We learned a lot through this mini project since it involves visualization and clustering techniques. We could also see
-the different characteristics of the auto-encoders and their variants. Following
-of the exercise on encoders, we found that auto-encoders
-could help us improve the results of clustering in the context of
-a dataset that we do not know the class or classes associated.
-Then the t-SNE will allow us to visualize the meaning of our data to
-through the distribution of points. In addition, we found that the divergence of Kullback-Leibler and its relationship with mutual information was useful
-to evaluate our results. For the rest, we could have built an architecture using a variational autoencoder in addition to the convolutional layers and then tried several parameters for K-means to retain
-the one that would have given us the best precision. Finally, it was a
-project that allowed us to explore, visualize and classify the dataset
-Fashion-MNIST which is more complex than MNIST.&lt;/p&gt;
+&lt;p&gt;We learned a lot through this mini project since it involves visualization and clustering techniques. We could also see the different characteristics of the auto-encoders and their variants. Following of the exercise on encoders, we found that auto-encoders could help us improve the results of clustering in the context of a dataset that we do not know the class or classes associated. Then the t-SNE will allow us to visualize the meaning of our data to through the distribution of points. In addition, we found that the divergence of Kullback-Leibler and its relationship with mutual information was useful to evaluate our results. For the rest, we could have built an architecture using a variational autoencoder in addition to the convolutional layers and then tried several parameters for K-means to retain the one that would have given us the best precision. Finally, it was a project that allowed us to explore, visualize and classify the dataset Fashion-MNIST which is more complex than MNIST.&lt;/p&gt;
 </description>
-                <pubDate>Sat, 21 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/convolutional-autoencoder</link>
-                <guid isPermaLink="true">http://localhost:4000/convolutional-autoencoder</guid>
+                <pubDate>Sat, 21 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/convolutional-autoencoder-and-clustering-improvement</link>
+                <guid isPermaLink="true">http://localhost:4000/convolutional-autoencoder-and-clustering-improvement</guid>
                 
                 <category>Autoencoder</category>
                 
@@ -404,67 +324,32 @@ Fashion-MNIST which is more complex than MNIST.&lt;/p&gt;
                 <title>Ensemble method applied to detection of financial fraud</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of ensemble method applied to Detection of financial fraud available on my &lt;a href=&quot;https://github.com/mbenhamd/methodes-ensemblistes-fraudes&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+&lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
-&lt;p&gt;Fraud represents a loss of turnover of several billion
-dollars and increases every year. The economic crime survey
-PwC global survey in 2018 revealed that half (49%) of the 7,200
-respondents had been the victim of some type of fraud. It’s about
-of an increase over the 2016 PwC study in which a little
-more than one third of the organizations surveyed (36%) had been victims of
-economic crime.
-Traditional methods of data analysis have been used for a long time to detect fraud and it is in this context that we will carry out
-several ways to approach the problem in order to see the advantages and disadvantages of each learning model and the one that gives the best
-prediction results.&lt;/p&gt;
+&lt;p&gt;Fraud represents a loss of turnover of several billion dollars and increases every year. The economic crime survey PwC global survey in 2018 revealed that half (49%) of the 7,200 respondents had been the victim of some type of fraud. It’s about of an increase over the 2016 PwC study in which a little more than one third of the organizations surveyed (36%) had been victims of economic crime. Traditional methods of data analysis have been used for a long time to detect fraud and it is in this context that we will carry out several ways to approach the problem in order to see the advantages and disadvantages of each learning model and the one that gives the best prediction results.
+&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;h6 id=&quot;introduction&quot;&gt;Introduction&lt;/h6&gt;
 
-&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Techniques used to detect fraud require investigation complex and tedious then they deal with different areas of knowledge such as finance, economics. Here are some examples of statistical data analysis techniques:&lt;/p&gt;
 
-&lt;p&gt;Techniques used to detect fraud require investigation
-complex and tedious then they deal with different areas of knowledge such as finance, economics.
-Here are some examples of statistical data analysis techniques:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Pre-processing techniques for detecting, validating, correcting errors and filling missing data
-or incorrect.&lt;/li&gt;
+  &lt;li&gt;Pre-processing techniques for detecting, validating, correcting errors and filling missing data or incorrect.&lt;/li&gt;
   &lt;li&gt;Calculation of various statistical parameters such as averages, quantiles, performance measures, probability distributions, etc.&lt;/li&gt;
   &lt;li&gt;Chronological analysis of time-dependent data (time series).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;/ressources/ensemble-method/features.png&quot; alt=&quot;alt text&quot; title=&quot;MNIST Sample&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In our case, we will use models of supervised learning and
-we will not use clustering methods.
-This type of model only detects frauds similar to those
-that took place previously and were classified by a human.
-Regarding the detection of fraud by credit card payment,
-the problem of ranking involves the creation of sufficiently intelligent models to properly classify transactions into legitimate transactions
-or fraudulent, depending on the details of the transaction such as the amount,
-the trader, the location, the time and others.&lt;/p&gt;
+&lt;p&gt;In our case, we will use models of supervised learning and we will not use clustering methods. This type of model only detects frauds similar to those that took place previously and were classified by a human. Regarding the detection of fraud by credit card payment, the problem of ranking involves the creation of sufficiently intelligent models to properly classify transactions into legitimate transactions or fraudulent, depending on the details of the transaction such as the amount, the trader, the location, the time and others.&lt;/p&gt;
 
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;h6 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h6&gt;
 
-&lt;p&gt;To conclude, we have been very interested in the set-up methods in our approach to this problem in order to be original.
-The decision tree-based methods are interesting because
-model architecture reduces over-fitting, but poor sampling practices can lead to misleading conclusions
-the quality of a model.
-The main purpose of model validation is to estimate how
-whose model will generalize to new data. If the decision to put
-a model in production depends on how it works on a
-validation set, it is essential that the oversampling be performed
-correctly.
-In fact, by oversampling only the training data, none of the information contained in the validation data is used
-to create synthetic observations therefore, these results should be
-generalizable.
-Then oversampling is a well-known way to potentially improve the models formed on unbalanced data but it is important to remember that incorrect oversampling can lead to
-think that a model will generalize better than it actually does.
-Our results may seem weak compared to what is available on the internet but it is appropriate to use cross validation correctly with
-good sampling method as well as an appropriate metric when
-our data is out of balance.&lt;/p&gt;
+&lt;p&gt;To conclude, we have been very interested in the set-up methods in our approach to this problem in order to be original. The decision tree-based methods are interesting because model architecture reduces over-fitting, but poor sampling practices can lead to misleading conclusions the quality of a model. The main purpose of model validation is to estimate how whose model will generalize to new data. If the decision to put a model in production depends on how it works on a validation set, it is essential that the oversampling be performed correctly. In fact, by oversampling only the training data, none of the information contained in the validation data is used to create synthetic observations therefore, these results should be generalizable. Then oversampling is a well-known way to potentially improve the models formed on unbalanced data but it is important to remember that incorrect oversampling can lead to think that a model will generalize better than it actually does. Our results may seem weak compared to what is available on the internet but it is appropriate to use cross validation correctly with good sampling method as well as an appropriate metric when our data is out of balance.&lt;/p&gt;
 </description>
-                <pubDate>Fri, 20 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/ensemble-method-fraud</link>
-                <guid isPermaLink="true">http://localhost:4000/ensemble-method-fraud</guid>
+                <pubDate>Fri, 20 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud</link>
+                <guid isPermaLink="true">http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud</guid>
                 
                 <category>Ensemble Method</category>
                 
@@ -479,35 +364,27 @@ our data is out of balance.&lt;/p&gt;
                 <title>Mixture models applied to usual image data</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of mixture models applied to usual image data available on my &lt;a href=&quot;https://github.com/mbenhamd/mixture-model-images&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+&lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
 &lt;p&gt;Mixture models are routinely used to extract features from speech data, but also in object detection from images. By deducing parameters from the distribution of the data, they make it possible to predict the location of the objects with each image of a video sequence. The Gaussian mixing model is a probabilistic model that will be used to represent normally distributed subpopulations within a global population. Mixing models in general do not require knowing which subpopulation belongs to a data point, which allows the model to automatically learn subpopulations. As the assignment of subpopulations is not known, it is a form of unsupervised learning.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/mixture-model-images/blob/master/plot/show_images_mnist.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;MNIST Sample&quot; /&gt;
-&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/mixture-model-images/blob/master/plot/show_images_mnist.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;MNIST Sample&quot; /&gt; &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;The classification of images is one of the major challenges of image processing and computer vision. However, the application of mixture models applied to segmentation presents some difficulties. For the classic blend statistical model, each pixel must be associated with exactly one class. This hypothesis may not be realistic. So,
-several methods have been proposed to work around this problem (such as fuzzy classification). This approach gives satisfactory results in many cases, but in most cases the assumption of a single Gaussian generally limits the accuracy of the model.
-We will use the EM algorithm to estimate the parameters of Gaussian mixtures.
-Then the Gaussian mixing model is a flexible probabilistic model and a powerful modeling tool. It can be used to provide a group-based model in the area of ​​pattern recognition.
-However, the application presents some difficulties since it is sensitive to noise.&lt;/p&gt;
+&lt;h6 id=&quot;introduction&quot;&gt;Introduction&lt;/h6&gt;
+
+&lt;p&gt;The classification of images is one of the major challenges of image processing and computer vision. However, the application of mixture models applied to segmentation presents some difficulties. For the classic blend statistical model, each pixel must be associated with exactly one class. This hypothesis may not be realistic. So, several methods have been proposed to work around this problem (such as fuzzy classification). This approach gives satisfactory results in many cases, but in most cases the assumption of a single Gaussian generally limits the accuracy of the model. We will use the EM algorithm to estimate the parameters of Gaussian mixtures. Then the Gaussian mixing model is a flexible probabilistic model and a powerful modeling tool. It can be used to provide a group-based model in the area of ​​pattern recognition. However, the application presents some difficulties since it is sensitive to noise.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/mixture-model-images/blob/master/plot/pca_eig_mnist5.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;MNIST Sample&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/mixture-model-images/blob/master/plot/t-sne_mnist_mm.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;MNIST Sample&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;h6 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h6&gt;
 
-&lt;p&gt;In this project, we made a lot of comparisons between the 5 different datasets. We have seen several types of classification methods (hierarchical ascending classification, partitioning with Kmeans) but we have been able to explore the models of mixtures in several ways.
-Indeed, we have noticed that factor analysis methods can help to learn a mixing model without having to envy auto-encoders, but finally the temporal complexity of them leaves something to be desired.
-Moreover the mathematics behind the mix models are more difficult to access and therefore less attractive to the general public.
-The project was very informative as we were able to implement many methods from unsupervised learning.&lt;/p&gt;
-
+&lt;p&gt;In this project, we made a lot of comparisons between the 5 different datasets. We have seen several types of classification methods (hierarchical ascending classification, partitioning with Kmeans) but we have been able to explore the models of mixtures in several ways. Indeed, we have noticed that factor analysis methods can help to learn a mixing model without having to envy auto-encoders, but finally the temporal complexity of them leaves something to be desired. Moreover the mathematics behind the mix models are more difficult to access and therefore less attractive to the general public. The project was very informative as we were able to implement many methods from unsupervised learning.&lt;/p&gt;
 </description>
-                <pubDate>Wed, 18 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/mixture-models-images</link>
-                <guid isPermaLink="true">http://localhost:4000/mixture-models-images</guid>
+                <pubDate>Wed, 18 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/mixture-models-applied-to-usual-image-data</link>
+                <guid isPermaLink="true">http://localhost:4000/mixture-models-applied-to-usual-image-data</guid>
                 
                 <category>Mixture Models</category>
                 
@@ -529,7 +406,7 @@ The aim is to analyse sentiment between a conversation between two agents.&lt;/p
 
 &lt;p&gt;At the end of the conversation, we do the confusion matrix after the sentiment analysis using Indico API &lt;a href=&quot;https://indico.io/&quot;&gt;Website here&lt;/a&gt;.&lt;/p&gt;
 </description>
-                <pubDate>Tue, 17 Sep 2019 00:00:00 +0200</pubDate>
+                <pubDate>Tue, 17 Sep 2019 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/multi-agent-system-twitter</link>
                 <guid isPermaLink="true">http://localhost:4000/multi-agent-system-twitter</guid>
                 
@@ -546,33 +423,29 @@ The aim is to analyse sentiment between a conversation between two agents.&lt;/p
                 <title>Reinforcement Learning Algorithms Comparaison</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of a comparison of different reinforcement learning algorithms available on my &lt;a href=&quot;https://github.com/mbenhamd/reinforcement-learning-benchs&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;p&gt;Reinforcement Learning (RA) is about learning what to do, how to relate actions to situations, and how to maximize a reward. The learner is not told what action to take, but instead he must find out which actions give the most reward by trying them. In the most interesting case, actions can affect not only the immediate rewards but also the next situation, and hence the longer term rewards. These two properties - trial-and-error and long-term reward - are the two most important features of reinforcement learning.&lt;/p&gt;
+&lt;p&gt;Reinforcement Learning (RA) is about learning what to do, how to relate actions to situations, and how to maximize a reward. The learner is not told what action to take, but instead he must find out which actions give the most reward by trying them. In the most interesting case, actions can affect not only the immediate rewards but also the next situation, and hence the longer term rewards. These two properties - trial-and-error and long-term reward - are the two most important features of reinforcement learning.
+&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;h6 id=&quot;agent-oriented-learning&quot;&gt;Agent Oriented Learning&lt;/h6&gt;
 
-&lt;h1 id=&quot;agent-oriented-learning&quot;&gt;Agent Oriented Learning&lt;/h1&gt;
-&lt;h3 id=&quot;mini-project-comparison-of-different-reinforcement-learning-algorithms&quot;&gt;Mini-project: Comparison of different reinforcement learning algorithms.&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Mini-project: Comparison of different reinforcement learning algorithms.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;We will use the library &lt;strong&gt;Open IA Gym&lt;/strong&gt; including many games so we can then develop an AI able to learn to maximize its score.&lt;/p&gt;
 
 &lt;p&gt;The game we will use is “N-chain”.&lt;/p&gt;
 
-&lt;p&gt;This game presents movements along a linear chain of states, with two actions:
-forward, which moves along the chain but gives no reward back, which returns to the
-start and has a small reward.
-The end of the chain, however, offers a great reward, and moving forward to the end of the chain, this important reward can be repeated.&lt;/p&gt;
+&lt;p&gt;This game presents movements along a linear chain of states, with two actions: forward, which moves along the chain but gives no reward back, which returns to the start and has a small reward. The end of the chain, however, offers a great reward, and moving forward to the end of the chain, this important reward can be repeated.&lt;/p&gt;
 
 &lt;p&gt;At each action, there is a low probability that the agent “slips” and the opposite transition is taken instead.&lt;/p&gt;
 
 &lt;p&gt;The observed state is the current state in the chain (0 to n-1).&lt;/p&gt;
 
 &lt;p&gt;The game was designed and used by Malcolm J. A. Strens: &lt;a href=&quot;http://ceit.aut.ac.ir/~shiry/lecture/machine-
-learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework
-for Reinforcement Learning&lt;/a&gt;&lt;/p&gt;
+learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Learning&lt;/a&gt;&lt;/p&gt;
 </description>
-                <pubDate>Sun, 15 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/reinforcement-learning-comparaison</link>
-                <guid isPermaLink="true">http://localhost:4000/reinforcement-learning-comparaison</guid>
+                <pubDate>Sun, 15 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/reinforcement-learning-algorithms-comparaison</link>
+                <guid isPermaLink="true">http://localhost:4000/reinforcement-learning-algorithms-comparaison</guid>
                 
                 <category>Reinforcement Learning</category>
                 
@@ -593,65 +466,22 @@ for Reinforcement Learning&lt;/a&gt;&lt;/p&gt;
                 <title>Quality of documents embeddings</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of quality of embeddings documents available on my &lt;a href=&quot;https://github.com/mbenhamd/documents-embeddings&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+&lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
-&lt;p&gt;Text Mining is a branch of Data Mining that specializes in
-text corpus processing to analyze the content and extract it
-knowledge. In our case, the objective is to evaluate the quality of a
-set of embedding dies that represent documents. We
-will perform a clustering on documents and will compare the values of
-clustering with different evaluation criteria.&lt;/p&gt;
+&lt;p&gt;Text Mining is a branch of Data Mining that specializes in text corpus processing to analyze the content and extract it knowledge. In our case, the objective is to evaluate the quality of a set of embedding dies that represent documents. We will perform a clustering on documents and will compare the values of clustering with different evaluation criteria.
+&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;h6 id=&quot;introduction&quot;&gt;Introduction&lt;/h6&gt;
 
-&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Paragraph vectors (Doc2Vec) have recently been proposed as unsupervised method for learning documents. In their works, the authors showed that the method can learn to integrate Movie review texts that can be used for sentiment analysis. This proof of concept, while encouraging, was rather narrow. Indeed, the word embedding has opened new perspectives across a reduction in dimensionality and a new vision of words (a semantic vision). In the same way the document embedding is an extension brought when the number of documents becomes important and we seek to have a result of similarity, then be able to classify and have a technique to discriminate documents (e.g., books of mechanics and Botanical). Here we consider tasks other than the analysis of feelings, we use two datasets (Class3 and Reut8) with other analysis algorithms, such as the NMF and the LSA to evaluate the quality of their embeddings. Then we will evaluate the performances to see what are the strengths and weaknesses of the different analyzes.&lt;/p&gt;
 
-&lt;p&gt;Paragraph vectors (Doc2Vec) have recently been proposed as
-unsupervised method for learning documents. In their
-works, the authors showed that the method can learn to integrate
-Movie review texts that can be used for sentiment analysis. This proof of concept, while encouraging, was rather
-narrow.
-Indeed, the word embedding has opened new perspectives across
-a reduction in dimensionality and a new vision of words (a
-semantic vision).
-In the same way the document embedding is an extension brought
-when the number of documents becomes important and we seek to have
-a result of similarity, then be able to classify and have a technique to discriminate documents (e.g., books of mechanics and
-Botanical).
-Here we consider tasks other than the analysis of feelings, we
-use two datasets (Class3 and Reut8) with other analysis algorithms, such as the NMF and the LSA to evaluate the quality of
-their embeddings. Then we will evaluate the performances to see
-what are the strengths and weaknesses of the different analyzes.&lt;/p&gt;
+&lt;h6 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h6&gt;
 
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
-
-&lt;p&gt;As part of this project we learned a lot about the methods
-such as the LSA, NMF as well as Doc2Vec.
-Each method seen in these projects has strong and weak points
-like how fast the LSA does to Doc2Vec and the NMF, or
-the ability of the NMF to have a decomposition taking into account the
-weight of each cluster and thus to be more easily interpretable following
-each column of the matrix W then the LSA had an ability to retrieve
-the different meanings of the words.
-Then we realized without real surprise that Doc2Vec was the method bringing the best results knowing that we can load a
-pre-trained model on a very large dataset to be able to transfer
-knowledge (in other words, initialize the weights of the neural network), this
-which lets us think that this is a very promising method.
-Doc2Vec appears as an ideal method in itself, even if they are
-classic data sets, we could see that the defects of Reters8 were able to
-to be exceeded by modifying the algorithm through the two approaches of this
-method.
-This project allowed us to use several popular python library,
-with their lots of varieties and to be able to analyze and model our games of
-data as well as learning in many ways.
-We could have improved the results on the datasets by performing
-further pre-processing, but the purpose of this project was rather to evaluate
-quality in a general way without being specific according to the context of the
-data.&lt;/p&gt;
+&lt;p&gt;As part of this project we learned a lot about the methods such as the LSA, NMF as well as Doc2Vec. Each method seen in these projects has strong and weak points like how fast the LSA does to Doc2Vec and the NMF, or the ability of the NMF to have a decomposition taking into account the weight of each cluster and thus to be more easily interpretable following each column of the matrix W then the LSA had an ability to retrieve the different meanings of the words. Then we realized without real surprise that Doc2Vec was the method bringing the best results knowing that we can load a pre-trained model on a very large dataset to be able to transfer knowledge (in other words, initialize the weights of the neural network), this which lets us think that this is a very promising method. Doc2Vec appears as an ideal method in itself, even if they are classic data sets, we could see that the defects of Reters8 were able to to be exceeded by modifying the algorithm through the two approaches of this method. This project allowed us to use several popular python library, with their lots of varieties and to be able to analyze and model our games of data as well as learning in many ways. We could have improved the results on the datasets by performing further pre-processing, but the purpose of this project was rather to evaluate quality in a general way without being specific according to the context of the data.&lt;/p&gt;
 </description>
-                <pubDate>Fri, 13 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/quality-document-embeddings</link>
-                <guid isPermaLink="true">http://localhost:4000/quality-document-embeddings</guid>
+                <pubDate>Fri, 13 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/quality-of-documents-embeddings</link>
+                <guid isPermaLink="true">http://localhost:4000/quality-of-documents-embeddings</guid>
                 
                 <category>NMF</category>
                 
@@ -668,75 +498,31 @@ data.&lt;/p&gt;
                 <title>Non-negative matrix factorization and image classification</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of a Non-negative matrix factorization and image classification project available on my &lt;a href=&quot;https://github.com/mbenhamd/nmf-ter&quot;&gt;Github repository&lt;/a&gt; and a french presentation available &lt;a href=&quot;https://github.com/mbenhamd/ter-presentation-beamer&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Automatic classification or clustering consists of partioning
- a set of objects (instances) described by a set of variables 
- into homogeneous groups (classes). With the advent of Big Data 
- and data science, clustering has become a very important task in 
- various fields including imaging. 
- The images are very widespread data especially on the web 
- and social networks (Instagram, Pinterest, Flickr, Google, etc …). 
- The goal will be to propose a classification system for images from 
- various databases (photos , paintings, comics, etc.). 
- The non-negative matrix factorization makes it possible to approximate 
- a positive data matrix by the product of two matrices of lower 
- and positive dimensions. 
- By its simplicity, this method has become popular and is used both 
- in size reduction and also in clustering in a user-defined number 
- of classes k.&lt;/p&gt;
+&lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
-&lt;!--more--&gt;
+&lt;p&gt;Automatic classification or clustering consists of partioning a set of objects (instances) described by a set of variables into homogeneous groups (classes). With the advent of Big Data and data science, clustering has become a very important task in various fields including imaging. The images are very widespread data especially on the web and social networks (Instagram, Pinterest, Flickr, Google, etc …). The goal will be to propose a classification system for images from various databases (photos , paintings, comics, etc.). The non-negative matrix factorization makes it possible to approximate a positive data matrix by the product of two matrices of lower and positive dimensions. By its simplicity, this method has become popular and is used both in size reduction and also in clustering in a user-defined number of classes k. &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;data-set&quot;&gt;Data Set&lt;/h2&gt;
+&lt;h6 id=&quot;data-set&quot;&gt;Data Set&lt;/h6&gt;
+
 &lt;p&gt;We used this data set from : &lt;a href=&quot;https://github.com/BathVisArtData/PeopleArt&quot;&gt;People Art&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-&lt;h6 id=&quot;explained-variance-for-sepnmf-with-spherical-k-means-using-norm-l2-rank--2070&quot;&gt;Explained variance for SepNMF with Spherical K-means using Norm L2 (rank = [20;70]).&lt;/h6&gt;
+&lt;h6 id=&quot;example&quot;&gt;Example&lt;/h6&gt;
 
-&lt;p align=&quot;center&quot;&gt; 
-&lt;img src=&quot;https://github.com/mbenhamd/nmf-ter/blob/master/nmf_result/sepnmf-norm-2-skmeans--EVAR.png?raw=true&quot; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explained variance for SepNMF with Spherical K-means using Norm L2 (rank = [20;70]).&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/nmf-ter/blob/master/nmf_result/sepnmf-norm-2-skmeans--EVAR.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To conclude we will discuss the cases that we have not treated and the 
-data set itself, clustering is a very complicated area because we 
-travel in the vagueness as we have seen during this semester but we 
-learned a lot about automatic classification.
-First of all, we gave the different results and their explanation but 
-that taught us several very useful things as data science students. 
-Even with thoughtful pre-processing or without, ultimately the results 
-were bad as well as a multitude of different combinations of the NMF 
-(algorithms, methods, initializations) will not change the facts. 
-The problem comes from the data set which is in itself not adapted 
-and corresponds to the weak points of the NMF. The coefficients are 
-positive numbers, but for every vector in the database, 
-the amount of information is usually a small part that we use to 
-reconstruct our points. Lines with too much variety in themselves 
-do not allow the NMF to find a pattern.
-In particular, it must be realized that while the NMF is widely used 
-in science, its rigorous foundation has only been discovered for less 
-than 30 years. At the moment we are writing and it is very likely that 
-we have not yet found the best algorithm for this.
-Then, we faced a lack of time to perform the analyzes with a RGB and 
-binary matrix. You should know that we used two different services 
-of Cloud Computing (Amazon Web Service, Google Cloud Computing)
-, libraries Nimfa and NMF for R uses the CPU 
-while for calculations Matrix intensive, a minimum is to use the GPU 
-to drastically reduce the calculation time. All the resources 
-(graphics, scripts) of the project are 
-available &lt;a href=&quot;https://github.com/mbenhamd/nmf-ter&quot;&gt;here&lt;/a&gt;.
-Finally, since the data set was built for cross-depiction, 
-we can say that the NMF as a technique is not suitable for this problem
- (other solutions exist such as convectional neural networks 
-or Deep Semi-NMF.&lt;/p&gt;
+&lt;h6 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h6&gt;
 
-&lt;h3 id=&quot;keywords&quot;&gt;Keywords&lt;/h3&gt;
+&lt;p&gt;To conclude we will discuss the cases that we have not treated and the data set itself, clustering is a very complicated area because we travel in the vagueness as we have seen during this semester but we learned a lot about automatic classification. First of all, we gave the different results and their explanation but that taught us several very useful things as data science students. Even with thoughtful pre-processing or without, ultimately the results were bad as well as a multitude of different combinations of the NMF (algorithms, methods, initializations) will not change the facts. The problem comes from the data set which is in itself not adapted and corresponds to the weak points of the NMF. The coefficients are positive numbers, but for every vector in the database, the amount of information is usually a small part that we use to reconstruct our points. Lines with too much variety in themselves do not allow the NMF to find a pattern. In particular, it must be realized that while the NMF is widely used in science, its rigorous foundation has only been discovered for less than 30 years. At the moment we are writing and it is very likely that we have not yet found the best algorithm for this. Then, we faced a lack of time to perform the analyzes with a RGB and binary matrix. You should know that we used two different services of Cloud Computing (Amazon Web Service, Google Cloud Computing) , libraries Nimfa and NMF for R uses the CPU while for calculations Matrix intensive, a minimum is to use the GPU to drastically reduce the calculation time. All the resources (graphics, scripts) of the project are available &lt;a href=&quot;https://github.com/mbenhamd/nmf-ter&quot;&gt;here&lt;/a&gt;. Finally, since the data set was built for cross-depiction, we can say that the NMF as a technique is not suitable for this problem (other solutions exist such as convectional neural networks or Deep Semi-NMF.&lt;/p&gt;
+
+&lt;h6 id=&quot;keywords&quot;&gt;Keywords&lt;/h6&gt;
+
 &lt;p&gt;Unsupervised Learning, Spherical K-means, Scikit-Learn, Nimfa, Python, R, People-Art Dataset&lt;/p&gt;
 </description>
-                <pubDate>Thu, 12 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/nmf-image-classification</link>
-                <guid isPermaLink="true">http://localhost:4000/nmf-image-classification</guid>
+                <pubDate>Thu, 12 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/non-negative-matrix-factorization-and-image-classification</link>
+                <guid isPermaLink="true">http://localhost:4000/non-negative-matrix-factorization-and-image-classification</guid>
                 
                 <category>Unsupervised Learning</category>
                 
@@ -751,55 +537,22 @@ or Deep Semi-NMF.&lt;/p&gt;
                 <title>Visualisation method applied on genomic data</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of visual exploration of genomic data available on my &lt;a href=&quot;https://github.com/mbenhamd/exploration-visuelles-genomique&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+&lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
-&lt;p&gt;Interpretation and visual exploration of data from multidimensional data sets can be
-a real headache for the human. While the 2D / 3D datasets are very easy to display: it is easy to represent the inherent structure of their data, it is not easy to
-perform intuitive visualization for large data sets. In order to improve the visualization and interpretation capacity of these large multidimensional data sets, the
-should be reduced while trying to keep as much information as possible. The purpose of the methods presented in this paper are twofold: to realize a reduction of the dimension by extraction of characteristics
-but also allow the visual interpretation of the information kept
-&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;Interpretation and visual exploration of data from multidimensional data sets can be a real headache for the human. While the 2D / 3D datasets are very easy to display: it is easy to represent the inherent structure of their data, it is not easy to perform intuitive visualization for large data sets. In order to improve the visualization and interpretation capacity of these large multidimensional data sets, the should be reduced while trying to keep as much information as possible. The purpose of the methods presented in this paper are twofold: to realize a reduction of the dimension by extraction of characteristics but also allow the visual interpretation of the information kept &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;We will study current visualization techniques as well as techniques for reducing
-dimension to improve learning and its interpretation. It should be remembered that the family
-methods of data analysis can be subdivided into two families of methods:&lt;/p&gt;
+&lt;p&gt;We will study current visualization techniques as well as techniques for reducing dimension to improve learning and its interpretation. It should be remembered that the family methods of data analysis can be subdivided into two families of methods:&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;Linear: The axes used are linear combinations of the initial variables. These algorithms
-try to choose the linear projection “optimal / interesting” points on a vector space
-reduced. They can be powerful, but do not take into account nonlinear structures
-in the data.&lt;/li&gt;
-  &lt;li&gt;Non-linear: Most of these methods are based on the notion of neighborhood, with graphs, or
-simply linear combination of neighbors. These methods are more sensitive to the structures
-non-linear data and tries to preserve the global / local properties of the data.
-These two types of methods are based both on the idea that the size of many
-The data is often artificially high and can be reduced without raising a loss.
-significant information.
-At first we will present in a rather brief way each of the algorithms used, then we
-will perform a comparative study of some linear and non-linear dimension reduction algorithms
-on datasets: Gordon and Pomeroy.&lt;/li&gt;
+  &lt;li&gt;Linear: The axes used are linear combinations of the initial variables. These algorithms try to choose the linear projection “optimal / interesting” points on a vector space reduced. They can be powerful, but do not take into account nonlinear structures in the data.&lt;/li&gt;
+  &lt;li&gt;Non-linear: Most of these methods are based on the notion of neighborhood, with graphs, or simply linear combination of neighbors. These methods are more sensitive to the structures non-linear data and tries to preserve the global / local properties of the data. These two types of methods are based both on the idea that the size of many The data is often artificially high and can be reduced without raising a loss. significant information. At first we will present in a rather brief way each of the algorithms used, then we will perform a comparative study of some linear and non-linear dimension reduction algorithms on datasets: Gordon and Pomeroy.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;In this project, we discussed different techniques used for visualization and analysis
-Datas. These techniques can be used to reduce multivariate data dimensions
-explanatory notes and their classification. We noticed the ACP can be useful for decorrelating variables
-initial and thus be used for an ADL. It has also been noted that the LDA due to this knowledge
-classes, works wonders, although it can not capture nonlinear phenomena.
-The PCR used as initialization for ADL facilitates interpretation and improves results in
-certain cases.
-the ACP looks for relationships between variables while the MDS looks for similarities between observations
-so that we can interpret the axes of the PCA using the variables while the MDS does not allow it
-(simply because there are no more variables). MDS therefore remains more a method of reducing
-dimension than visualization.
-For LLE and Isomap, we varied the number of neighbors to the nearest maximum for each
-datasets because it remains extremely weak. Isomap tends to have a cloud of points where the
-classes are separated and dense whereas the LLE will tend to search locally for each particularity
-individuals and gives a scatter when viewing each individual while remaining readable.
-Finally, this project allowed us to realize several techniques seen in progress on two datasets
-where the number of observation observations were extremely low compared to the variables.&lt;/p&gt;
+&lt;p&gt;In this project, we discussed different techniques used for visualization and analysis Datas. These techniques can be used to reduce multivariate data dimensions explanatory notes and their classification. We noticed the ACP can be useful for decorrelating variables initial and thus be used for an ADL. It has also been noted that the LDA due to this knowledge classes, works wonders, although it can not capture nonlinear phenomena. The PCR used as initialization for ADL facilitates interpretation and improves results in certain cases. the ACP looks for relationships between variables while the MDS looks for similarities between observations so that we can interpret the axes of the PCA using the variables while the MDS does not allow it (simply because there are no more variables). MDS therefore remains more a method of reducing dimension than visualization. For LLE and Isomap, we varied the number of neighbors to the nearest maximum for each datasets because it remains extremely weak. Isomap tends to have a cloud of points where the classes are separated and dense whereas the LLE will tend to search locally for each particularity individuals and gives a scatter when viewing each individual while remaining readable. Finally, this project allowed us to realize several techniques seen in progress on two datasets where the number of observation observations were extremely low compared to the variables.&lt;/p&gt;
 </description>
-                <pubDate>Mon, 09 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/visualisation-genomic-data</link>
-                <guid isPermaLink="true">http://localhost:4000/visualisation-genomic-data</guid>
+                <pubDate>Mon, 09 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/visualisation-method-applied-on-genomic-data</link>
+                <guid isPermaLink="true">http://localhost:4000/visualisation-method-applied-on-genomic-data</guid>
                 
                 <category>Visualisation</category>
                 
@@ -820,49 +573,24 @@ where the number of observation observations were extremely low compared to the 
                 <title>Automatic classification of data temporal in ordered classes</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of automatic classification of data temporal in ordered classes available on my &lt;a href=&quot;https://github.com/mbenhamd/series-temporelles-fisher&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h1 id=&quot;abstract&quot;&gt;Abstract&lt;/h1&gt;
+&lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
-&lt;p&gt;Automatic classification or clustering consists of partioning a set of objects (instances) described by a set of variables
-in homogeneous groups (classes). It turns out that for some data,
-these are a sequence of numerical values ​​representing the evolution of a
-specific quantity over time, hence the notion of time series. The aim will be to propose a classification system from
-various datasets using Fisher’s dynamic algorithm and
-to see its effectiveness by comparing it to other methods.&lt;/p&gt;
+&lt;p&gt;Automatic classification or clustering consists of partioning a set of objects (instances) described by a set of variables in homogeneous groups (classes). It turns out that for some data, these are a sequence of numerical values ​​representing the evolution of a specific quantity over time, hence the notion of time series. The aim will be to propose a classification system from various datasets using Fisher’s dynamic algorithm and to see its effectiveness by comparing it to other methods.
+&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;h6 id=&quot;introduction&quot;&gt;Introduction&lt;/h6&gt;
 
-&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;As part of our school curriculum, we are required to carry out a project
-concerning unsupervised learning. The objective of this project is to study
-a clustering method that searches for ordered classes in a timeline. Fisher’s dynamic programming method is used
-for segmentation of time signals, or for change detection
-in a data sequence.
-In speech recognition systems, for example, this type is exploited.
-method for partitioning audio signals into associated time ranges
-to different speakers who are then identified. More generally,
-organizing a sequence of data into homogeneous segments is a
-process that helps to better organize them.&lt;/p&gt;
+&lt;p&gt;As part of our school curriculum, we are required to carry out a project concerning unsupervised learning. The objective of this project is to study a clustering method that searches for ordered classes in a timeline. Fisher’s dynamic programming method is used for segmentation of time signals, or for change detection in a data sequence. In speech recognition systems, for example, this type is exploited. method for partitioning audio signals into associated time ranges to different speakers who are then identified. More generally, organizing a sequence of data into homogeneous segments is a process that helps to better organize them.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/ressources/time-series/data.png&quot; alt=&quot;alt text&quot; title=&quot;MNIST Sample&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;h6 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h6&gt;
 
-&lt;p&gt;This non-superimposed learning project allowed us to implement Fisher’s dynamic programming algorithm and compare it to the CAH and
-K-means. We could see that Fisher’s algorithm is clearly appropriate
-within the framework of time series since it takes into account the temporality of
-data while K-Means and CAH Ward have a spatial approach. Indeed
-these two other methods look at the datasets as a set of
-points in a space with one or more dimensions without taking into account the
-temporal criterion. Even though we have some optimizations
-thanks to the use of appropriate package, we have as prospects to
-see the efficiency of the algorithm on a GPU (more appropriate component for the
-intensive matrix computation) because when we are dealing with larger data sets it is very likely that the nonlinear complexity of
-the algorithm poses a big problem.&lt;/p&gt;
-
+&lt;p&gt;This non-superimposed learning project allowed us to implement Fisher’s dynamic programming algorithm and compare it to the CAH and K-means. We could see that Fisher’s algorithm is clearly appropriate within the framework of time series since it takes into account the temporality of data while K-Means and CAH Ward have a spatial approach. Indeed these two other methods look at the datasets as a set of points in a space with one or more dimensions without taking into account the temporal criterion. Even though we have some optimizations thanks to the use of appropriate package, we have as prospects to see the efficiency of the algorithm on a GPU (more appropriate component for the intensive matrix computation) because when we are dealing with larger data sets it is very likely that the nonlinear complexity of the algorithm poses a big problem.&lt;/p&gt;
 </description>
-                <pubDate>Sat, 07 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/time-series-fisher</link>
-                <guid isPermaLink="true">http://localhost:4000/time-series-fisher</guid>
+                <pubDate>Sat, 07 Sep 2019 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes</link>
+                <guid isPermaLink="true">http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes</guid>
                 
                 <category>R</category>
                 
@@ -876,15 +604,13 @@ the algorithm poses a big problem.&lt;/p&gt;
             </item>
         
             <item>
-                <title>Decision Tree From Scratch </title>
+                <title>Decision Tree From Scratch</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of a Decision Tree From Scratch available on my &lt;a href=&quot;https://github.com/mbenhamd/decision-tree-scratch&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h1 id=&quot;decision-tree&quot;&gt;Decision Tree&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;This repository was created as part of a course application:&lt;/em&gt; &lt;a href=&quot;http://www.math-info.univ-paris5.fr/~bouzy/Doc/AA1/InductionDecisionTree.pdf&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This repository was created as part of a course application:&lt;/em&gt; &lt;a href=&quot;http://www.math-info.univ-paris5.fr/~bouzy/Doc/AA1/InductionDecisionTree.pdf&quot;&gt;ici&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;h6 id=&quot;introduction&quot;&gt;Introduction&lt;/h6&gt;
 
 &lt;p&gt;Decision trees are a method used in machine learning to perform the &lt;strong&gt;classification&lt;/strong&gt; and &lt;strong&gt;prediction&lt;/strong&gt; of many phenomena such as weather events for example.&lt;/p&gt;
 
@@ -896,9 +622,9 @@ the algorithm poses a big problem.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://crsouza.com/wp-content/uploads/2012/01/image_thumb-25255B16-25255D.png&quot; alt=&quot;alt text&quot; title=&quot;Exemple&quot; /&gt;&lt;/p&gt;
 </description>
-                <pubDate>Thu, 05 Sep 2019 00:00:00 +0200</pubDate>
-                <link>http://localhost:4000/decision-tree-scratch</link>
-                <guid isPermaLink="true">http://localhost:4000/decision-tree-scratch</guid>
+                <pubDate>Thu, 05 Sep 2019 01:00:00 +0100</pubDate>
+                <link>http://localhost:4000/decision-tree-from-scratch</link>
+                <guid isPermaLink="true">http://localhost:4000/decision-tree-from-scratch</guid>
                 
                 <category>Multi Agent System</category>
                 
@@ -943,7 +669,7 @@ the algorithm poses a big problem.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/ressources/binero/ingame.png&quot; alt=&quot;alt text&quot; title=&quot;Exemple of a game execution&quot; /&gt;&lt;/p&gt;
 </description>
-                <pubDate>Tue, 03 Sep 2019 00:00:00 +0200</pubDate>
+                <pubDate>Tue, 03 Sep 2019 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/binero/</link>
                 <guid isPermaLink="true">http://localhost:4000/binero/</guid>
                 
@@ -968,7 +694,7 @@ the algorithm poses a big problem.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/cereals-data-project/blob/master/pourcentage_variance_cumuler.PNG?raw=true&quot; alt=&quot;alt text&quot; title=&quot;PCA&quot; /&gt;&lt;/p&gt;
 </description>
-                <pubDate>Sun, 01 Sep 2019 00:00:00 +0200</pubDate>
+                <pubDate>Sun, 01 Sep 2019 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/r-food/</link>
                 <guid isPermaLink="true">http://localhost:4000/r-food/</guid>
                 

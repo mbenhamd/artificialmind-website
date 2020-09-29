@@ -3,7 +3,7 @@ layout: post
 title: "Bidirectional Encoder Representations from Transformers."
 description: "state-of-the-art in natural language processing by using a Transformer."
 date: 2019-10-05
-feature_image: https://github.com/mbenhamd/artificialmind-website/blob/master/images/Bert_smile.png?raw=true
+feature_image: <img src="https://github.com/mbenhamd/artificialmind-website/blob/master/images/Bert_smile.png?raw=true" width="150" height="150" />
 tags: [BERT, NLP, state-of-the-art]
 ---
 <!---
@@ -38,6 +38,6 @@ Directionality is necessitated to make a well-formed probability pattern. The se
 ##### BERT Explained
 
 There are useful articles on that subject that you should read. I would advice two of them that cover fundamentals and other questions. 
-[The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](http://jalammar.github.io/illustrated-bert/)
+[The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/)
 [BERT Explained – A list of Frequently Asked Questions](https://yashuseth.blog/2019/06/12/bert-explained-faqs-understand-bert-working/#:~:text=What%20is%20BERT%3F,task%2Dspecific%20fine%2Dtuning.)
 

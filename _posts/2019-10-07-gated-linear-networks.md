@@ -17,7 +17,7 @@ It's written by Joel Veness, Tor Lattimore, Avishkar Bhoopchand, David Budden, C
 What distinguishes these architectures from other neural systems is the distributed and local nature of their credit assignment mechanism; each neuron directly predicts the target and has its own set of hard-gated weights that are locally adapted via online convex optimization. By providing an interpretation, generalization and subsequent theoretical analysis, we show that sufficiently large GLNs
 are universal in a strong sense: not only can they model any compactly supported, continuous density function to arbitrary accuracy, but that any choice of no-regret online convex optimization technique will provably converge to the correct solution with enough data. Empirically we show a collection of single-pass learning results on established machine learning benchmarks that are competitive with results obtained with general purpose batch learning techniques.
 
-###### What do they propose
+###### What do they propose ?
 
 Deep metric learning algorithms fail to learn distances that capture fined-grained sub-categories. Such fine-grained visual similarity distances are important to learn generalized visual features and to have robust performance on cross-domain data. So they construct an embedding of the product with text product production and use this to drive an adaptive triplet loss.
 
@@ -26,8 +26,9 @@ Deep metric learning algorithms fail to learn distances that capture fined-grain
 They dataset is composed with images and textual description in the form of natural language or a set of key words.
 During the training, they transform images into unit vector by defining the mini-batch weakly
 
-
-
-##### Result
-
 ##### Discussion 
+
+We have introduced a new family of general purpose neural architectures, Gated Linear Networks, and studied the
+desirable characteristics that follow from their use of datadependent gating and local credit assignment. Their fast
+online learning properties, easy interpretability, and excellent robustness to catastrophic forgetting in continual learning settings makes them an interesting and complementary
+alternative to contemporary deep learning approaches.

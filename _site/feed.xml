@@ -5,8 +5,8 @@
         <description>Welcome to my website, it includes a part about my career,  but there are articles about my projects and some about  new concepts in the field of artificial intelligence.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Sep 2020 14:17:11 +0100</pubDate>
-        <lastBuildDate>Tue, 29 Sep 2020 14:17:11 +0100</lastBuildDate>
+        <pubDate>Tue, 29 Sep 2020 14:25:07 +0100</pubDate>
+        <lastBuildDate>Tue, 29 Sep 2020 14:25:07 +0100</lastBuildDate>
         <generator>Jekyll v4.1.1</generator>
         
             <item>
@@ -494,7 +494,7 @@ Directionality is necessitated to make a well-formed probability pattern. The se
 &lt;h5 id=&quot;bert-explained&quot;&gt;BERT Explained&lt;/h5&gt;
 
 &lt;p&gt;There are useful articles on that subject that you should read. I would advice two of them that cover fundamentals and other questions. 
-&lt;a href=&quot;http://jalammar.github.io/illustrated-bert/&quot;&gt;The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)&lt;/a&gt;
+&lt;a href=&quot;https://jalammar.github.io/illustrated-bert/&quot;&gt;The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)&lt;/a&gt;
 &lt;a href=&quot;https://yashuseth.blog/2019/06/12/bert-explained-faqs-understand-bert-working/#:~:text=What%20is%20BERT%3F,task%2Dspecific%20fine%2Dtuning.&quot;&gt;BERT Explained – A list of Frequently Asked Questions&lt;/a&gt;&lt;/p&gt;
 
 </description>

@@ -5,8 +5,8 @@
         <description>Welcome to my website, it includes a part about my career,  but there are articles about my projects and some about  new concepts in the field of artificial intelligence.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Sep 2020 16:41:09 +0100</pubDate>
-        <lastBuildDate>Tue, 29 Sep 2020 16:41:09 +0100</lastBuildDate>
+        <pubDate>Tue, 29 Sep 2020 17:01:54 +0100</pubDate>
+        <lastBuildDate>Tue, 29 Sep 2020 17:01:54 +0100</lastBuildDate>
         <generator>Jekyll v4.1.1</generator>
         
             <item>

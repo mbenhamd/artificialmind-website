@@ -2,14 +2,12 @@
 - layout: left
   name: Université Paris Descartes
   dates: September 2017 to September 2019
-  qualification: Master's degree
+  qualification: Master's degree in Artificial Intelligence
   quote: >
   description: | # this will include new lines to allow paragraphs
     Specialized in articial intelligence (Machine Learning for Data Scientist).
-    We study unsupervised, semi-supervised and supervised learning methods and visualization
-    methods.
-    These methods are commonly used in the context of data mining which is the art of extracting
-    information or even knowledge from increasingly large data. These can come from various fields such as genomics, textual analysis, images, networks and speech.
+    We study unsupervised, semi-supervised and supervised learning methods and visualization methods. We also study reinforcement learning.
+    These methods are commonly used in the context of data mining which is the art of extracting information or even knowledge from increasingly large data. These can come from various fields such as genomics, textual analysis, images, networks and speechs.
 
 - layout: left
   name: Université de Poitiers
@@ -18,5 +16,5 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     Easily use the basics of probabilistic reasoning and implement a statistical approach to data processing.
-    Write and implement basic algorithms for scientic computing.
+    Write and implement basic and complex algorithms for scientic computing.
     Use software for formal and scientic calculation.

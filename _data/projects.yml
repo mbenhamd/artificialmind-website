@@ -6,7 +6,7 @@
   quote: >
     Redaction of a memoir and development of a new method called InOmicNet
   description: | # this will include new lines to allow paragraphs
-    InOmicNet is a shortcut for "Interpretable Omic Network", the purpose of this memoir is to develop a neural network able to learn and evolve the weights of the following layers by biological information introduced with a knowledge base outside.
+    Deep GONet, the purpose of this memoir is to develop a neural network able to learn and evolve the weights of the following layers by biological information introduced with a knowledge base outside.
 
 - layout: top-middle
   name: Twitter Sentiment Analysis

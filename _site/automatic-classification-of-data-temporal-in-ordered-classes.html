@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automatic classification of data temporal in ordered classes</title>
+  <meta name="description" content="Implementing Fisher&#39;s algorithm (dynamic programming)">
+  <link rel="canonical" href="http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes">
+  <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Automatic classification of data temporal in ordered classes | Artificial Mind Blog.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Automatic classification of data temporal in ordered classes" />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Implementing Fisher’s algorithm (dynamic programming)" />
+<meta property="og:description" content="Implementing Fisher’s algorithm (dynamic programming)" />
+<link rel="canonical" href="http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes" />
+<meta property="og:url" content="http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-07T00:00:00+01:00" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Implementing Fisher’s algorithm (dynamic programming)","@type":"BlogPosting","headline":"Automatic classification of data temporal in ordered classes","dateModified":"2019-09-07T00:00:00+01:00","datePublished":"2019-09-07T00:00:00+01:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">Artificial Mind Blog.</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/curriculum-vitae/">Curriculum Vitae</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags/">Archive</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">About</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2019-09-07">September 7, 2019</time>
+      <h1 class="post-title">Automatic classification of data temporal in ordered classes</h1>
+      <div class="post-meta">
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#R" rel="tag">R</a>, <a href="/tags/#Time+series" rel="tag">Time series</a>, <a href="/tags/#Unsupervised+Learning" rel="tag">Unsupervised Learning</a>, <a href="/tags/#Dynamic+Programming" rel="tag">Dynamic Programming</a></span>
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="/ressources/time-series/time-series.png" alt="Automatic classification of data temporal in ordered classes">
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p><em>Presentation of automatic classification of data temporal in ordered classes available on my <a href="https://github.com/mbenhamd/series-temporelles-fisher">Github repository</a></em>:</p>
+
+<h6 id="abstract">Abstract</h6>
+
+<p>Automatic classification or clustering consists of partioning a set of objects (instances) described by a set of variables in homogeneous groups (classes). It turns out that for some data, these are a sequence of numerical values ​​representing the evolution of a specific quantity over time, hence the notion of time series. The aim will be to propose a classification system from various datasets using Fisher’s dynamic algorithm and to see its effectiveness by comparing it to other methods.
+<!--more--></p>
+
+<h6 id="introduction">Introduction</h6>
+
+<p>As part of our school curriculum, we are required to carry out a project concerning unsupervised learning. The objective of this project is to study a clustering method that searches for ordered classes in a timeline. Fisher’s dynamic programming method is used for segmentation of time signals, or for change detection in a data sequence. In speech recognition systems, for example, this type is exploited. method for partitioning audio signals into associated time ranges to different speakers who are then identified. More generally, organizing a sequence of data into homogeneous segments is a process that helps to better organize them.</p>
+
+<p><img src="/ressources/time-series/data.png" alt="alt text" title="MNIST Sample" /></p>
+
+<h6 id="conclusion">Conclusion</h6>
+
+<p>This non-superimposed learning project allowed us to implement Fisher’s dynamic programming algorithm and compare it to the CAH and K-means. We could see that Fisher’s algorithm is clearly appropriate within the framework of time series since it takes into account the temporality of data while K-Means and CAH Ward have a spatial approach. Indeed these two other methods look at the datasets as a set of points in a space with one or more dimensions without taking into account the temporal criterion. Even though we have some optimizations thanks to the use of appropriate package, we have as prospects to see the efficiency of the algorithm on a GPU (more appropriate component for the intensive matrix computation) because when we are dealing with larger data sets it is very likely that the nonlinear complexity of the algorithm poses a big problem.</p>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=Automatic%20classification%20of%20data%20temporal%20in%20ordered%20classes&amp;url=http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/automatic-classification-of-data-temporal-in-ordered-classes&amp;t=Automatic%20classification%20of%20data%20temporal%20in%20ordered%20classes" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('/images/author.png')"><span class="screen-reader-text">Mohamed BEN HAMDOUNE's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
+        <div class="author-bio"><p>Data Scientist at Zifo RnD Solutions</p>
+</div>
+        
+        <span class="author-location">Cambridge, United Kingdom</span>
+        
+        
+        <span class="author-website"><a href="https://www.artificialmind.io/" target="_blank" rel="noopener">https://www.artificialmind.io/</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/mbenhamdtw" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/mbenhamd" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>Artificial Mind Blog. Jekyll Theme Forked <a href="https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme">Here</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>

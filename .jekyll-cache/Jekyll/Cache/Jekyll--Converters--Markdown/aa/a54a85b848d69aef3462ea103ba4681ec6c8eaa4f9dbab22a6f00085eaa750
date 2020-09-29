@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 I"2<p><em>Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-cnn">Github repository</a></em>:</p>
+=======
+I"4<p><em>Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-cnn">Github repository</a></em>:</p>
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 <h3 id="tensorflow-implementation-of-a-cnn">TensorFlow implementation of a CNN.</h3>
 
@@ -8,7 +12,11 @@
 
 <p>We used those settings for training the CNN :</p>
 
+<<<<<<< HEAD
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flags:
+=======
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flags:
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 	batch_size = 128
 	checkpoint_freq = 1
 	custom_input =
@@ -44,7 +52,11 @@ On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 
 <h6 id="description">Description</h6>
 
+<<<<<<< HEAD
 <p>This code is meant to have an educational value, to train the model by yourself and play with different configurations, and was not developed to be deployed as-is (although it has been used in <a href="https://linkedin.com/pulse/real-time-twitter-sentiment-analytics-tensorflow-spring-tzolov/">professional contexts</a>). The dataset used for training is taken from <a href="http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/">here</a> (someone reported to me that the link to the dataset appears to be dead sometimes, so <code class="highlighter-rouge">dataset_downloader.py</code> <strong>might</strong> not work. I successfully ran the script on January 20, 2018, but please report it to me if you have any problems).</p>
+=======
+<p>This code is meant to have an educational value, to train the model by yourself and play with different configurations, and was not developed to be deployed as-is (although it has been used in <a href="https://linkedin.com/pulse/real-time-twitter-sentiment-analytics-tensorflow-spring-tzolov/">professional contexts</a>). The dataset used for training is taken from <a href="http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/">here</a> (someone reported to me that the link to the dataset appears to be dead sometimes, so <code class="language-plaintext highlighter-rouge">dataset_downloader.py</code> <strong>might</strong> not work. I successfully ran the script on January 20, 2018, but please report it to me if you have any problems).</p>
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 <p><strong>NOTE: this script is for Python 2.7 only</strong></p>
 
@@ -52,7 +64,11 @@ On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 
 <p>You’ll need Tensorflow &gt;=1.1.0 and its dependecies installed in order for the script to work (see <a href="https://www.tensorflow.org/">here</a>).</p>
 
+<<<<<<< HEAD
 <p>Once you’ve installed and configured Tensorflow, download the source files and <code class="highlighter-rouge">cd</code> into the folder:</p>
+=======
+<p>Once you’ve installed and configured Tensorflow, download the source files and <code class="language-plaintext highlighter-rouge">cd</code> into the folder:</p>
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://gitlab.com/danielegrattarola/twitter-sentiment-cnn.git
 <span class="nv">$ </span><span class="nb">cd </span>twitter-sentiment-cnn
@@ -73,7 +89,11 @@ On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python vocab_builder.py
 </code></pre></div></div>
 
+<<<<<<< HEAD
 <p>The files will be created in the <code class="highlighter-rouge">twitter-sentiment-dataset/</code> folder. Finally, create an <code class="highlighter-rouge">output/</code> folder that will contain all session checkpoints needed to restore the trained models:</p>
+=======
+<p>The files will be created in the <code class="language-plaintext highlighter-rouge">twitter-sentiment-dataset/</code> folder. Finally, create an <code class="language-plaintext highlighter-rouge">output/</code> folder that will contain all session checkpoints needed to restore the trained models:</p>
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>output
 </code></pre></div></div>
@@ -99,7 +119,11 @@ On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 
 <p>which will eventually output:</p>
 
+<<<<<<< HEAD
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+=======
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 Processing custom input: I love neural networks!
 Custom input evaluation: POS
 Actual output: [ 0.19249919  0.80750078]
@@ -114,6 +138,7 @@ Actual output: [ 0.19249919  0.80750078]
 <p>the script will output a list of all customizable flags and parameters. The parameters are:</p>
 
 <ul>
+<<<<<<< HEAD
   <li><code class="highlighter-rouge">train</code>: train the network;</li>
   <li><code class="highlighter-rouge">save</code>: save session checkpoints;</li>
   <li><code class="highlighter-rouge">save_protobuf</code>: save model as binary protobuf;</li>
@@ -130,11 +155,33 @@ Actual output: [ 0.19249919  0.80750078]
   <li><code class="highlighter-rouge">checkpoint_freq</code>: how many times per epoch to save the model (default: 1);</li>
   <li><code class="highlighter-rouge">test_data_ratio</code>: fraction of the dataset to use for validation (default: 0.1);</li>
   <li><code class="highlighter-rouge">device</code>: device to use for running the model (can be either ‘cpu’ or ‘gpu’).</li>
+=======
+  <li><code class="language-plaintext highlighter-rouge">train</code>: train the network;</li>
+  <li><code class="language-plaintext highlighter-rouge">save</code>: save session checkpoints;</li>
+  <li><code class="language-plaintext highlighter-rouge">save_protobuf</code>: save model as binary protobuf;</li>
+  <li><code class="language-plaintext highlighter-rouge">evaluate_batch</code>: evaluate the network on a held-out batch from the dataset and print the results (for debugging/educational purposes);</li>
+  <li><code class="language-plaintext highlighter-rouge">load</code>: restore a model from the given path;</li>
+  <li><code class="language-plaintext highlighter-rouge">custom_input</code>: evaluate the model on the given string;</li>
+  <li><code class="language-plaintext highlighter-rouge">filter_sizes</code>: comma-separated filter sizes for the convolutional layers (default: ‘3,4,5’);</li>
+  <li><code class="language-plaintext highlighter-rouge">dataset_fraction</code>: fraction of the dataset to load in memory, to reduce memory usage (default: 1.0; uses all dataset);</li>
+  <li><code class="language-plaintext highlighter-rouge">embedding_size</code>: size of the word embeddings (default: 128);</li>
+  <li><code class="language-plaintext highlighter-rouge">num_filters</code>: number of filters per filter size (default: 128);</li>
+  <li><code class="language-plaintext highlighter-rouge">batch_size</code>: batch size (default: 128);</li>
+  <li><code class="language-plaintext highlighter-rouge">epochs</code>: number of training epochs (default: 3);</li>
+  <li><code class="language-plaintext highlighter-rouge">valid_freq</code>: how many times per epoch to perform validation testing (default: 1);</li>
+  <li><code class="language-plaintext highlighter-rouge">checkpoint_freq</code>: how many times per epoch to save the model (default: 1);</li>
+  <li><code class="language-plaintext highlighter-rouge">test_data_ratio</code>: fraction of the dataset to use for validation (default: 0.1);</li>
+  <li><code class="language-plaintext highlighter-rouge">device</code>: device to use for running the model (can be either ‘cpu’ or ‘gpu’).</li>
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 </ul>
 
 <h6 id="pre-trained-model">Pre-trained model</h6>
 
+<<<<<<< HEAD
 <p>User <a href="https://github.com/Horkyze">@Horkyze</a> kindly trained the model for three epochs on the full dataset and shared the summary folder for quick deploy. The folder is available on <a href="https://mega.nz/#!xVg0ARYK!oVyBZatotQGOD_FFSzZl5gTS1Z49048vjFEbyzftcFY">Mega</a>, to load the model simply unpack the zip file and use the <code class="highlighter-rouge">--load</code> flag as follows:</p>
+=======
+<p>User <a href="https://github.com/Horkyze">@Horkyze</a> kindly trained the model for three epochs on the full dataset and shared the summary folder for quick deploy. The folder is available on <a href="https://mega.nz/#!xVg0ARYK!oVyBZatotQGOD_FFSzZl5gTS1Z49048vjFEbyzftcFY">Mega</a>, to load the model simply unpack the zip file and use the <code class="language-plaintext highlighter-rouge">--load</code> flag as follows:</p>
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Current directoty: twitter-sentiment-cnn/</span>
 <span class="nv">$ </span>unzip path/to/run20180201-231509.zip
@@ -143,7 +190,11 @@ Actual output: [ 0.19249919  0.80750078]
 
 <p>Running this command should give you something like:</p>
 
+<<<<<<< HEAD
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>======================= START! ========================
+=======
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>======================= START! ========================
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 	data_helpers: loading positive examples...
 	data_helpers: [OK]
 	data_helpers: loading negative examples...
@@ -193,9 +244,15 @@ Custom input evaluation: POS
 Actual output: [0.04109644 0.95890355]
 </code></pre></div></div>
 
+<<<<<<< HEAD
 <p><strong>NOTE: loading this model won’t work if you change anything in the default network architecture, so don’t set the <code class="highlighter-rouge">--filter_sizes</code> flag</strong>.</p>
 
 <p>According to the <code class="highlighter-rouge">log.log</code> file provided by <a href="https://github.com/Horkyze">@Horkyze</a>, the model had a final validation accuracy of 0.80976, and a validation loss of 53.3314.</p>
+=======
+<p><strong>NOTE: loading this model won’t work if you change anything in the default network architecture, so don’t set the <code class="language-plaintext highlighter-rouge">--filter_sizes</code> flag</strong>.</p>
+
+<p>According to the <code class="language-plaintext highlighter-rouge">log.log</code> file provided by <a href="https://github.com/Horkyze">@Horkyze</a>, the model had a final validation accuracy of 0.80976, and a validation loss of 53.3314.</p>
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 <p>I sincerely thank <a href="https://github.com/Horkyze">@Horkyze</a> for providing the computational power and sharing the model with me.</p>
 
@@ -217,5 +274,9 @@ Actual output: [0.04109644 0.95890355]
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>tensorboard <span class="nt">--logdir</span> output/path/to/summaries/
 </code></pre></div></div>
 
+<<<<<<< HEAD
 <p>and then navigate to <code class="highlighter-rouge">localhost:6006</code> from your browser (you’ll see the computation graph in the <em>Graph</em> section).</p>
+=======
+<p>and then navigate to <code class="language-plaintext highlighter-rouge">localhost:6006</code> from your browser (you’ll see the computation graph in the <em>Graph</em> section).</p>
+>>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 :ET

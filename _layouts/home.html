@@ -12,4 +12,6 @@ layout: default
 	{%- for _section in _sections -%}
 		{%- include section.html title=_section.title photo=_section.cover-photo photo-alt=_section.cover-photo-alt auto-header=_section.auto-header content=_section.content -%}
 	{%- endfor -%}
+	{% include GoogleTagManager_head.liquid %}
+	{% include GoogleTagManager_body.liquid %}
 </div>

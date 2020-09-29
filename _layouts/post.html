@@ -47,5 +47,6 @@ layout: default
   {% if site.disqus and site.disqus != "" %}
     {% include disqus.html %}
   {% endif %}
-
+  {% include GoogleTagManager_head.liquid %}
+  {% include GoogleTagManager_body.liquid %}
 </main><!-- .main-content -->

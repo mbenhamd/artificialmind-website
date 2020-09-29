@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DeepFovea: Using deep learning for foveated reconstruction in AR-VR"
-date: 2019-11-04
+date: 2019-11-27
 feature_image: https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo
 tags: [Reiforcement learning, Associative memory, Gradient-Based Meta-Learning]
 ---

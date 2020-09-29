@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Paper Presentation] Meta-Learning Deep Energy-Based Memory Models"
+title: "Meta-Learning Deep Energy-Based Memory Models"
 description: "They study the problem of learning associative memory -- a system which is able to retrieve a remembered pattern based on its distorted or incomplete version."
 date: 2019-10-21
 feature_image: https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo

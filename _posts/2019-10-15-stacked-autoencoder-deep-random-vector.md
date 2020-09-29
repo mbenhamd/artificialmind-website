@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Paper Presentation] Stacked Autoencoder Based Deep Random Vector Functional Link Neural Network for Classification"
+title: "Stacked Autoencoder Based Deep Random Vector Functional Link Neural Network for Classification"
 description: "Extreme learning machine (ELM), which can be viewed as a variant of Random Vector Functional Link (RVFL) network without the input-output direct connections, has been extensively used to create multi-layer (deep) neural networks. Such networks employ randomization based autoencoders (AE) for unsupervised feature extraction followed by an ELM classifier for final decision making."
 date: 2019-10-15
 feature_image: https://ars.els-cdn.com/content/image/1-s2.0-S1568494619306350-gr3.jpg

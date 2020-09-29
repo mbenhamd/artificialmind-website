@@ -1,0 +1,29 @@
+I"	<p><em>Presentation of a Paper avalaible <a href="https://arxiv.org/pdf/1909.12962.pdf">here</a></em>:</p>
+
+<p>AI-synthesized face-swapping videos, commonly known as DeepFakes, is an emerging problem threatening the trustworthiness of online information. The need to develop and evaluate DeepFake detection algorithms calls for large-scale datasets. However, current DeepFake datasets
+suffer from low visual quality and do not resemble DeepFake videos circulated on the Internet. We present a new large-scale challenging DeepFake video dataset, CelebDF, which contains 5, 639 high-quality DeepFake videos of celebrities generated using improved synthesis process. We
+conduct a comprehensive evaluation of DeepFake detection methods and datasets to demonstrate the escalated level of challenges posed by Celeb-DF.
+<!--more--></p>
+
+<h5 id="introduction">Introduction</h5>
+<p>In this work, we present a new large-scale and challenging DeepFake video dataset, Celeb-DF3
+, for the development and evaluation of DeepFake detection algorithms.
+There are in total 5, 639 DeepFake videos, corresponding more than 2 million frames, in the Celeb-DF dataset.
+The real source videos are based on publicly available
+YouTube video clips of 59 celebrities of diverse genders,
+ages, and ethic groups. The DeepFake videos are generated
+using an improved DeepFake synthesis method. As a result, the overall visual quality of the synthesized DeepFake
+videos in Celeb-DF is greatly improved when compared to
+existing datasets, with significantly fewer notable visual artifacts, see Fig.2. Based on the Celeb-DF dataset and other
+existing datasets, we conduct an evaluation of current DeepFake detection methods.</p>
+
+<h6 id="what-do-they-propose">What do they propose</h6>
+
+<p>The DeepFake videos in Celeb-DF are generated using an improved DeepFake synthesis algorithm, which is key to the improved visual quality as shown in Fig.2. Specifically, the basic DeepFake maker algorithm is refined in several aspects targeting the following specific visual artifacts observed in existing datasets.</p>
+
+<h5 id="method">Method</h5>
+
+<p>They dataset is composed with images and textual description in the form of natural language or a set of key words.
+During the training, they transform images into unit vector by defining the mini-batch weakly</p>
+
+:ET

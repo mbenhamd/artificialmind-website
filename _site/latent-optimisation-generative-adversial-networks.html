@@ -1,1 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGAN: Latent Optimisation for Generative Adversarial Networks</title>
+  <meta name="description" content="Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial in...">
+  <link rel="canonical" href="http://localhost:4000/latent-optimisation-generative-adversial-networks">
+  <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>LOGAN: Latent Optimisation for Generative Adversarial Networks | Artificial Mind Blog.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="LOGAN: Latent Optimisation for Generative Adversarial Networks" />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Presentation of a Paper avalaible here:" />
+<meta property="og:description" content="Presentation of a Paper avalaible here:" />
+<link rel="canonical" href="http://localhost:4000/latent-optimisation-generative-adversial-networks" />
+<meta property="og:url" content="http://localhost:4000/latent-optimisation-generative-adversial-networks" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-11T00:00:00+00:00" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"LOGAN: Latent Optimisation for Generative Adversarial Networks","dateModified":"2019-12-11T00:00:00+00:00","datePublished":"2019-12-11T00:00:00+00:00","url":"http://localhost:4000/latent-optimisation-generative-adversial-networks","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/latent-optimisation-generative-adversial-networks"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Presentation of a Paper avalaible here:","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">Artificial Mind Blog.</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/curriculum-vitae/">Curriculum Vitae</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags/">Archive</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">About</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2019-12-11">December 11, 2019</time>
+      <h1 class="post-title">LOGAN: Latent Optimisation for Generative Adversarial Networks</h1>
+      <div class="post-meta">
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Reiforcement+learning" rel="tag">Reiforcement learning</a>, <a href="/tags/#Associative+memory" rel="tag">Associative memory</a>, <a href="/tags/#Gradient-Based+Meta-Learning" rel="tag">Gradient-Based Meta-Learning</a></span>
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="LOGAN: Latent Optimisation for Generative Adversarial Networks">
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p><em>Presentation of a Paper avalaible <a href="https://arxiv.org/pdf/1912.00953.pdf">here</a></em>:</p>
+
+<p>Training generative adversarial networks requires balancing of delicate adversarial dynamics. Even with careful tuning, training may diverge or end up in a bad
+equilibrium with dropped modes. In this work, we improve CS-GAN with natural
+gradient-based latent optimisation and show that it improves adversarial dynamics
+by enhancing interactions between the discriminator and the generator. Our experiments demonstrate that latent optimisation can significantly improve GAN training, obtaining state-of-the-art performance for the ImageNet (128 × 128) dataset.
+Our model achieves an Inception Score (IS) of 148 and an Frechet Inception Dis- ´
+tance (FID) of 3.4, an improvement of 17% and 32% in IS and FID respectively,
+compared with the baseline BigGAN-deep model with the same architecture and
+number of parameters.
+<!--more--></p>
+
+<h5 id="introduction">Introduction</h5>
+
+<p>Generative Adversarial Nets (GANs) are implicit generative models that can be trained to match a
+given data distribution. GANs were originally developed by Goodfellow et al. (2014) for image data.
+As the field of generative modelling has advanced, GANs remain at the frontier, generating highfidelity images at large scale (Brock et al., 2018; Karras et al., 2019). However, despite growing
+insights into the dynamics of GAN training, much of the progress in GAN-based image generation come from network architecture improvements (Radford et al., 2015; Zhang et al., 2019), or
+regularisation of particular parts of the model (Miyato et al., 2018; Miyato &amp; Koyama, 2018)</p>
+
+<h6 id="what-do-they-propose">What do they propose</h6>
+
+<p>We used the standard BigGAN-deep architecture with three minor modifications: 1. We increased
+the size of the latent source from 128 to 256, to compensate the randomness of the source lost
+when optimising z. 2. We use the uniform distribution U(−1, 1) instead of the standard normal
+distribution N (0, 1) for p(z) to be consistent with the clipping operation (Algorithm 1). 3. We use
+leaky ReLU (with the slope of 0.2 for the negative part) instead of ReLU as the non-linearity for
+smoother gradient flow for ∂f(z)
+∂z .
+Consistent with the detailed findings in Brock et al. (2018), our experiment with this baseline model
+obtains only slightly better scores compared with those in Brock et al. (2018) (Table 1, see also
+Figure 12 in Appendix G). We computed the FID and IS as in Brock et al. (2018), and computed
+IS values from checkpoints with the lowest FIDs. Finally, we computed the means and standard
+deviations for both measures from 5 models with different random seeds.
+To apply latent optimisation with NGD, we use the same large step size of α = 0.9 as in SN-GAN
+(section 5.1). However, we found much heavier damping is essential for BigGAN, so we use the
+damping factor β = 5.0, and only optimise 50% of z’s elements. Consistent with Tanaka (2019), we
+found a much larger weight of 300.0 for the regulariser Rz (eq. 17) works best, since deeper models
+generally have larger Lipschitz constants. All other hyper-parameters, including learning rates and a
+large batch size of 2048, remain the same as in BigGAN-deep. We call this model LOGAN (NGD)</p>
+
+<h5 id="method">Method</h5>
+
+<p>In this work, we present LOGAN, which significantly improves the state of the art in large scale
+GAN training for image generation by optimising the latent source z. Our results illustrate improvements in quantitative evaluation and samples with higher quality and diversity. Moreover, our
+analysis suggests that LOGAN fundamentally improves adversarial training dynamics. LOGAN is
+related to the energy-based formulation of a GAN’s discriminator (Dai et al., 2017; Kumar et al.,
+2019; Du &amp; Mordatch, 2019), when latent optimisation is viewed as descending the energy function
+defined by the discriminator. From this view, sampling from the distribution implicitly defined by
+this energy function, via, e.g., Langevin sampling (Welling &amp; Teh, 2011), may bring further benefits. Another class of approaches regularises the entropy of the generator outputs to reduce mode
+collapse (Belghazi et al., 2018; Dieng et al., 2019). Such techniques could be combined with LOGAN to further improve coverage of the underlying data distribution. Moreover, we expect our
+method to be useful in other tasks that involve adversarial training, including representation learning
+and inference (Donahue et al., 2017; Dumoulin et al., 2017; Donahue &amp; Simonyan, 2019), text generation (Zhang et al., 2019), style learning (Zhu et al., 2017; Karras et al., 2019), audio generation
+(Donahue et al., 2018) and video generation (Vondrick et al., 2016; Clark et al., 2019).</p>
+
+<h5 id="result">Result</h5>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=LOGAN:%20Latent%20Optimisation%20for%20Generative%20Adversarial%20Networks&amp;url=http://localhost:4000/latent-optimisation-generative-adversial-networks" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/latent-optimisation-generative-adversial-networks&amp;t=LOGAN:%20Latent%20Optimisation%20for%20Generative%20Adversarial%20Networks" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('/images/author.png')"><span class="screen-reader-text">Mohamed BEN HAMDOUNE's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
+        <div class="author-bio"><p>Mohamed is a Data Scientist working at Zifo RnD Solutions.</p>
+</div>
+        
+        <span class="author-location">Cmabridge, United Kingdom</span>
+        
+        
+        <span class="author-website"><a href="https://mbenhamd.github.io/" target="_blank" rel="noopener">https://mbenhamd.github.io/</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/mbenhamdtw" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/mbenhamd" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>Artificial Mind Blog. Jekyll Theme Forked <a href="https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme">Here</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: " [Paper Presentation] DeepLine: AutoML Tool for Pipelines Generation using Deep Reinforcement
+title: "DeepLine: AutoML Tool for Pipelines Generation using Deep Reinforcement
 Learning and Hierarchical Actions Filtering"
-date: 2019-11-04
+date: 2019-11-13
 feature_image: https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo
 tags: [Reiforcement learning, Associative memory, Gradient-Based Meta-Learning]
 ---

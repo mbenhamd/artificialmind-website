@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning</title>
+  <meta name="description" content="Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial in...">
+  <link rel="canonical" href="http://localhost:4000/alphastar-agent-reinforcement-learning">
+  <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning | Artificial Mind Blog.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning" />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Presentation of a Paper avalaible here:" />
+<meta property="og:description" content="Presentation of a Paper avalaible here:" />
+<link rel="canonical" href="http://localhost:4000/alphastar-agent-reinforcement-learning" />
+<meta property="og:url" content="http://localhost:4000/alphastar-agent-reinforcement-learning" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-11-04T00:00:00+00:00" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning","dateModified":"2019-11-04T00:00:00+00:00","datePublished":"2019-11-04T00:00:00+00:00","url":"http://localhost:4000/alphastar-agent-reinforcement-learning","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/alphastar-agent-reinforcement-learning"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Presentation of a Paper avalaible here:","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">Artificial Mind Blog.</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/curriculum-vitae/">Curriculum Vitae</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags/">Archive</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">About</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2019-11-04">November 4, 2019</time>
+      <h1 class="post-title">AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning</h1>
+      <div class="post-meta">
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Reiforcement+learning" rel="tag">Reiforcement learning</a>, <a href="/tags/#Associative+memory" rel="tag">Associative memory</a>, <a href="/tags/#Gradient-Based+Meta-Learning" rel="tag">Gradient-Based Meta-Learning</a></span>
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning">
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p><em>Presentation of a Paper avalaible <a href="https://www.nature.com/articles/s41586-019-1724-z.epdf?author_access_token=lZH3nqPYtWJXfDA10W0CNNRgN0jAjWel9jnR3ZoTv0PSZcPzJFGNAZhOlk4deBCKzKm70KfinloafEF1bCCXL6IIHHgKaDkaTkBcTEv7aT-wqDoG1VeO9-wO3GEoAMF9bAOt7mJ0RWQnRVMbyfgH9A%3D%3D">here</a></em>:</p>
+
+<p>Many real-world applications require artificial agents to compete and coordinate with other agents in complex environments. As a stepping stone to this goal, the domain of StarCraft has emerged as an important challenge for artificial intelligence research, owing to its iconic and enduring status among the most difficult professional esports and its relevance to the real world in terms of its raw complexity and multi-agent challenges. Over the course of a decade and numerous competitions1,2,3, the strongest agents have simplified important aspects of the game, utilized superhuman capabilities, or employed hand-crafted sub-systems4. Despite these advantages, no previous agent has come close to matching the overall skill of top StarCraft players. We chose to address the challenge of StarCraft using general-purpose learning methods that are in principle applicable to other complex domains: a multi-agent reinforcement learning algorithm that uses data from both human and agent games within a diverse league of continually adapting strategies and counter-strategies, each represented by deep neural networks5,6. We evaluated our agent, AlphaStar, in the full game of StarCraft II, through a series of online games against human players. AlphaStar was rated at Grandmaster level for all three StarCraft races and above 99.8% of officially ranked human players.
+<!--more--></p>
+
+<h5 id="introduction">Introduction</h5>
+<p>We chose to use general-purpose machine learning techniques – including neural networks, self-play via reinforcement learning, multi-agent learning, and imitation learning – to learn directly from game data with general purpose techniques. Using the advances described in our Nature paper, AlphaStar was ranked above 99.8% of active players on Battle.net, and achieved a Grandmaster level for all three StarCraft II races: Protoss, Terran, and Zerg. We expect these methods could be applied to many other domains.</p>
+<h6 id="what-do-they-propose">What do they propose</h6>
+
+<p>Learning-based systems and self-play are elegant research concepts which have facilitated remarkable advances in artificial intelligence. In 1992, researchers at IBM developed TD-Gammon, combining a learning-based system with a neural network to play the game of backgammon. Instead of playing according to hard-coded rules or heuristics, TD-Gammon was designed to use reinforcement learning to figure out, through trial-and-error, how to play the game in a way that maximises its probability of winning. Its developers used the notion of self-play to make the system more robust: by playing against versions of itself, the system grew increasingly proficient at the game. When combined, the notions of learning-based systems and self-play provide a powerful paradigm of open-ended learning.</p>
+
+<h5 id="method">Method</h5>
+
+<p>We first perform full ablations of the gating variants (Section 4.1) on two common benchmarks for testing memory
+models: synthetic memory tasks and pixel-by-pixel image
+classification tasks. We then evaluate our main method
+on important applications for recurrent models including
+language modeling and reinforcement learning, comparing
+against baselines from literature where appropriate.
+The main claims we evaluate for each gating component
+are (i) the refine gate is more effective than alternatives
+(the master gate, or no auxiliary gate), and (ii) UGI is more
+effective than standard initialization for sigmoid gates. In
+particular, we expect the <em>R gate to be more effective than
+*M or *- for any primary gate *, and we expect U</em> to be
+better than -* and comparable to O* for any auxiliary gate *.</p>
+
+<h5 id="result">Result</h5>
+<p>Open-ended learning systems that utilise learning-based agents and self-play have achieved impressive results in increasingly challenging domains. Thanks to advances in imitation learning, reinforcement learning, and the League, we were able to train AlphaStar Final, an agent that reached Grandmaster level at the full game of StarCraft II without any modifications, as shown in the above video. This agent played online anonymously, using the gaming platform Battle.net, and achieved a Grandmaster level using all three StarCraft II races. AlphaStar played using a camera interface, with similar information to what human players would have, and with restrictions on its action rate to make it comparable with human players. The interface and restrictions were approved by a professional player. Ultimately, these results provide strong evidence that general-purpose learning techniques can scale AI systems to work in complex, dynamic environments involving multiple actors. The techniques we used to develop AlphaStar will help further the safety and robustness of AI systems in general, and, we hope, may serve to advance our research in real-world domains.</p>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=AlphaStar:%20Grandmaster%20level%20in%20StarCraft%20II%20using%20multi-agent%20reinforcement%20learning&amp;url=http://localhost:4000/alphastar-agent-reinforcement-learning" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/alphastar-agent-reinforcement-learning&amp;t=AlphaStar:%20Grandmaster%20level%20in%20StarCraft%20II%20using%20multi-agent%20reinforcement%20learning" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('/images/author.png')"><span class="screen-reader-text">Mohamed BEN HAMDOUNE's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
+        <div class="author-bio"><p>Mohamed is a Data Scientist working at Zifo RnD Solutions.</p>
+</div>
+        
+        <span class="author-location">Cmabridge, United Kingdom</span>
+        
+        
+        <span class="author-website"><a href="https://mbenhamd.github.io/" target="_blank" rel="noopener">https://mbenhamd.github.io/</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/mbenhamdtw" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/mbenhamd" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>Artificial Mind Blog. Jekyll Theme Forked <a href="https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme">Here</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>

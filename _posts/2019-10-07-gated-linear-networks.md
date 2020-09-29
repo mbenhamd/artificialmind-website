@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Paper Presentation] Gated Linear Networks"
+title: "Gated Linear Networks"
 description: "This paper presents a family of backpropagation-free neural architectures."
 date: 2019-10-07
 feature_image: https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo

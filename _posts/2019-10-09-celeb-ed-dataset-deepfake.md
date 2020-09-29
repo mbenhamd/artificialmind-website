@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Paper Presentation] Celeb-DF: A New Dataset for DeepFake Forensics"
+title: "Celeb-DF: A New Dataset for DeepFake Forensics"
 description: " In this work, they present a new DeepFake dataset, Celeb-DF, for the development and evaluation of DeepFake detection algorithms."
 date: 2019-10-09
 feature_image: https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/rdvjaoctz3zp9cv9nbim.jpg

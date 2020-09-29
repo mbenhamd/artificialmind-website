@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeepFovea: Using deep learning for foveated reconstruction in AR-VR</title>
+  <meta name="description" content="Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial in...">
+  <link rel="canonical" href="http://localhost:4000/deepfovea-reconstruction-ar-vr">
+  <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>DeepFovea: Using deep learning for foveated reconstruction in AR-VR | Artificial Mind Blog.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="DeepFovea: Using deep learning for foveated reconstruction in AR-VR" />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Presentation of a Paper avalaible here:" />
+<meta property="og:description" content="Presentation of a Paper avalaible here:" />
+<link rel="canonical" href="http://localhost:4000/deepfovea-reconstruction-ar-vr" />
+<meta property="og:url" content="http://localhost:4000/deepfovea-reconstruction-ar-vr" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-11-27T00:00:00+00:00" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"DeepFovea: Using deep learning for foveated reconstruction in AR-VR","dateModified":"2019-11-27T00:00:00+00:00","datePublished":"2019-11-27T00:00:00+00:00","url":"http://localhost:4000/deepfovea-reconstruction-ar-vr","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/deepfovea-reconstruction-ar-vr"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Presentation of a Paper avalaible here:","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">Artificial Mind Blog.</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/curriculum-vitae/">Curriculum Vitae</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags/">Archive</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">About</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2019-11-27">November 27, 2019</time>
+      <h1 class="post-title">DeepFovea: Using deep learning for foveated reconstruction in AR-VR</h1>
+      <div class="post-meta">
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Reiforcement+learning" rel="tag">Reiforcement learning</a>, <a href="/tags/#Associative+memory" rel="tag">Associative memory</a>, <a href="/tags/#Gradient-Based+Meta-Learning" rel="tag">Gradient-Based Meta-Learning</a></span>
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="DeepFovea: Using deep learning for foveated reconstruction in AR-VR">
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p><em>Presentation of a Paper avalaible <a href="https://research.fb.com/wp-content/uploads/2019/11/DeepFovea-Neural-Reconstruction-for-Foveated-Rendering-and-Video-Compression-using-Learned-Statistics-of-Natural-Videos.pdf">here</a></em>:</p>
+
+<p>DeepFovea is a new AI-powered 
+foveated rendering
+ system for augmented and virtual reality displays. It renders images using an order of magnitude fewer pixels than previous systems, producing a full-quality experience that is realistic and 
+gaze-contingent
+.</p>
+
+<p>This is the first practical generative adversarial network (GAN) that is able to generate a natural-looking video sequence conditioned on a very sparse input. In our tests, DeepFovea can decrease the amount of compute resources needed for rendering by as much as 10-14x while any image differences remain imperceptible to the human eye.</p>
+
+<!--more-->
+
+<h5 id="introduction">Introduction</h5>
+<p>When the human eye looks directly at an object, it sees it in great detail. Peripheral vision, on the other hand, is much lower quality, but because the brain infers the missing information, humans don’t notice. DeepFovea uses recent advances in 
+generative adversarial networks
+ (GANs) that can similarly “in-hallucinate” missing peripheral details by generating content that is perceptually consistent. The system is trained by feeding a large number of video sequences with decreased pixel density as input. The input simulates the peripheral image degradation, and the target helps the network learn how to fill in the missing details based on statistics from all the videos it has seen. The result is a natural-looking video generated out of a stream of sparse pixels that has been decreased in density by as much as 99 percent along the periphery of a 60x40 degree field of view. The system also manages the level of flicker, aliasing, and other video artifacts in the periphery to be below the threshold that can be detected by the human eye. (A sample video is available here.)</p>
+<h6 id="what-do-they-propose">What do they propose</h6>
+
+<p>There are several goals that we would like to achieve with our
+method. First, the DeepFovea network should be able to operate
+in an online mode, i.e., it should be able to reconstruct the current
+frame based only on the past frames. Second, since we are targeting
+gaze-contingent display systems, the network should be able to
+operate in real time. This prohibits using complicated models or any
+significant number of past or future frames.
+There are also strict requirements for output quality. The human
+visual system is not sensitive to high-frequency details in the periphery, however, motion and flicker are easily detectable. Therefore,
+while the peripheral reconstruction can omit fine details, it should
+not introduce significant noise to achieve plausible results with high
+compression. Given the uncertainty of the sparse video input, the
+network needs to balance between introducing the new content
+timely and suppressing flicker due to the inbound noise.</p>
+
+<h5 id="method">Method</h5>
+
+<p>For the reconstruction network G of our system (Figure 3), we
+chose the U-Net encoder-decoder design with skip connections [Ronneberger et al. 2015]. It transforms an image into a hierarchy and
+skip connections allow to bypass high frequencies and improve the
+gradient flow during training.
+Each decoder block does the reverse of an encoder block, performs
+a spatial bilinear upsampling, while decreasing the feature count
+correspondingly to the symmetric encoder block. The input to a
+decoder block is the upscaled output of the previous decoder block
+concatenated with the output of the corresponding encoder block
+(skip connection, dashed arrows in Figure 3).
+We use ELU activation function [Clevert et al. 2016] in all networks and layers (including recurrent and discriminator layers) to
+accelerate the training.</p>
+
+<h5 id="result">Result</h5>
+
+<p>We presented a neural reconstruction method for foveated rendering and video compression. We show that it is possible to leverage
+the spatiotemporal statistics of natural videos to achieve an efficient
+video reconstruction in the periphery. Our method demonstrates
+temporally stable reconstruction from a noisy input and sets a new
+bar of 14x compression rate in savings achievable for foveated rendering with no significant degradation in perceived quality. Because
+the method requires only color information as an input, it is also
+suitable for foveated compression of video content. We open our
+method for follow-up research on foveated reconstruction</p>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=DeepFovea:%20Using%20deep%20learning%20for%20foveated%20reconstruction%20in%20AR-VR&amp;url=http://localhost:4000/deepfovea-reconstruction-ar-vr" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/deepfovea-reconstruction-ar-vr&amp;t=DeepFovea:%20Using%20deep%20learning%20for%20foveated%20reconstruction%20in%20AR-VR" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('/images/author.png')"><span class="screen-reader-text">Mohamed BEN HAMDOUNE's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
+        <div class="author-bio"><p>Mohamed is a Data Scientist working at Zifo RnD Solutions.</p>
+</div>
+        
+        <span class="author-location">Cmabridge, United Kingdom</span>
+        
+        
+        <span class="author-website"><a href="https://mbenhamd.github.io/" target="_blank" rel="noopener">https://mbenhamd.github.io/</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/mbenhamdtw" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/mbenhamd" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>Artificial Mind Blog. Jekyll Theme Forked <a href="https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme">Here</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>

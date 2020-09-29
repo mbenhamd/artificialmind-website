@@ -1,1 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analyzing and Improving the Image Quality of StyleGAN</title>
+  <meta name="description" content="Welcome to my website, it includes a part about my career, but there are articles about my projects and some about new concepts in the field of artificial in...">
+  <link rel="canonical" href="http://localhost:4000/analyzing-improving-image-quality-stylegan">
+  <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Analyzing and Improving the Image Quality of StyleGAN | Artificial Mind Blog.</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Analyzing and Improving the Image Quality of StyleGAN" />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Presentation of a Paper avalaible here:" />
+<meta property="og:description" content="Presentation of a Paper avalaible here:" />
+<link rel="canonical" href="http://localhost:4000/analyzing-improving-image-quality-stylegan" />
+<meta property="og:url" content="http://localhost:4000/analyzing-improving-image-quality-stylegan" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-06T00:00:00+00:00" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Analyzing and Improving the Image Quality of StyleGAN","dateModified":"2019-12-06T00:00:00+00:00","datePublished":"2019-12-06T00:00:00+00:00","url":"http://localhost:4000/analyzing-improving-image-quality-stylegan","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/analyzing-improving-image-quality-stylegan"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Presentation of a Paper avalaible here:","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">Artificial Mind Blog.</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/">Home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/curriculum-vitae/">Curriculum Vitae</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/tags/">Archive</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">About</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+
+
+      <main class="main-content fadeInDown delay_075s">
+
+  <article class="post">
+    <header class="post-header">
+      <time class="post-date" datetime="2019-12-06">December 6, 2019</time>
+      <h1 class="post-title">Analyzing and Improving the Image Quality of StyleGAN</h1>
+      <div class="post-meta">
+        By <span class="post-author">Mohamed BEN HAMDOUNE</span><span class="post-tags"> in <a href="/tags/#Reiforcement+learning" rel="tag">Reiforcement learning</a>, <a href="/tags/#Associative+memory" rel="tag">Associative memory</a>, <a href="/tags/#Gradient-Based+Meta-Learning" rel="tag">Gradient-Based Meta-Learning</a></span>
+      </div><!-- .post-meta -->
+      
+      <figure class="post-thumbnail image-card width-wide">
+        <img src="https://miro.medium.com/max/1174/1*LgSQi3MLNE1l-T4vmjmybg.png" alt="Analyzing and Improving the Image Quality of StyleGAN">
+      </figure><!-- .post-thumbnail -->
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p><em>Presentation of a Paper avalaible <a href="https://arxiv.org/pdf/1912.04958.pdf">here</a></em>:</p>
+
+<p>The style-based GAN architecture (StyleGAN) yields
+state-of-the-art results in data-driven unconditional generative image modeling. We expose and analyze several of
+its characteristic artifacts, and propose changes in both
+model architecture and training methods to address them.
+In particular, we redesign the generator normalization, revisit progressive growing, and regularize the generator to
+encourage good conditioning in the mapping from latent
+codes to images. In addition to improving image quality,
+this path length regularizer yields the additional benefit that
+the generator becomes significantly easier to invert. This
+makes it possible to reliably attribute a generated image to
+a particular network. We furthermore visualize how well
+the generator utilizes its output resolution, and identify a
+capacity problem, motivating us to train larger models for
+additional quality improvements. Overall, our improved
+model redefines the state of the art in unconditional image
+modeling, both in terms of existing distribution quality metrics as well as perceived image quality.
+<!--more--></p>
+
+<h5 id="introduction">Introduction</h5>
+<p>The resolution and quality of images produced by generative methods, especially generative adversarial networks
+(GAN) [16], are improving rapidly [23, 31, 5]. The current
+state-of-the-art method for high-resolution image synthesis
+is StyleGAN [24], which has been shown to work reliably
+on a variety of datasets. Our work focuses on fixing its characteristic artifacts and improving the result quality further.
+The distinguishing feature of StyleGAN [24] is its unconventional generator architecture. Instead of feeding the
+input latent code z ∈ Z only to the beginning of a the network, the mapping network f first transforms it to an intermediate latent code w ∈ W. Affine transforms then produce styles that control the layers of the synthesis network g
+via adaptive instance normalization (AdaIN) [21, 9, 13, 8].
+Additionally, stochastic variation is facilitated by providing
+additional random noise maps to the synthesis network. It
+has been demonstrated [24, 38] that this design allows the
+intermediate latent space W to be much less entangled than
+the input latent space Z. In this paper, we focus all analysis solely on W, as it is the relevant latent space from the
+synthesis network’s point of view.</p>
+<h6 id="what-do-they-propose">What do they propose</h6>
+
+<p>While StyleGAN uses simple feedforward designs in the
+generator (synthesis network) and discriminator, there is a
+vast body of work dedicated to the study of better network
+architectures. Skip connections [34, 22], residual networks
+[18, 17, 31], and hierarchical methods [7, 47, 48] have
+proven highly successful also in the context of generative
+methods. As such, we decided to re-evaluate the network
+design of StyleGAN and search for an architecture that produces high-quality images without progressive growing.
+Figure 7a shows MSG-GAN [22], which connects the
+matching resolutions of the generator and discriminator using multiple skip connections. The MSG-GAN generator
+is modified to output a mipmap [42] instead of an image,
+and a similar representation is computed for each real image as well. In Figure 7b we simplify this design by upsampling and summing the contributions of RGB outputs
+corresponding to different resolutions. In the discriminator,
+we similarly provide the downsampled image to each resolution block of the discriminator. We use bilinear filtering in
+all up and downsampling operations. In Figure 7c we further modify the design to use residual connections.3 This
+design is similar to LAPGAN [7] without the per-resolution
+discriminators employed by Denton et al.</p>
+
+<h5 id="method">Method</h5>
+
+<p>One of the main strengths of StyleGAN is the ability to
+control the generated images via style mixing, i.e., by feeding a different latent w to different layers at inference time.
+In practice, style modulation may amplify certain feature
+maps by an order of magnitude or more. For style mixing to
+work, we must explicitly counteract this amplification on a
+per-sample basis — otherwise the subsequent layers would
+not be able to operate on the data in a meaningful way.
+If we were willing to sacrifice scale-specific controls (see
+video), we could simply remove the normalization, thus removing the artifacts and also improving FID slightly [27].
+We will now propose a better alternative that removes the
+artifacts while retaining full controllability. The main idea
+is to base normalization on the expected statistics of the incoming feature maps, but without explicit forcing.</p>
+
+<h5 id="result">Result</h5>
+<p>We have identified and fixed several image quality issues in StyleGAN, improving the quality further and considerably advancing the state of the art in several datasets.
+In some cases the improvements are more clearly seen in
+motion, as demonstrated in the accompanying video. Appendix A includes further examples of results obtainable using our method. Despite the improved quality, StyleGAN2
+makes it easier to attribute a generated image to its source.
+Training performance has also improved. At 10242
+resolution, the original StyleGAN (config A in Table 1)
+trains at 37 images per second on NVIDIA DGX-1 with
+8 Tesla V100 GPUs, while our config E trains 40% faster
+at 61 img/s. Most of the speedup comes from simplified
+dataflow due to weight demodulation, lazy regularization,
+and code optimizations. StyleGAN2 (config F, larger networks) trains at 31 img/s, and is thus only slightly more
+expensive to train than original StyleGAN. Its total training
+time was 9 days for FFHQ and 13 days for LSUN CAR.
+The entire project, including all exploration, consumed
+132 MWh of electricity, of which 0.68 MWh went into
+training the final FFHQ model. In total, we used about
+51 single-GPU years of computation (Volta class GPU). A
+more detailed discussion is available in Appendix F.
+In the future, it could be fruitful to study further improvements to the path length regularization, e.g., by replacing
+the pixel-space L2 distance with a data-driven feature-space
+metric. Considering the practical deployment of GANs, we
+feel that it will be important to find new ways to reduce the
+training data requirements. This is especially crucial in applications where it is infeasible to acquire tens of thousands
+of training samples, and with datasets that include a lot of
+intrinsic variation.</p>
+
+    </div><!-- .post-content -->
+    <div class="post-share">
+      <span>Share:</span>
+      <a target="_blank"
+        href="https://twitter.com/intent/tweet?text=Analyzing%20and%20Improving%20the%20Image%20Quality%20of%20StyleGAN&amp;url=http://localhost:4000/analyzing-improving-image-quality-stylegan" rel="noopener">Twitter</a>
+      <a target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/analyzing-improving-image-quality-stylegan&amp;t=Analyzing%20and%20Improving%20the%20Image%20Quality%20of%20StyleGAN" rel="noopener">Facebook</a>
+    </div><!-- .share-post -->
+    <div class="author-box">
+      
+      <div class="author-avatar" style="background-image: url('/images/author.png')"><span class="screen-reader-text">Mohamed BEN HAMDOUNE's Picture</span></div>
+      
+      <div class="author-details">
+        <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
+        <div class="author-bio"><p>Mohamed is a Data Scientist working at Zifo RnD Solutions.</p>
+</div>
+        
+        <span class="author-location">Cmabridge, United Kingdom</span>
+        
+        
+        <span class="author-website"><a href="https://mbenhamd.github.io/" target="_blank" rel="noopener">https://mbenhamd.github.io/</a></span>
+        
+      </div><!-- .author-details -->
+    </div><!-- .author-box -->
+  </article><!-- .post -->
+
+  
+    <div class="comments-area">
+  <div class="comments-inner">
+    <h2 class="comments-title">Comments</h2>
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus</a>.</noscript>
+  </div><!-- .comments-inner -->
+</div><!-- .comments-area -->
+
+<script type="text/javascript">
+  var disqus_shortname = 'justgoodthemes';
+  var disqus_developer = 0;
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+  
+
+</main><!-- .main-content -->
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/mbenhamdtw" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/mbenhamd" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>Artificial Mind Blog. Jekyll Theme Forked <a href="https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme">Here</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>

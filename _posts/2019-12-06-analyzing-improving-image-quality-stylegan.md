@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Analyzing and Improving the Image Quality of StyleGAN"
-date: 2019-11-04
+date: 2019-12-06
 feature_image: https://miro.medium.com/max/1174/1*LgSQi3MLNE1l-T4vmjmybg.png
 tags: [Reiforcement learning, Associative memory, Gradient-Based Meta-Learning]
 ---

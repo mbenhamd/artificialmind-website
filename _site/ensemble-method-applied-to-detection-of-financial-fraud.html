@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ensemble method applied to detection of financial fraud</title>
   <meta name="description" content="Implementing Fisher&#39;s algorithm (dynamic programming)">
-  <link rel="canonical" href="http://localhost:4000/ensemble-method-fraud">
+  <link rel="canonical" href="http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud">
   <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
     href="http://localhost:4000/feed.xml">
   
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
   <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Ensemble method applied to detection of financial fraud | Artificial Mind Blog.</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Ensemble method applied to detection of financial fraud" />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Implementing Fisher’s algorithm (dynamic programming)" />
+<meta property="og:description" content="Implementing Fisher’s algorithm (dynamic programming)" />
+<link rel="canonical" href="http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud" />
+<meta property="og:url" content="http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-20T00:00:00+01:00" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud","headline":"Ensemble method applied to detection of financial fraud","dateModified":"2019-09-20T00:00:00+01:00","datePublished":"2019-09-20T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Implementing Fisher’s algorithm (dynamic programming)","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
 </head>
 <body>
 
@@ -79,71 +98,36 @@
     <div class="post-content">
       <p><em>Presentation of ensemble method applied to Detection of financial fraud available on my <a href="https://github.com/mbenhamd/methodes-ensemblistes-fraudes">Github repository</a></em>:</p>
 
-<h1 id="abstract">Abstract</h1>
+<h6 id="abstract">Abstract</h6>
 
-<p>Fraud represents a loss of turnover of several billion
-dollars and increases every year. The economic crime survey
-PwC global survey in 2018 revealed that half (49%) of the 7,200
-respondents had been the victim of some type of fraud. It’s about
-of an increase over the 2016 PwC study in which a little
-more than one third of the organizations surveyed (36%) had been victims of
-economic crime.
-Traditional methods of data analysis have been used for a long time to detect fraud and it is in this context that we will carry out
-several ways to approach the problem in order to see the advantages and disadvantages of each learning model and the one that gives the best
-prediction results.</p>
+<p>Fraud represents a loss of turnover of several billion dollars and increases every year. The economic crime survey PwC global survey in 2018 revealed that half (49%) of the 7,200 respondents had been the victim of some type of fraud. It’s about of an increase over the 2016 PwC study in which a little more than one third of the organizations surveyed (36%) had been victims of economic crime. Traditional methods of data analysis have been used for a long time to detect fraud and it is in this context that we will carry out several ways to approach the problem in order to see the advantages and disadvantages of each learning model and the one that gives the best prediction results.
+<!--more--></p>
 
-<!--more-->
+<h6 id="introduction">Introduction</h6>
 
-<h1 id="introduction">Introduction</h1>
+<p>Techniques used to detect fraud require investigation complex and tedious then they deal with different areas of knowledge such as finance, economics. Here are some examples of statistical data analysis techniques:</p>
 
-<p>Techniques used to detect fraud require investigation
-complex and tedious then they deal with different areas of knowledge such as finance, economics.
-Here are some examples of statistical data analysis techniques:</p>
 <ul>
-  <li>Pre-processing techniques for detecting, validating, correcting errors and filling missing data
-or incorrect.</li>
+  <li>Pre-processing techniques for detecting, validating, correcting errors and filling missing data or incorrect.</li>
   <li>Calculation of various statistical parameters such as averages, quantiles, performance measures, probability distributions, etc.</li>
   <li>Chronological analysis of time-dependent data (time series).</li>
 </ul>
 
 <p><img src="/ressources/ensemble-method/features.png" alt="alt text" title="MNIST Sample" /></p>
 
-<p>In our case, we will use models of supervised learning and
-we will not use clustering methods.
-This type of model only detects frauds similar to those
-that took place previously and were classified by a human.
-Regarding the detection of fraud by credit card payment,
-the problem of ranking involves the creation of sufficiently intelligent models to properly classify transactions into legitimate transactions
-or fraudulent, depending on the details of the transaction such as the amount,
-the trader, the location, the time and others.</p>
+<p>In our case, we will use models of supervised learning and we will not use clustering methods. This type of model only detects frauds similar to those that took place previously and were classified by a human. Regarding the detection of fraud by credit card payment, the problem of ranking involves the creation of sufficiently intelligent models to properly classify transactions into legitimate transactions or fraudulent, depending on the details of the transaction such as the amount, the trader, the location, the time and others.</p>
 
-<h1 id="conclusion">Conclusion</h1>
+<h6 id="conclusion">Conclusion</h6>
 
-<p>To conclude, we have been very interested in the set-up methods in our approach to this problem in order to be original.
-The decision tree-based methods are interesting because
-model architecture reduces over-fitting, but poor sampling practices can lead to misleading conclusions
-the quality of a model.
-The main purpose of model validation is to estimate how
-whose model will generalize to new data. If the decision to put
-a model in production depends on how it works on a
-validation set, it is essential that the oversampling be performed
-correctly.
-In fact, by oversampling only the training data, none of the information contained in the validation data is used
-to create synthetic observations therefore, these results should be
-generalizable.
-Then oversampling is a well-known way to potentially improve the models formed on unbalanced data but it is important to remember that incorrect oversampling can lead to
-think that a model will generalize better than it actually does.
-Our results may seem weak compared to what is available on the internet but it is appropriate to use cross validation correctly with
-good sampling method as well as an appropriate metric when
-our data is out of balance.</p>
+<p>To conclude, we have been very interested in the set-up methods in our approach to this problem in order to be original. The decision tree-based methods are interesting because model architecture reduces over-fitting, but poor sampling practices can lead to misleading conclusions the quality of a model. The main purpose of model validation is to estimate how whose model will generalize to new data. If the decision to put a model in production depends on how it works on a validation set, it is essential that the oversampling be performed correctly. In fact, by oversampling only the training data, none of the information contained in the validation data is used to create synthetic observations therefore, these results should be generalizable. Then oversampling is a well-known way to potentially improve the models formed on unbalanced data but it is important to remember that incorrect oversampling can lead to think that a model will generalize better than it actually does. Our results may seem weak compared to what is available on the internet but it is appropriate to use cross validation correctly with good sampling method as well as an appropriate metric when our data is out of balance.</p>
 
     </div><!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
       <a target="_blank"
-        href="https://twitter.com/intent/tweet?text=Ensemble%20method%20applied%20to%20detection%20of%20financial%20fraud&amp;url=http://localhost:4000/ensemble-method-fraud" rel="noopener">Twitter</a>
+        href="https://twitter.com/intent/tweet?text=Ensemble%20method%20applied%20to%20detection%20of%20financial%20fraud&amp;url=http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud" rel="noopener">Twitter</a>
       <a target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/ensemble-method-fraud&amp;t=Ensemble%20method%20applied%20to%20detection%20of%20financial%20fraud" rel="noopener">Facebook</a>
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/ensemble-method-applied-to-detection-of-financial-fraud&amp;t=Ensemble%20method%20applied%20to%20detection%20of%20financial%20fraud" rel="noopener">Facebook</a>
     </div><!-- .share-post -->
     <div class="author-box">
       
@@ -151,10 +135,10 @@ our data is out of balance.</p>
       
       <div class="author-details">
         <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
-        <div class="author-bio"><p>Mohamed is a data scientist currently searching for work.</p>
+        <div class="author-bio"><p>Mohamed is a Data Scientist working at Zifo RnD Solutions.</p>
 </div>
         
-        <span class="author-location">Paris, France</span>
+        <span class="author-location">Cmabridge, United Kingdom</span>
         
         
         <span class="author-website"><a href="https://mbenhamd.github.io/" target="_blank" rel="noopener">https://mbenhamd.github.io/</a></span>

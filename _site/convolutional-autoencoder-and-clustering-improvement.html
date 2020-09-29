@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Convolutional Autoencoder and clustering improvement</title>
   <meta name="description" content="Discrimination Characteristic Extraction Models">
-  <link rel="canonical" href="http://localhost:4000/convolutional-autoencoder">
+  <link rel="canonical" href="http://localhost:4000/convolutional-autoencoder-and-clustering-improvement">
   <link rel="alternate" type="application/rss+xml" title="Artificial Mind Blog. Feed"
     href="http://localhost:4000/feed.xml">
   
   <!-- Styles -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
   <link href="/assets/css/style.css" rel="stylesheet">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Convolutional Autoencoder and clustering improvement | Artificial Mind Blog.</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Convolutional Autoencoder and clustering improvement" />
+<meta name="author" content="Mohamed BEN HAMDOUNE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Discrimination Characteristic Extraction Models" />
+<meta property="og:description" content="Discrimination Characteristic Extraction Models" />
+<link rel="canonical" href="http://localhost:4000/convolutional-autoencoder-and-clustering-improvement" />
+<meta property="og:url" content="http://localhost:4000/convolutional-autoencoder-and-clustering-improvement" />
+<meta property="og:site_name" content="Artificial Mind Blog." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-21T00:00:00+01:00" />
+<meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/convolutional-autoencoder-and-clustering-improvement","headline":"Convolutional Autoencoder and clustering improvement","dateModified":"2019-09-21T00:00:00+01:00","datePublished":"2019-09-21T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/convolutional-autoencoder-and-clustering-improvement"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"Discrimination Characteristic Extraction Models","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
 </head>
 <body>
 
@@ -75,49 +94,21 @@
     <div class="post-content">
       <p><em>Presentation of comparison of discrimination characteristic extraction models available on my <a href="https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques">Github repository</a></em>:</p>
 
-<h1 id="abstract">Abstract</h1>
+<h3 id="abstract">Abstract</h3>
 
-<p>In machine learning, feature extraction starts from
-of an initial set of measured data and constructs derived values
-(characteristics) intended to be informative and not redundant. This has
-as a consequence of facilitating the subsequent stages of learning and
-generalization by leading to better human interpretations.
-In this document, we will propose some visualization techniques and
-Data Reduction on the Fashion-MNIST Dataset in Combination
-with a learning model.
-<!--more--></p>
+<p>In machine learning, feature extraction starts from of an initial set of measured data and constructs derived values (characteristics) intended to be informative and not redundant. This has as a consequence of facilitating the subsequent stages of learning and generalization by leading to better human interpretations. In this document, we will propose some visualization techniques and Data Reduction on the Fashion-MNIST Dataset in Combination with a learning model. <!--more--></p>
 
-<p>The idea of auto-encoders was mentioned for the first time in 1986,
-in an article analyzing in depth the backpropagation.
-In the following years, the idea resurfaced in other documents
-of research. An article published in 1989 allowed to introduce further
-auto-encoders by putting in the ability to extract the characteristics
-linear. Subsequently, it was discovered that one could discover
-nonlinear factorial representations.
-In this context, we had as mini-project to make the comparison between the ACP and the auto-encoders to a complex data set
-somehow.
-Then we will try to visualize these results using a method
-clustering to see the consequences of encoding.</p>
+<p>The idea of auto-encoders was mentioned for the first time in 1986, in an article analyzing in depth the backpropagation. In the following years, the idea resurfaced in other documents of research. An article published in 1989 allowed to introduce further auto-encoders by putting in the ability to extract the characteristics linear. Subsequently, it was discovered that one could discover nonlinear factorial representations. In this context, we had as mini-project to make the comparison between the ACP and the auto-encoders to a complex data set somehow. Then we will try to visualize these results using a method clustering to see the consequences of encoding.</p>
 
-<p>We learned a lot through this mini project since it involves visualization and clustering techniques. We could also see
-the different characteristics of the auto-encoders and their variants. Following
-of the exercise on encoders, we found that auto-encoders
-could help us improve the results of clustering in the context of
-a dataset that we do not know the class or classes associated.
-Then the t-SNE will allow us to visualize the meaning of our data to
-through the distribution of points. In addition, we found that the divergence of Kullback-Leibler and its relationship with mutual information was useful
-to evaluate our results. For the rest, we could have built an architecture using a variational autoencoder in addition to the convolutional layers and then tried several parameters for K-means to retain
-the one that would have given us the best precision. Finally, it was a
-project that allowed us to explore, visualize and classify the dataset
-Fashion-MNIST which is more complex than MNIST.</p>
+<p>We learned a lot through this mini project since it involves visualization and clustering techniques. We could also see the different characteristics of the auto-encoders and their variants. Following of the exercise on encoders, we found that auto-encoders could help us improve the results of clustering in the context of a dataset that we do not know the class or classes associated. Then the t-SNE will allow us to visualize the meaning of our data to through the distribution of points. In addition, we found that the divergence of Kullback-Leibler and its relationship with mutual information was useful to evaluate our results. For the rest, we could have built an architecture using a variational autoencoder in addition to the convolutional layers and then tried several parameters for K-means to retain the one that would have given us the best precision. Finally, it was a project that allowed us to explore, visualize and classify the dataset Fashion-MNIST which is more complex than MNIST.</p>
 
     </div><!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
       <a target="_blank"
-        href="https://twitter.com/intent/tweet?text=Convolutional%20Autoencoder%20and%20clustering%20improvement&amp;url=http://localhost:4000/convolutional-autoencoder" rel="noopener">Twitter</a>
+        href="https://twitter.com/intent/tweet?text=Convolutional%20Autoencoder%20and%20clustering%20improvement&amp;url=http://localhost:4000/convolutional-autoencoder-and-clustering-improvement" rel="noopener">Twitter</a>
       <a target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/convolutional-autoencoder&amp;t=Convolutional%20Autoencoder%20and%20clustering%20improvement" rel="noopener">Facebook</a>
+        href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/convolutional-autoencoder-and-clustering-improvement&amp;t=Convolutional%20Autoencoder%20and%20clustering%20improvement" rel="noopener">Facebook</a>
     </div><!-- .share-post -->
     <div class="author-box">
       
@@ -125,10 +116,10 @@ Fashion-MNIST which is more complex than MNIST.</p>
       
       <div class="author-details">
         <h2 class="author-title">About Mohamed BEN HAMDOUNE</h2>
-        <div class="author-bio"><p>Mohamed is a data scientist currently searching for work.</p>
+        <div class="author-bio"><p>Mohamed is a Data Scientist working at Zifo RnD Solutions.</p>
 </div>
         
-        <span class="author-location">Paris, France</span>
+        <span class="author-location">Cmabridge, United Kingdom</span>
         
         
         <span class="author-website"><a href="https://mbenhamd.github.io/" target="_blank" rel="noopener">https://mbenhamd.github.io/</a></span>

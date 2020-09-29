@@ -3,39 +3,35 @@ layout: post
 title: "[Paper Presentation] Celeb-DF: A New Dataset for DeepFake Forensics"
 description: " In this work, they present a new DeepFake dataset, Celeb-DF, for the development and evaluation of DeepFake detection algorithms."
 date: 2019-10-09
-feature_image: https://storage.googleapis.com/groundai-web-prod/media%2Fusers%2Fuser_14%2Fproject_392484%2Fimages%2Fx2.png
+feature_image: https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/rdvjaoctz3zp9cv9nbim.jpg
 tags: [Celeb-DF, Computer Vision,  DeepFake, Algorithms]
 ---
 
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1909.12939.pdf)*\:
+*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1909.12962.pdf)*\:
 
-The article presents an approach to the major problems of learning metrics on the search for similarities in the case of image data sets. The authors present a method called a weakly supervised adaptrive triplet loss (ATL) that can capture fine-grained semantic similarity.
-It's written by Xiaonan Zthao, Hian Qi, Rui Luo and Larry Davis from Amazon R&D.
+AI-synthesized face-swapping videos, commonly known as DeepFakes, is an emerging problem threatening the trustworthiness of online information. The need to develop and evaluate DeepFake detection algorithms calls for large-scale datasets. However, current DeepFake datasets
+suffer from low visual quality and do not resemble DeepFake videos circulated on the Internet. We present a new large-scale challenging DeepFake video dataset, CelebDF, which contains 5, 639 high-quality DeepFake videos of celebrities generated using improved synthesis process. We
+conduct a comprehensive evaluation of DeepFake detection methods and datasets to demonstrate the escalated level of challenges posed by Celeb-DF.
 <!--more-->
 
 ##### Introduction
-In this paper, they apply different distance metric learning on fashion datasets. We can cite a well-known named DeepFashion that contains over 800,000 diverse fashion images ranging from well-posed shop images to unconstrained consumer photos and it is annotated with rich information of clothing items. Each image in this dataset is labeled with 50 categories, 1,000 descriptive attributes, bounding box and clothing landmarks.
-
-![](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/attributes.jpg)
-
-A lot of approaches exist like contrastive loss where it produce a high loss (a penalty) when predicted distance is large when two object are similar and a low loss when the predicted distance is small, and vice versa for the case when the objects are different. Then we have triplet loss where a baseline (anchor) input is compared to a positive (truthy) input and a negative (falsy) input. The distance from the baseline (anchor) input to the positive (truthy) input is minimized, and the distance from the baseline (anchor) input to the negative (falsy) input is maximized. In other word, in triplet loss training a triplet contains two images belonging to the same class, referred to as the anchor and positive samples, and a thirs image, from a different class, which is referred to as the negative sample.
-
-$$d(a,p)-d(a,n)+m$$
-
-where a,p and n are anchor, positive and negtive samples, respectively $$d(.,.)$$ is the learned metric function and $$m$$ is a margin term which encourages the negative sample to be further from the nachor than the positive sample. As they write in their paper, DNN base trimplet loss training commonly uses stochastic gradient decent on mini batches.
+In this work, we present a new large-scale and challenging DeepFake video dataset, Celeb-DF3
+, for the development and evaluation of DeepFake detection algorithms.
+There are in total 5, 639 DeepFake videos, corresponding more than 2 million frames, in the Celeb-DF dataset.
+The real source videos are based on publicly available
+YouTube video clips of 59 celebrities of diverse genders,
+ages, and ethic groups. The DeepFake videos are generated
+using an improved DeepFake synthesis method. As a result, the overall visual quality of the synthesized DeepFake
+videos in Celeb-DF is greatly improved when compared to
+existing datasets, with significantly fewer notable visual artifacts, see Fig.2. Based on the Celeb-DF dataset and other
+existing datasets, we conduct an evaluation of current DeepFake detection methods.
 
 ###### What do they propose
 
-Deep metric learning algorithms fail to learn distances that capture fined-grained sub-categories. Such fine-grained visual similarity distances are important to learn generalized visual features and to have robust performance on cross-domain data. So they construct an embedding of the product with text product production and use this to drive an adaptive triplet loss.
-
+The DeepFake videos in Celeb-DF are generated using an improved DeepFake synthesis algorithm, which is key to the improved visual quality as shown in Fig.2. Specifically, the basic DeepFake maker algorithm is refined in several aspects targeting the following specific visual artifacts observed in existing datasets.
 
 ##### Method
 
 They dataset is composed with images and textual description in the form of natural language or a set of key words.
 During the training, they transform images into unit vector by defining the mini-batch weakly
 
-
-
-##### Result
-
-##### Discussion 

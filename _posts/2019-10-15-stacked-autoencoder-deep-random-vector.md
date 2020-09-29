@@ -7,35 +7,32 @@ feature_image: https://ars.els-cdn.com/content/image/1-s2.0-S1568494619306350-gr
 tags: [Stacked Autoencoder, Random Vector Functional Link, Extreme Learning Machine]
 ---
 
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1909.12939.pdf)*\:
+*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1910.01858.pdf)*\:
 
-The article presents an approach to the major problems of learning metrics on the search for similarities in the case of image data sets. The authors present a method called a weakly supervised adaptrive triplet loss (ATL) that can capture fine-grained semantic similarity.
-It's written by Xiaonan Zthao, Hian Qi, Rui Luo and Larry Davis from Amazon R&D.
+Extreme learning machine (ELM), which can be viewed as a variant of Random Vector Functional Link (RVFL) network without the input-output direct connections, has been extensively used to create multi-layer (deep) neural networks.
+Such networks employ randomization based autoencoders (AE) for unsupervised feature extraction followed by an ELM classifier for final decision making. Each randomization based AE acts as an independent feature extractor and a deep network is obtained by stacking several such AEs. Inspired by the better performance of RVFL over ELM, in this paper, we propose several deep RVFL variants by utilizing the framework of stacked autoencoders. Specifically, we introduce direct connections (feature reuse) from preceding layers to the fore layers of the network as in the original RVFL network. Such connections help to regularize the randomization and also reduce the model complexity. Furthermore, we also introduce denoising criterion, recovering clean inputs from their corrupted versions, in the autoencoders to achieve better higher level representations than the ordinary autoencoders. Extensive experiments on several classification datasets show that our proposed deep networks achieve overall better and faster generalization than the other relevant state-of-the-art deep neural networks.
 <!--more-->
 
 ##### Introduction
-In this paper, they apply different distance metric learning on fashion datasets. We can cite a well-known named DeepFashion that contains over 800,000 diverse fashion images ranging from well-posed shop images to unconstrained consumer photos and it is annotated with rich information of clothing items. Each image in this dataset is labeled with 50 categories, 1,000 descriptive attributes, bounding box and clothing landmarks.
-
-![](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/attributes.jpg)
-
-A lot of approaches exist like contrastive loss where it produce a high loss (a penalty) when predicted distance is large when two object are similar and a low loss when the predicted distance is small, and vice versa for the case when the objects are different. Then we have triplet loss where a baseline (anchor) input is compared to a positive (truthy) input and a negative (falsy) input. The distance from the baseline (anchor) input to the positive (truthy) input is minimized, and the distance from the baseline (anchor) input to the negative (falsy) input is maximized. In other word, in triplet loss training a triplet contains two images belonging to the same class, referred to as the anchor and positive samples, and a thirs image, from a different class, which is referred to as the negative sample.
-
-$$d(a,p)-d(a,n)+m$$
-
-where a,p and n are anchor, positive and negtive samples, respectively $$d(.,.)$$ is the learned metric function and $$m$$ is a margin term which encourages the negative sample to be further from the nachor than the positive sample. As they write in their paper, DNN base trimplet loss training commonly uses stochastic gradient decent on mini batches.
+Deep or multi-layer neural network has become a popular machine learning
+method in recent years. From image classification to action recognition to many other tasks, deep neural networks (DNNs) are ubiquitously used [1]. The power
+of deep learning, also known as representational learning, stems from its meaningful feature extraction capabilities via multiple hidden layers [2]. Deep neural
+networks are successful because they can extract complex structures and build
+an internal representation from several hidden layers [3]. One among many
+techniques of creating a deep neural network is based on an autoencoder (AE).
+Multiple AEs are stacked together to create a deep neural network. The AE
+performs meaningful feature extraction and thus, used as a building block to
+create a deep neural network [4].
 
 ###### What do they propose
 
-Deep metric learning algorithms fail to learn distances that capture fined-grained sub-categories. Such fine-grained visual similarity distances are important to learn generalized visual features and to have robust performance on cross-domain data. So they construct an embedding of the product with text product production and use this to drive an adaptive triplet loss.
+In this section, we discuss the fundamentals of RVFL, ELM as a variant
+of RVFL, Kernel ELM, autoencoder (AE) and denoising autoencoder (DAE).
+To facilitate the understanding of how AEs (or DAEs) are used to build multilayer neural networks, we briefly review the concepts of Stacked AE (SAE) and
+Stacked DAE (SDA). We also present a detailed review of ELM based multilayer neural networks.
 
 
 ##### Method
 
 They dataset is composed with images and textual description in the form of natural language or a set of key words.
 During the training, they transform images into unit vector by defining the mini-batch weakly
-
-
-
-##### Result
-
-##### Discussion 

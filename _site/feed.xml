@@ -5,10 +5,9 @@
         <description>Welcome to my website, it includes a part about my career,  but there are articles about my projects and some about  new concepts in the field of artificial intelligence.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-        <pubDate>Tue, 29 Sep 2020 13:41:56 +0100</pubDate>
-        <lastBuildDate>Tue, 29 Sep 2020 13:41:56 +0100</lastBuildDate>
-        <generator>Jekyll v4.0.1</generator>
+        <pubDate>Tue, 29 Sep 2020 14:05:17 +0100</pubDate>
+        <lastBuildDate>Tue, 29 Sep 2020 14:05:17 +0100</lastBuildDate>
+        <generator>Jekyll v4.1.1</generator>
         
             <item>
                 <title>Automatic Classification Of Data Temporal In Ordered Classes</title>
@@ -556,11 +555,6 @@ During the training, they transform images into unit vector by defining the mini
                 
                 
             </item>
-=======
-        <pubDate>Mon, 17 Aug 2020 21:50:58 +0100</pubDate>
-        <lastBuildDate>Mon, 17 Aug 2020 21:50:58 +0100</lastBuildDate>
-        <generator>Jekyll v4.1.1</generator>
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
         
             <item>
                 <title>Twitter Sentiment Analysis</title>
@@ -614,11 +608,7 @@ During the training, they transform images into unit vector by defining the mini
 
 &lt;p&gt;We used those settings for training the CNN :&lt;/p&gt;
 
-<<<<<<< HEAD
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Flags:
-=======
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Flags:
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 	batch_size = 128
 	checkpoint_freq = 1
 	custom_input =
@@ -654,11 +644,7 @@ On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 
 &lt;h6 id=&quot;description&quot;&gt;Description&lt;/h6&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;This code is meant to have an educational value, to train the model by yourself and play with different configurations, and was not developed to be deployed as-is (although it has been used in &lt;a href=&quot;https://linkedin.com/pulse/real-time-twitter-sentiment-analytics-tensorflow-spring-tzolov/&quot;&gt;professional contexts&lt;/a&gt;). The dataset used for training is taken from &lt;a href=&quot;http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/&quot;&gt;here&lt;/a&gt; (someone reported to me that the link to the dataset appears to be dead sometimes, so &lt;code class=&quot;highlighter-rouge&quot;&gt;dataset_downloader.py&lt;/code&gt; &lt;strong&gt;might&lt;/strong&gt; not work. I successfully ran the script on January 20, 2018, but please report it to me if you have any problems).&lt;/p&gt;
-=======
 &lt;p&gt;This code is meant to have an educational value, to train the model by yourself and play with different configurations, and was not developed to be deployed as-is (although it has been used in &lt;a href=&quot;https://linkedin.com/pulse/real-time-twitter-sentiment-analytics-tensorflow-spring-tzolov/&quot;&gt;professional contexts&lt;/a&gt;). The dataset used for training is taken from &lt;a href=&quot;http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/&quot;&gt;here&lt;/a&gt; (someone reported to me that the link to the dataset appears to be dead sometimes, so &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dataset_downloader.py&lt;/code&gt; &lt;strong&gt;might&lt;/strong&gt; not work. I successfully ran the script on January 20, 2018, but please report it to me if you have any problems).&lt;/p&gt;
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 &lt;p&gt;&lt;strong&gt;NOTE: this script is for Python 2.7 only&lt;/strong&gt;&lt;/p&gt;
 
@@ -666,11 +652,7 @@ On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 
 &lt;p&gt;You’ll need Tensorflow &amp;gt;=1.1.0 and its dependecies installed in order for the script to work (see &lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;Once you’ve installed and configured Tensorflow, download the source files and &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; into the folder:&lt;/p&gt;
-=======
 &lt;p&gt;Once you’ve installed and configured Tensorflow, download the source files and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd&lt;/code&gt; into the folder:&lt;/p&gt;
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://gitlab.com/danielegrattarola/twitter-sentiment-cnn.git
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;twitter-sentiment-cnn
@@ -691,11 +673,7 @@ On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;python vocab_builder.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;The files will be created in the &lt;code class=&quot;highlighter-rouge&quot;&gt;twitter-sentiment-dataset/&lt;/code&gt; folder. Finally, create an &lt;code class=&quot;highlighter-rouge&quot;&gt;output/&lt;/code&gt; folder that will contain all session checkpoints needed to restore the trained models:&lt;/p&gt;
-=======
 &lt;p&gt;The files will be created in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;twitter-sentiment-dataset/&lt;/code&gt; folder. Finally, create an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output/&lt;/code&gt; folder that will contain all session checkpoints needed to restore the trained models:&lt;/p&gt;
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;output
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -721,11 +699,7 @@ On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
 
 &lt;p&gt;which will eventually output:&lt;/p&gt;
 
-<<<<<<< HEAD
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
-=======
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 Processing custom input: I love neural networks!
 Custom input evaluation: POS
 Actual output: [ 0.19249919  0.80750078]
@@ -740,24 +714,6 @@ Actual output: [ 0.19249919  0.80750078]
 &lt;p&gt;the script will output a list of all customizable flags and parameters. The parameters are:&lt;/p&gt;
 
 &lt;ul&gt;
-<<<<<<< HEAD
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;train&lt;/code&gt;: train the network;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;save&lt;/code&gt;: save session checkpoints;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;save_protobuf&lt;/code&gt;: save model as binary protobuf;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;evaluate_batch&lt;/code&gt;: evaluate the network on a held-out batch from the dataset and print the results (for debugging/educational purposes);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;load&lt;/code&gt;: restore a model from the given path;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;custom_input&lt;/code&gt;: evaluate the model on the given string;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;filter_sizes&lt;/code&gt;: comma-separated filter sizes for the convolutional layers (default: ‘3,4,5’);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dataset_fraction&lt;/code&gt;: fraction of the dataset to load in memory, to reduce memory usage (default: 1.0; uses all dataset);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;embedding_size&lt;/code&gt;: size of the word embeddings (default: 128);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;num_filters&lt;/code&gt;: number of filters per filter size (default: 128);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;batch_size&lt;/code&gt;: batch size (default: 128);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;epochs&lt;/code&gt;: number of training epochs (default: 3);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;valid_freq&lt;/code&gt;: how many times per epoch to perform validation testing (default: 1);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;checkpoint_freq&lt;/code&gt;: how many times per epoch to save the model (default: 1);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;test_data_ratio&lt;/code&gt;: fraction of the dataset to use for validation (default: 0.1);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;device&lt;/code&gt;: device to use for running the model (can be either ‘cpu’ or ‘gpu’).&lt;/li&gt;
-=======
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;train&lt;/code&gt;: train the network;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;save&lt;/code&gt;: save session checkpoints;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;save_protobuf&lt;/code&gt;: save model as binary protobuf;&lt;/li&gt;
@@ -774,16 +730,11 @@ Actual output: [ 0.19249919  0.80750078]
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;checkpoint_freq&lt;/code&gt;: how many times per epoch to save the model (default: 1);&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test_data_ratio&lt;/code&gt;: fraction of the dataset to use for validation (default: 0.1);&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;device&lt;/code&gt;: device to use for running the model (can be either ‘cpu’ or ‘gpu’).&lt;/li&gt;
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 &lt;/ul&gt;
 
 &lt;h6 id=&quot;pre-trained-model&quot;&gt;Pre-trained model&lt;/h6&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;User &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt; kindly trained the model for three epochs on the full dataset and shared the summary folder for quick deploy. The folder is available on &lt;a href=&quot;https://mega.nz/#!xVg0ARYK!oVyBZatotQGOD_FFSzZl5gTS1Z49048vjFEbyzftcFY&quot;&gt;Mega&lt;/a&gt;, to load the model simply unpack the zip file and use the &lt;code class=&quot;highlighter-rouge&quot;&gt;--load&lt;/code&gt; flag as follows:&lt;/p&gt;
-=======
 &lt;p&gt;User &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt; kindly trained the model for three epochs on the full dataset and shared the summary folder for quick deploy. The folder is available on &lt;a href=&quot;https://mega.nz/#!xVg0ARYK!oVyBZatotQGOD_FFSzZl5gTS1Z49048vjFEbyzftcFY&quot;&gt;Mega&lt;/a&gt;, to load the model simply unpack the zip file and use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--load&lt;/code&gt; flag as follows:&lt;/p&gt;
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Current directoty: twitter-sentiment-cnn/&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;unzip path/to/run20180201-231509.zip
@@ -842,15 +793,9 @@ Custom input evaluation: POS
 Actual output: [0.04109644 0.95890355]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;&lt;strong&gt;NOTE: loading this model won’t work if you change anything in the default network architecture, so don’t set the &lt;code class=&quot;highlighter-rouge&quot;&gt;--filter_sizes&lt;/code&gt; flag&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;According to the &lt;code class=&quot;highlighter-rouge&quot;&gt;log.log&lt;/code&gt; file provided by &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt;, the model had a final validation accuracy of 0.80976, and a validation loss of 53.3314.&lt;/p&gt;
-=======
 &lt;p&gt;&lt;strong&gt;NOTE: loading this model won’t work if you change anything in the default network architecture, so don’t set the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--filter_sizes&lt;/code&gt; flag&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;According to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;log.log&lt;/code&gt; file provided by &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt;, the model had a final validation accuracy of 0.80976, and a validation loss of 53.3314.&lt;/p&gt;
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 
 &lt;p&gt;I sincerely thank &lt;a href=&quot;https://github.com/Horkyze&quot;&gt;@Horkyze&lt;/a&gt; for providing the computational power and sharing the model with me.&lt;/p&gt;
 
@@ -872,11 +817,7 @@ Actual output: [0.04109644 0.95890355]
 &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;tensorboard &lt;span class=&quot;nt&quot;&gt;--logdir&lt;/span&gt; output/path/to/summaries/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<<<<<<< HEAD
-&lt;p&gt;and then navigate to &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost:6006&lt;/code&gt; from your browser (you’ll see the computation graph in the &lt;em&gt;Graph&lt;/em&gt; section).&lt;/p&gt;
-=======
 &lt;p&gt;and then navigate to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost:6006&lt;/code&gt; from your browser (you’ll see the computation graph in the &lt;em&gt;Graph&lt;/em&gt; section).&lt;/p&gt;
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 </description>
                 <pubDate>Sun, 22 Sep 2019 00:00:00 +0100</pubDate>
                 <link>http://localhost:4000/twitter-sentiment-analysis-with-a-cnn</link>
@@ -1073,7 +1014,6 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
                 <description>&lt;p&gt;&lt;em&gt;Presentation of quality of embeddings documents available on my &lt;a href=&quot;https://github.com/mbenhamd/documents-embeddings&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
-<<<<<<< HEAD
 
 &lt;p&gt;Text Mining is a branch of Data Mining that specializes in text corpus processing to analyze the content and extract it knowledge. In our case, the objective is to evaluate the quality of a set of embedding dies that represent documents. We will perform a clustering on documents and will compare the values of clustering with different evaluation criteria.
 &lt;!--more--&gt;&lt;/p&gt;
@@ -1084,18 +1024,6 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
 
 &lt;h6 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h6&gt;
 
-=======
-
-&lt;p&gt;Text Mining is a branch of Data Mining that specializes in text corpus processing to analyze the content and extract it knowledge. In our case, the objective is to evaluate the quality of a set of embedding dies that represent documents. We will perform a clustering on documents and will compare the values of clustering with different evaluation criteria.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;introduction&quot;&gt;Introduction&lt;/h6&gt;
-
-&lt;p&gt;Paragraph vectors (Doc2Vec) have recently been proposed as unsupervised method for learning documents. In their works, the authors showed that the method can learn to integrate Movie review texts that can be used for sentiment analysis. This proof of concept, while encouraging, was rather narrow. Indeed, the word embedding has opened new perspectives across a reduction in dimensionality and a new vision of words (a semantic vision). In the same way the document embedding is an extension brought when the number of documents becomes important and we seek to have a result of similarity, then be able to classify and have a technique to discriminate documents (e.g., books of mechanics and Botanical). Here we consider tasks other than the analysis of feelings, we use two datasets (Class3 and Reut8) with other analysis algorithms, such as the NMF and the LSA to evaluate the quality of their embeddings. Then we will evaluate the performances to see what are the strengths and weaknesses of the different analyzes.&lt;/p&gt;
-
-&lt;h6 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h6&gt;
-
->>>>>>> 413182834cb6ccdedd1cd514ca2ea8a6c14ce3ad
 &lt;p&gt;As part of this project we learned a lot about the methods such as the LSA, NMF as well as Doc2Vec. Each method seen in these projects has strong and weak points like how fast the LSA does to Doc2Vec and the NMF, or the ability of the NMF to have a decomposition taking into account the weight of each cluster and thus to be more easily interpretable following each column of the matrix W then the LSA had an ability to retrieve the different meanings of the words. Then we realized without real surprise that Doc2Vec was the method bringing the best results knowing that we can load a pre-trained model on a very large dataset to be able to transfer knowledge (in other words, initialize the weights of the neural network), this which lets us think that this is a very promising method. Doc2Vec appears as an ideal method in itself, even if they are classic data sets, we could see that the defects of Reters8 were able to to be exceeded by modifying the algorithm through the two approaches of this method. This project allowed us to use several popular python library, with their lots of varieties and to be able to analyze and model our games of data as well as learning in many ways. We could have improved the results on the datasets by performing further pre-processing, but the purpose of this project was rather to evaluate quality in a general way without being specific according to the context of the data.&lt;/p&gt;
 </description>
                 <pubDate>Fri, 13 Sep 2019 00:00:00 +0100</pubDate>

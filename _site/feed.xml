@@ -5,8 +5,8 @@
         <description>Welcome to my website, it includes a part about my career,  but there are articles about my projects and some about  new concepts in the field of artificial intelligence.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Sep 2020 14:05:17 +0100</pubDate>
-        <lastBuildDate>Tue, 29 Sep 2020 14:05:17 +0100</lastBuildDate>
+        <pubDate>Tue, 29 Sep 2020 14:17:11 +0100</pubDate>
+        <lastBuildDate>Tue, 29 Sep 2020 14:17:11 +0100</lastBuildDate>
         <generator>Jekyll v4.1.1</generator>
         
             <item>
@@ -471,7 +471,7 @@ During the training, they transform images into unit vector by defining the mini
 Few important words
 --&gt;
 
-&lt;p&gt;&lt;em&gt;Explanation of the model which upset the natural processing of language. &lt;a href=&quot;https://arxiv.org/pdf/1810.04805.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;\&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Explanation of the model which upset the natural processing of language. &lt;a href=&quot;https://arxiv.org/pdf/1810.04805.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;According to the researchers who designed BERT was thought to pre-form deep two-way representations from unlabeled text and jointly conditioning the left and right contexts. The result gives us that a pre-trained model can be refined by adding an additional superficial layer to meet the NLP task.&lt;/p&gt;
 

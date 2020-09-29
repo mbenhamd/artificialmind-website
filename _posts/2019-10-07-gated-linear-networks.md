@@ -21,7 +21,6 @@ are universal in a strong sense: not only can they model any compactly supported
 
 Deep metric learning algorithms fail to learn distances that capture fined-grained sub-categories. Such fine-grained visual similarity distances are important to learn generalized visual features and to have robust performance on cross-domain data. So they construct an embedding of the product with text product production and use this to drive an adaptive triplet loss.
 
-
 ##### Method
 
 They dataset is composed with images and textual description in the form of natural language or a set of key words.

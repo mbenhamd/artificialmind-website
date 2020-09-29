@@ -4,7 +4,7 @@ title: "A weakly supervised adaptive triplet loss for deep metric learning"
 description: "The method uses weakly labeled product description data to implicitly determine fine grained semantic classes, avoiding the need to annotate large amounts of training data."
 date: 2019-10-01
 feature_image: https://miro.medium.com/max/1204/0*_WNBFcRVEOz6QM7R.
-tags: [Loss, Weakly Supervised, Learning Metrics]
+tags: [Loss, Weakly Supervised, Learning Metrics, Triplet Loss, Semantic Classes]
 ---
 
 *Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1909.12939.pdf)*\:

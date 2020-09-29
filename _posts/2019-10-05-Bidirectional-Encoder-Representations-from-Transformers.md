@@ -4,7 +4,7 @@ title: "Bidirectional Encoder Representations from Transformers."
 description: "state-of-the-art in natural language processing by using a Transformer."
 date: 2019-10-05
 feature_image: https://github.com/mbenhamd/artificialmind-website/blob/master/images/Bert_smile.png?raw=true
-tags: [BERT, NLP, state-of-the-art]
+tags: [BERT, NLP, state-of-the-art, Tranformers]
 ---
 <!---
 -->

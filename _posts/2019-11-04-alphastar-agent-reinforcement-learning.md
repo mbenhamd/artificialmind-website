@@ -3,7 +3,7 @@ layout: post
 title: "AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning"
 date: 2019-11-04
 feature_image: https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo
-tags: [Reiforcement learning, Associative memory, Gradient-Based Meta-Learning]
+tags: [Reiforcement learning, Imitation learning, AlphaStar,Multi Agent System]
 ---
 
 *Presentation of a Paper avalaible [here](https://www.nature.com/articles/s41586-019-1724-z.epdf?author_access_token=lZH3nqPYtWJXfDA10W0CNNRgN0jAjWel9jnR3ZoTv0PSZcPzJFGNAZhOlk4deBCKzKm70KfinloafEF1bCCXL6IIHHgKaDkaTkBcTEv7aT-wqDoG1VeO9-wO3GEoAMF9bAOt7mJ0RWQnRVMbyfgH9A%3D%3D)*\:

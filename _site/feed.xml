@@ -5,8 +5,8 @@
         <description>Welcome to my website, it includes a part about my career,  but there are articles about my projects and some about  new concepts in the field of artificial intelligence.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 29 Sep 2020 15:48:14 +0100</pubDate>
-        <lastBuildDate>Tue, 29 Sep 2020 15:48:14 +0100</lastBuildDate>
+        <pubDate>Tue, 29 Sep 2020 16:16:24 +0100</pubDate>
+        <lastBuildDate>Tue, 29 Sep 2020 16:16:24 +0100</lastBuildDate>
         <generator>Jekyll v4.1.1</generator>
         
             <item>
@@ -340,7 +340,7 @@ better than -* and comparable to O* for any auxiliary gate *.&lt;/p&gt;
                 <link>http://localhost:4000/deepline-automl-pipelines-generation</link>
                 <guid isPermaLink="true">http://localhost:4000/deepline-automl-pipelines-generation</guid>
                 
-                <category>Reiforcement learning</category>
+                <category>DeepLine</category>
                 
                 <category>Associative memory</category>
                 
@@ -387,9 +387,11 @@ better than -* and comparable to O* for any auxiliary gate *.&lt;/p&gt;
                 
                 <category>Reiforcement learning</category>
                 
-                <category>Associative memory</category>
+                <category>Imitation learning</category>
                 
-                <category>Gradient-Based Meta-Learning</category>
+                <category>AlphaStar</category>
+                
+                <category>Multi Agent System</category>
                 
                 
             </item>
@@ -503,6 +505,8 @@ to improve machine learning models at large.&lt;/p&gt;
                 
                 <category>Gradient-Based Meta-Learning</category>
                 
+                <category>Backpropagation</category>
+                
                 
             </item>
         
@@ -560,6 +564,8 @@ discovered and we believe that our results provide a good motivation for this li
                 
                 <category>Gradient-Based Meta-Learning</category>
                 
+                <category>EBMM</category>
+                
                 
             </item>
         
@@ -603,6 +609,8 @@ During the training, they transform images into unit vector by defining the mini
                 <category>Random Vector Functional Link</category>
                 
                 <category>Extreme Learning Machine</category>
+                
+                <category>Deep Learning</category>
                 
                 
             </item>
@@ -742,6 +750,8 @@ Directionality is necessitated to make a well-formed probability pattern. The se
                 
                 <category>state-of-the-art</category>
                 
+                <category>Tranformers</category>
+                
                 
             </item>
         
@@ -786,6 +796,10 @@ During the training, they transform images into unit vector by defining the mini
                 <category>Weakly Supervised</category>
                 
                 <category>Learning Metrics</category>
+                
+                <category>Triplet Loss</category>
+                
+                <category>Semantic Classes</category>
                 
                 
             </item>

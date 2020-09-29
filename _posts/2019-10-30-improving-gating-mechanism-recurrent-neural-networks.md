@@ -4,7 +4,7 @@ title: "Improving the Gating Mechanism of Recurrent Neural Networks"
 description: "Gating mechanisms are widely used in neural network models, where they allow gradients to backpropagate more easily through depth or time. However, their saturation property introduces problems of its own."
 date: 2019-10-30
 feature_image: https://miro.medium.com/max/1121/1*voNageVB1gI8Dfrmr-U3Ew.png
-tags: [Recurrent Neural Networks, Associative memory, Gradient-Based Meta-Learning]
+tags: [Recurrent Neural Networks, Associative memory, Gradient-Based Meta-Learning, Backpropagation]
 ---
 
 *Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1910.09890.pdf)*\:

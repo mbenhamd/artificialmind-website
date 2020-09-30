@@ -1,9 +1,0 @@
-I"�<p>The interpretation of neural networks and their predictions is a major challenge. Neural networks
-are considered as “black boxes” so there is a real need to make neural networks more interpretable
-and this is particularly true in the medical field (Biological interpretation of deep neural networks learned from transcriptomic data).</p>
-<ul>
-  <li>Biological interpretation of deep neural networks learned from transcriptomic data.</li>
-  <li>Development of a new model called Deep GONet.</li>
-  <li>Ability to deep-dive into research papers, down to a technical depth required to translate them into code using both existing toolkits and self-developed code.</li>
-</ul>
-:ET

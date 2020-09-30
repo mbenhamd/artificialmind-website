@@ -165,7 +165,7 @@ collections: [sections]
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   I was born in France and did my schooling in France. I am fluent in English and French as well as Arabic.
-After a bachelor’s degree in mathematics and computer science, I specialized with a master’s degree in artificial intelligence. The learning axes are mainly carried out on these axes.
+  After a bachelor’s degree in mathematics and computer science, I specialized with a master’s degree in artificial intelligence. The learning axes are mainly carried out on these axes.
   - Clustering 
   - Supervised learning (Classication / Regression)
   - Visualization

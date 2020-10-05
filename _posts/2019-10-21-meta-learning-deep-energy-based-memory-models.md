@@ -3,11 +3,11 @@ layout: post
 title: "Meta-Learning Deep Energy-Based Memory Models"
 description: "They study the problem of learning associative memory -- a system which is able to retrieve a remembered pattern based on its distorted or incomplete version."
 date: 2019-10-21
-feature_image: https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo
+feature_image: 
 tags: [Energy-based Memory Models, Associative memory, Gradient-Based Meta-Learning,EBMM]
 ---
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S1568494619306350-gr3.jpg" alt="drawing" width="auto" max-width="100%" height="50%" />
+<img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="drawing" width="auto" max-width="100%" height="50%" />
 <br>
 
 *Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1910.02720.pdf)*\:

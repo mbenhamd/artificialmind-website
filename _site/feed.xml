@@ -5,13 +5,16 @@
         <description>Welcome to my website, it covers a section regarding my vocation, but there are articles about my projects and some about new ideas in the field of artificial intelligence.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 30 Sep 2020 22:35:46 +0100</pubDate>
-        <lastBuildDate>Wed, 30 Sep 2020 22:35:46 +0100</lastBuildDate>
+        <pubDate>Thu, 01 Oct 2020 16:04:20 +0100</pubDate>
+        <lastBuildDate>Thu, 01 Oct 2020 16:04:20 +0100</lastBuildDate>
         <generator>Jekyll v4.1.1</generator>
         
             <item>
                 <title>LOGAN: Latent Optimisation for Generative Adversarial Networks</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1912.00953.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1912.00953.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;Training generative adversarial networks demand to match of dainty competitive dynamics. Yet by precise tuning, training may differ or end up in poor stability with dropped modes. In this work, they improved CS-GAN with natural gradient-based latent optimisation and confirm that it increases adversarial dynamics by intensifying interactions between the discriminator and the generator. Their experiments demonstrate that latent optimisation can significantly enhance GAN training, achieving state-of-the-art achievement for the ImageNet (128 × 128) dataset. Their model achieves an Inception Score (IS) of 148 and an Fréchet Inception Distance (FID) of 3.4, an enhancement of 17% and 32% in IS and FID individually, confronted with the baseline BigGAN-deep model with the same architecture and number of parameters.&lt;/p&gt;
 
@@ -62,7 +65,9 @@ To apply latent optimisation with NGD, they used the same large step size of α 
         
             <item>
                 <title>Analyzing and Improving the Image Quality of StyleGAN</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1912.04958.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1174/1*LgSQi3MLNE1l-T4vmjmybg.png&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1912.04958.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;The style-based GAN architecture (StyleGAN) yields
 state-of-the-art results in data-driven unconditional generative image modeling. We expose and analyze several of
@@ -491,7 +496,10 @@ to improve machine learning models at large.&lt;/p&gt;
         
             <item>
                 <title>Meta-Learning Deep Energy-Based Memory Models</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1910.02720.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://ars.els-cdn.com/content/image/1-s2.0-S1568494619306350-gr3.jpg&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1910.02720.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;We study the problem of learning associative memory – a system which is able to retrieve a remembered pattern based on its distorted or incomplete version. Attractor networks provide a sound model of associative memory: patterns are stored as attractors of the network dynamics and associative retrieval is performed by running the dynamics starting from a query pattern until it converges to an attractor. In such models the dynamics are often implemented as an optimization procedure that minimizes an energy function, such as in the classical Hopfield network. In general it is difficult to derive a writing rule for a given dynamics and energy that is both compressive and fast. Thus, most research in energybased memory has been limited either to tractable energy models not expressive enough to handle complex high-dimensional objects such as natural images, or to models that do not offer fast writing. We present a novel meta-learning approach to energy-based memory models (EBMM) that allows one to use an arbitrary neural architecture as an energy model and quickly store patterns in its weights. We demonstrate experimentally that our EBMM approach can build compressed memories for synthetic and natural data, and is capable of associative retrieval that outperforms existing memory systems in terms of the reconstruction error and compression rate.
 &lt;!--more--&gt;&lt;/p&gt;
@@ -550,7 +558,10 @@ discovered and we believe that our results provide a good motivation for this li
         
             <item>
                 <title>Stacked Autoencoder Based Deep Random Vector Functional Link Neural Network for Classification</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1910.01858.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://ars.els-cdn.com/content/image/1-s2.0-S1568494619306350-gr3.jpg&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible : &lt;a href=&quot;https://arxiv.org/pdf/1910.01858.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;\&lt;/p&gt;
 
 &lt;p&gt;Extreme learning machine (ELM), which can be viewed as a variant of Random Vector Functional Link (RVFL) network without the input-output direct connections, has been extensively used to create multi-layer (deep) neural networks.
 Such networks employ randomization based autoencoders (AE) for unsupervised feature extraction followed by an ELM classifier for final decision making. Each randomization based AE acts as an independent feature extractor and a deep network is obtained by stacking several such AEs. Inspired by the better performance of RVFL over ELM, in this paper, we propose several deep RVFL variants by utilizing the framework of stacked autoencoders. Specifically, we introduce direct connections (feature reuse) from preceding layers to the fore layers of the network as in the original RVFL network. Such connections help to regularize the randomization and also reduce the model complexity. Furthermore, we also introduce denoising criterion, recovering clean inputs from their corrupted versions, in the autoencoders to achieve better higher level representations than the ordinary autoencoders. Extensive experiments on several classification datasets show that our proposed deep networks achieve overall better and faster generalization than the other relevant state-of-the-art deep neural networks.
@@ -596,7 +607,10 @@ During the training, they transform images into unit vector by defining the mini
         
             <item>
                 <title>Celeb-DF: A New Dataset for DeepFake Forensics</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1909.12962.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/rdvjaoctz3zp9cv9nbim.jpg&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible : &lt;a href=&quot;https://arxiv.org/pdf/1909.12962.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;\&lt;/p&gt;
 
 &lt;p&gt;AI-synthesized face-swapping videos, commonly known as DeepFakes, is an emerging problem threatening the trustworthiness of online information. The need to develop and evaluate DeepFake detection algorithms calls for large-scale datasets. However, current DeepFake datasets
 suffer from low visual quality and do not resemble DeepFake videos circulated on the Internet. We present a new large-scale challenging DeepFake video dataset, CelebDF, which contains 5, 639 high-quality DeepFake videos of celebrities generated using improved synthesis process. We
@@ -642,7 +656,10 @@ During the training, they transform images into unit vector by defining the mini
         
             <item>
                 <title>Gated Linear Networks</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1910.01526.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible : &lt;a href=&quot;https://arxiv.org/pdf/1910.01526.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This paper presents a family of backpropagation-free neural architectures, Gated Linear Networks (GLNs), that are well suited to online learning applications where sample efficiency is of paramount importance. The impressive empirical performance of these architectures has long been known within the data compression community, but a theoretically satisfying explanation as to how and why they perform so well has proven difficult.
 It’s written by Joel Veness, Tor Lattimore, Avishkar Bhoopchand, David Budden, Christopher Mattern, Agnieszka Grabska-Barwinska, Peter Toth, Simon Schmitt and Marcus Hutter from DeepMind.
@@ -684,17 +701,13 @@ alternative to contemporary deep learning approaches.&lt;/p&gt;
             </item>
         
             <item>
-                <title>Bidirectional Encoder Representations from Transformers.</title>
-                <description>&lt;!---
---&gt;
+                <title>BERT ?</title>
+                <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/artificialmind-website/blob/master/images/Bert_smile.png?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;!---
-Few important words
---&gt;
+&lt;p&gt;&lt;em&gt;Explanation of the model which upset the natural processing of language: &lt;a href=&quot;https://arxiv.org/pdf/1810.04805.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Explanation of the model which upset the natural processing of language. &lt;a href=&quot;https://arxiv.org/pdf/1810.04805.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;According to the researchers who designed BERT was thought to pre-form deep two-way representations from unlabeled text and jointly conditioning the left and right contexts. The result gives us that a pre-trained model can be refined by adding an additional superficial layer to meet the NLP task.&lt;/p&gt;
+&lt;p&gt;According to the researchers who designed BERT (Bidirectional Encoder Representations from Transformers) was thought to pre-form deep two-way representations from unlabeled text and jointly conditioning the left and right contexts. The result gives us that a pre-trained model can be refined by adding an additional superficial layer to meet the NLP task.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -736,7 +749,10 @@ Directionality is necessitated to make a well-formed probability pattern. The se
         
             <item>
                 <title>A weakly supervised adaptive triplet loss for deep metric learning</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1909.12939.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1204/0*_WNBFcRVEOz6QM7R.&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1909.12939.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;The article presents an approach to the major problems of learning metrics on the search for similarities in the case of image data sets. The authors present a method called a weakly supervised adaptrive triplet loss (ATL) that can capture fine-grained semantic similarity.
 It’s written by Xiaonan Zthao, Hian Qi, Rui Luo and Larry Davis from Amazon R&amp;amp;D.
@@ -785,14 +801,16 @@ During the training, they transform images into unit vector by defining the mini
         
             <item>
                 <title>Twitter Sentiment Analysis</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Twitter Sentiment Analysis available on my &lt;a href=&quot;https://github.com/mbenhamd/twitter-sentiment-analysis&quot;&gt;Github repository&lt;/a&gt; and &lt;a href=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/real_stream-schema.png?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Twitter Sentiment Analysis available on my &lt;a href=&quot;https://github.com/mbenhamd/twitter-sentiment-analysis&quot;&gt;Github repository&lt;/a&gt; and &lt;a href=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h3 id=&quot;technologies&quot;&gt;Technologies&lt;/h3&gt;
 
 &lt;p&gt;Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Website for a demo: &lt;a href=&quot;https://twitter.yannistannier.io&quot;&gt;here&lt;/a&gt;&lt;/em&gt;
-&lt;!--more--&gt;&lt;/p&gt;
+&lt;!--more--&gt;
 
 &lt;h5 id=&quot;define-a-problem-you-want-to-solve&quot;&gt;Define a problem you want to solve&lt;/h5&gt;
 
@@ -827,10 +845,6 @@ During the training, they transform images into unit vector by defining the mini
                 <title>Twitter Sentiment Analysis with a CNN</title>
                 <description>&lt;p&gt;&lt;em&gt;Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my &lt;a href=&quot;https://github.com/mbenhamd/twitter-sentiment-cnn&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;h3 id=&quot;tensorflow-implementation-of-a-cnn&quot;&gt;TensorFlow implementation of a CNN.&lt;/h3&gt;
-
-&lt;h6 id=&quot;part-of-the-twitter-sentiment-analysis-project&quot;&gt;Part of the Twitter Sentiment Analysis Project&lt;/h6&gt;
-
 &lt;p&gt;&lt;em&gt;Link of the publication : &lt;a href=&quot;https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;We used those settings for training the CNN :&lt;/p&gt;
@@ -838,7 +852,7 @@ During the training, they transform images into unit vector by defining the mini
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Flags:
 	batch_size = 128
 	checkpoint_freq = 1
-	custom_input =
+	custom_input = &quot;&quot;
 	dataset_fraction = 1.0
 	device = gpu
 	embedding_size = 128
@@ -860,7 +874,7 @@ Dataset:
 	Input layer size = 117
 	Number of classes = 2
 
-On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
+On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;!--more--&gt;
 &lt;p&gt;The CNN is about 424,1 Mo, it is a result of (round) 2h20 minute of computation with the GPU. At the end, the neural network comes up with a validation accuracy of 82%.&lt;/p&gt;
@@ -1069,7 +1083,10 @@ Actual output: [0.04109644 0.95890355]
         
             <item>
                 <title>Convolutional Autoencoder and clustering improvement</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of comparison of discrimination characteristic extraction models available on my &lt;a href=&quot;https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques/blob/master/auto-encoder-conv.PNG?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;100%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of comparison of discrimination characteristic extraction models available on my &lt;a href=&quot;https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
 
@@ -1096,7 +1113,10 @@ Actual output: [0.04109644 0.95890355]
         
             <item>
                 <title>Ensemble method applied to detection of financial fraud</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of ensemble method applied to Detection of financial fraud available on my &lt;a href=&quot;https://github.com/mbenhamd/methodes-ensemblistes-fraudes&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;/ressources/ensemble-method/boxplot.png&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;20%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of ensemble method applied to Detection of financial fraud available on my &lt;a href=&quot;https://github.com/mbenhamd/methodes-ensemblistes-fraudes&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
@@ -1136,13 +1156,16 @@ Actual output: [0.04109644 0.95890355]
         
             <item>
                 <title>Mixture models applied to usual image data</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of mixture models applied to usual image data available on my &lt;a href=&quot;https://github.com/mbenhamd/mixture-model-images&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/mixture-model-images/blob/master/plot/show_images_mnist.png?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;25%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of mixture models applied to usual image data available on my &lt;a href=&quot;https://github.com/mbenhamd/mixture-model-images&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
 &lt;p&gt;Mixture models are routinely used to extract features from speech data, but also in object detection from images. By deducing parameters from the distribution of the data, they make it possible to predict the location of the objects with each image of a video sequence. The Gaussian mixing model is a probabilistic model that will be used to represent normally distributed subpopulations within a global population. Mixing models in general do not require knowing which subpopulation belongs to a data point, which allows the model to automatically learn subpopulations. As the assignment of subpopulations is not known, it is a form of unsupervised learning.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/mixture-model-images/blob/master/plot/show_images_mnist.png?raw=true&quot; alt=&quot;alt text&quot; title=&quot;MNIST Sample&quot; /&gt; &lt;!--more--&gt;&lt;/p&gt;
+&lt;!--more--&gt;
 
 &lt;h6 id=&quot;introduction&quot;&gt;Introduction&lt;/h6&gt;
 
@@ -1171,7 +1194,10 @@ Actual output: [0.04109644 0.95890355]
         
             <item>
                 <title>Multi Agent System Project</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Multi Agent System Project available on my &lt;a href=&quot;https://github.com/mbenhamd/twitter-analysis-mas&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/twitter-analysis-mas/blob/master/app-screenshot.png?raw=true &quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Multi Agent System Project available on my &lt;a href=&quot;https://github.com/mbenhamd/twitter-analysis-mas&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;It’s an application using JADE Framework with Swing for the graphical interface.
 The aim is to analyse sentiment between a conversation between two agents.&lt;/p&gt;
@@ -1194,8 +1220,11 @@ The aim is to analyse sentiment between a conversation between two agents.&lt;/p
             </item>
         
             <item>
-                <title>Reinforcement Learning Algorithms Comparaison</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a comparison of different reinforcement learning algorithms available on my &lt;a href=&quot;https://github.com/mbenhamd/reinforcement-learning-benchs&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <title>Reinforcement learning benchmark</title>
+                <description>&lt;p&gt;&lt;img src=&quot;https://softwareengineeringdaily.com/wp-content/uploads/2018/06/OpenAI.png&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a comparison of different reinforcement learning algorithms available on my &lt;a href=&quot;https://github.com/mbenhamd/reinforcement-learning-benchs&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;Reinforcement Learning (RA) is about learning what to do, how to relate actions to situations, and how to maximize a reward. The learner is not told what action to take, but instead he must find out which actions give the most reward by trying them. In the most interesting case, actions can affect not only the immediate rewards but also the next situation, and hence the longer term rewards. These two properties - trial-and-error and long-term reward - are the two most important features of reinforcement learning.
 &lt;!--more--&gt;&lt;/p&gt;
@@ -1238,7 +1267,10 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
         
             <item>
                 <title>Quality of documents embeddings</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of quality of embeddings documents available on my &lt;a href=&quot;https://github.com/mbenhamd/documents-embeddings&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/documents-embeddings/blob/master/word-cloud-exemple.PNG?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of quality of embeddings documents available on my &lt;a href=&quot;https://github.com/mbenhamd/documents-embeddings&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
@@ -1270,7 +1302,9 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
         
             <item>
                 <title>Non-negative matrix factorization and image classification</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Non-negative matrix factorization and image classification project available on my &lt;a href=&quot;https://github.com/mbenhamd/nmf-ter&quot;&gt;Github repository&lt;/a&gt; and a french presentation available &lt;a href=&quot;https://github.com/mbenhamd/ter-presentation-beamer&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://www.researchgate.net/profile/Hongping_Cai/publication/290324486/figure/fig4/AS:613900601012249@1523376717327/Our-photo-art-dataset-containing-50-object-categories-Each-category-is-displayed-with.png&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Presentation of a Non-negative matrix factorization and image classification project available on my &lt;a href=&quot;https://github.com/mbenhamd/nmf-ter&quot;&gt;Github repository&lt;/a&gt; and a french presentation available &lt;a href=&quot;https://github.com/mbenhamd/ter-presentation-beamer&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
@@ -1309,7 +1343,9 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
         
             <item>
                 <title>Visualisation method applied on genomic data</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of visual exploration of genomic data available on my &lt;a href=&quot;https://github.com/mbenhamd/exploration-visuelles-genomique&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/exploration-visuelles-genomique/blob/master/lle_exemple.PNG?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Presentation of visual exploration of genomic data available on my &lt;a href=&quot;https://github.com/mbenhamd/exploration-visuelles-genomique&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
@@ -1345,7 +1381,9 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
         
             <item>
                 <title>Automatic classification of data temporal in ordered classes</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of automatic classification of data temporal in ordered classes available on my &lt;a href=&quot;https://github.com/mbenhamd/series-temporelles-fisher&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/c27c4de4fa9dadfff3171d6af1f72f2208f2bd00/687474703a2f2f6372736f757a612e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031322f30312f696d6167655f7468756d622d32353235354231362d3235323535442e706e67&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Presentation of automatic classification of data temporal in ordered classes available on my &lt;a href=&quot;https://github.com/mbenhamd/series-temporelles-fisher&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
@@ -1379,7 +1417,10 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
         
             <item>
                 <title>Decision Tree From Scratch</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Decision Tree From Scratch available on my &lt;a href=&quot;https://github.com/mbenhamd/decision-tree-scratch&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/c27c4de4fa9dadfff3171d6af1f72f2208f2bd00/687474703a2f2f6372736f757a612e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031322f30312f696d6167655f7468756d622d32353235354231362d3235323535442e706e67&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a Decision Tree From Scratch available on my &lt;a href=&quot;https://github.com/mbenhamd/decision-tree-scratch&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This repository was created as part of a course application:&lt;/em&gt; &lt;a href=&quot;http://www.math-info.univ-paris5.fr/~bouzy/Doc/AA1/InductionDecisionTree.pdf&quot;&gt;ici&lt;/a&gt;
 &lt;!--more--&gt;&lt;/p&gt;
@@ -1411,7 +1452,9 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
         
             <item>
                 <title>Mini-project: Binero (or Takuzu)</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of the game available on my &lt;a href=&quot;https://github.com/mbenhamd/Binero&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;/ressources/binero/welcome.jpg&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;
+&lt;em&gt;Presentation of the game available on my &lt;a href=&quot;https://github.com/mbenhamd/Binero&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Takuzu&lt;/strong&gt; is a puzzle game from Japan. It is based on logic a bit like sudoku. It is usually a 10x10 or 8x8 grid, containing only 1s and 0s, which must be completed according to three rules:&lt;/p&gt;
 
@@ -1458,7 +1501,10 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
         
             <item>
                 <title>R Project with Cereals Food Dataset</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a R project to introduce data science available on my &lt;a href=&quot;https://github.com/mbenhamd/cereals-data-project&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;/ressources/r-food/cercle_correlation.png&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of a R project to introduce data science available on my &lt;a href=&quot;https://github.com/mbenhamd/cereals-data-project&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;The file provided is a summary of the nutritional characteristics of 77 cereals present in the majority of American businesses.&lt;/p&gt;
 

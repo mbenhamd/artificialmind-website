@@ -1,0 +1,217 @@
+I"K3<p><em>Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-cnn">Github repository</a></em>:</p>
+
+<p><em>Link of the publication : <a href="https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf">here</a></em></p>
+
+<p>We used those settings for training the CNN :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flags:
+	batch_size = 128
+	checkpoint_freq = 1
+	custom_input = ""
+	dataset_fraction = 1.0
+	device = gpu
+	embedding_size = 128
+	epochs = 10
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = None
+	num_filters = 128
+	save = True
+	save_protobuf = False
+	test_data_ratio = 0.1
+	train = True
+	valid_freq = 1
+
+Dataset:
+	Train set size = 1420766
+	Test set size = 157862
+	Vocabulary size = 274562
+	Input layer size = 117
+	Number of classes = 2
+
+On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs)
+</code></pre></div></div>
+<!--more-->
+<p>The CNN is about 424,1 Mo, it is a result of (round) 2h20 minute of computation with the GPU. At the end, the neural network comes up with a validation accuracy of 82%.</p>
+
+<p>Here some plot about the validation accuracy and training loss : <img src="https://github.com/mbenhamd/twitter-sentiment-cnn/blob/master/validation-accuracy.png?raw=true" alt="alt text" title="Validation Accuracy" /> <img src="https://github.com/mbenhamd/twitter-sentiment-cnn/blob/master/training-loss.png?raw=true" alt="alt text" title="Training Loss" /></p>
+
+<p><em>It is based on a previous work of Daniele Grattarola</em></p>
+
+<h6 id="description">Description</h6>
+
+<p>This code is meant to have an educational value, to train the model by yourself and play with different configurations, and was not developed to be deployed as-is (although it has been used in <a href="https://linkedin.com/pulse/real-time-twitter-sentiment-analytics-tensorflow-spring-tzolov/">professional contexts</a>). The dataset used for training is taken from <a href="http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/">here</a> (someone reported to me that the link to the dataset appears to be dead sometimes, so <code class="language-plaintext highlighter-rouge">dataset_downloader.py</code> <strong>might</strong> not work. I successfully ran the script on January 20, 2018, but please report it to me if you have any problems).</p>
+
+<p><strong>NOTE: this script is for Python 2.7 only</strong></p>
+
+<h6 id="setup">Setup</h6>
+
+<p>You’ll need Tensorflow &gt;=1.1.0 and its dependecies installed in order for the script to work (see <a href="https://www.tensorflow.org/">here</a>).</p>
+
+<p>Once you’ve installed and configured Tensorflow, download the source files and <code class="language-plaintext highlighter-rouge">cd</code> into the folder:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://gitlab.com/danielegrattarola/twitter-sentiment-cnn.git
+<span class="nv">$ </span><span class="nb">cd </span>twitter-sentiment-cnn
+</code></pre></div></div>
+
+<p>Before being able to use the script, some setup is needed; download the dataset from the link above by running:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python dataset_downloader.py
+</code></pre></div></div>
+
+<p>Read the dataset from the CSV into two files (.pos and .neg) with:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python csv_parser.py
+</code></pre></div></div>
+
+<p>And generate a CSV with the vocabulary (and its inverse mapping) with:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python vocab_builder.py
+</code></pre></div></div>
+
+<p>The files will be created in the <code class="language-plaintext highlighter-rouge">twitter-sentiment-dataset/</code> folder. Finally, create an <code class="language-plaintext highlighter-rouge">output/</code> folder that will contain all session checkpoints needed to restore the trained models:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>output
+</code></pre></div></div>
+
+<p>Now everything is set up and you’re ready to start training the model.</p>
+
+<h6 id="usage">Usage</h6>
+
+<p>The simplest way to run the script is:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python twitter-sentiment-cnn.py
+</code></pre></div></div>
+
+<p>which will load the dataset in memory, create the computation graph, and quit. Try to run the script like this to see if everything is set up correctly. To run a training session on the full dataset (and save the result so that we can reuse the network later, or perform more training) run:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python twitter-sentiment-cnn.py <span class="nt">--train</span> <span class="nt">--save</span>
+</code></pre></div></div>
+
+<p>After training, we can test the network as follows:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python twitter-sentiment-cnn.py <span class="nt">--load</span> path/to/ckpt/folder/ <span class="nt">--custom_input</span> <span class="s1">'I love neural networks!'</span>
+</code></pre></div></div>
+
+<p>which will eventually output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+Processing custom input: I love neural networks!
+Custom input evaluation: POS
+Actual output: [ 0.19249919  0.80750078]
+...
+</code></pre></div></div>
+
+<p>By running:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python twitter-sentiment-cnn.py <span class="nt">-h</span>
+</code></pre></div></div>
+
+<p>the script will output a list of all customizable flags and parameters. The parameters are:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">train</code>: train the network;</li>
+  <li><code class="language-plaintext highlighter-rouge">save</code>: save session checkpoints;</li>
+  <li><code class="language-plaintext highlighter-rouge">save_protobuf</code>: save model as binary protobuf;</li>
+  <li><code class="language-plaintext highlighter-rouge">evaluate_batch</code>: evaluate the network on a held-out batch from the dataset and print the results (for debugging/educational purposes);</li>
+  <li><code class="language-plaintext highlighter-rouge">load</code>: restore a model from the given path;</li>
+  <li><code class="language-plaintext highlighter-rouge">custom_input</code>: evaluate the model on the given string;</li>
+  <li><code class="language-plaintext highlighter-rouge">filter_sizes</code>: comma-separated filter sizes for the convolutional layers (default: ‘3,4,5’);</li>
+  <li><code class="language-plaintext highlighter-rouge">dataset_fraction</code>: fraction of the dataset to load in memory, to reduce memory usage (default: 1.0; uses all dataset);</li>
+  <li><code class="language-plaintext highlighter-rouge">embedding_size</code>: size of the word embeddings (default: 128);</li>
+  <li><code class="language-plaintext highlighter-rouge">num_filters</code>: number of filters per filter size (default: 128);</li>
+  <li><code class="language-plaintext highlighter-rouge">batch_size</code>: batch size (default: 128);</li>
+  <li><code class="language-plaintext highlighter-rouge">epochs</code>: number of training epochs (default: 3);</li>
+  <li><code class="language-plaintext highlighter-rouge">valid_freq</code>: how many times per epoch to perform validation testing (default: 1);</li>
+  <li><code class="language-plaintext highlighter-rouge">checkpoint_freq</code>: how many times per epoch to save the model (default: 1);</li>
+  <li><code class="language-plaintext highlighter-rouge">test_data_ratio</code>: fraction of the dataset to use for validation (default: 0.1);</li>
+  <li><code class="language-plaintext highlighter-rouge">device</code>: device to use for running the model (can be either ‘cpu’ or ‘gpu’).</li>
+</ul>
+
+<h6 id="pre-trained-model">Pre-trained model</h6>
+
+<p>User <a href="https://github.com/Horkyze">@Horkyze</a> kindly trained the model for three epochs on the full dataset and shared the summary folder for quick deploy. The folder is available on <a href="https://mega.nz/#!xVg0ARYK!oVyBZatotQGOD_FFSzZl5gTS1Z49048vjFEbyzftcFY">Mega</a>, to load the model simply unpack the zip file and use the <code class="language-plaintext highlighter-rouge">--load</code> flag as follows:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Current directoty: twitter-sentiment-cnn/</span>
+<span class="nv">$ </span>unzip path/to/run20180201-231509.zip
+<span class="nv">$ </span>python twitter-sentiment-cnn.py <span class="nt">--load</span> path/to/run20180201-231509/ <span class="nt">--custom_input</span> <span class="s2">"I love neural networks!"</span>
+</code></pre></div></div>
+
+<p>Running this command should give you something like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>======================= START! ========================
+	data_helpers: loading positive examples...
+	data_helpers: [OK]
+	data_helpers: loading negative examples...
+	data_helpers: [OK]
+	data_helpers: cleaning strings...
+	data_helpers: [OK]
+	data_helpers: generating labels...
+	data_helpers: [OK]
+	data_helpers: concatenating labels...
+	data_helpers: [OK]
+	data_helpers: padding strings...
+	data_helpers: [OK]
+	data_helpers: building vocabulary...
+	data_helpers: [OK]
+	data_helpers: building processed datasets...
+	data_helpers: [OK]
+
+Flags:
+	batch_size = 128
+	checkpoint_freq = 1
+	custom_input = I love neural networks!
+	dataset_fraction = 0.001
+	device = cpu
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = output/run20180201-231509/
+	num_filters = 128
+	save = False
+	save_protobuf = False
+	test_data_ratio = 0.1
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 1421
+	Test set size = 157
+	Vocabulary size = 274562
+	Input layer size = 36
+	Number of classes = 2
+
+Output folder: /home/phait/dev/twitter-sentiment-cnn/output/run20180208-112402
+Data processing OK, loading network...
+Evaluating custom input: I love neural networks!
+Custom input evaluation: POS
+Actual output: [0.04109644 0.95890355]
+</code></pre></div></div>
+
+<p><strong>NOTE: loading this model won’t work if you change anything in the default network architecture, so don’t set the <code class="language-plaintext highlighter-rouge">--filter_sizes</code> flag</strong>.</p>
+
+<p>According to the <code class="language-plaintext highlighter-rouge">log.log</code> file provided by <a href="https://github.com/Horkyze">@Horkyze</a>, the model had a final validation accuracy of 0.80976, and a validation loss of 53.3314.</p>
+
+<p>I sincerely thank <a href="https://github.com/Horkyze">@Horkyze</a> for providing the computational power and sharing the model with me.</p>
+
+<h6 id="model-description">Model description</h6>
+
+<p>The network implemented in this script is a single layer CNN structured as follows:</p>
+
+<ul>
+  <li><strong>Embedding layer</strong>: takes as input the tweets (as strings) and maps each word to an n-dimensional space so that it is represented as a sparse vector (see <a href="https://en.wikipedia.org/wiki/Word2vec">word2vec</a>).</li>
+  <li><strong>Convolution layers</strong>: a set of parallel 1D convolutional layers with the given filter sizes and 128 output channels. A filter’s size is the number of embedded words that the filter covers.</li>
+  <li><strong>Pooling layers</strong>: a set of pooling layers associated to each of the convolutional layers.</li>
+  <li><strong>Concat layer</strong>: concatenates the output of the different pooling layers into a single tensor.</li>
+  <li><strong>Dropout layer</strong>: performs neuron dropout (some neurons are randomly not considered during training).</li>
+  <li><strong>Output layer</strong>: fully connected layer with a softmax activation function to perform classification.</li>
+</ul>
+
+<p>The script will automatically log the session with Tensorboard. To visualize the computation graph and training metrics run:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>tensorboard <span class="nt">--logdir</span> output/path/to/summaries/
+</code></pre></div></div>
+
+<p>and then navigate to <code class="language-plaintext highlighter-rouge">localhost:6006</code> from your browser (you’ll see the computation graph in the <em>Graph</em> section).</p>
+:ET

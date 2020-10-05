@@ -6,7 +6,8 @@ date: 2019-09-07
 feature_image: /ressources/time-series/time-series.png
 tags: [R, Time series, Unsupervised Learning, Dynamic Programming]
 ---
-
+<img src="https://camo.githubusercontent.com/c27c4de4fa9dadfff3171d6af1f72f2208f2bd00/687474703a2f2f6372736f757a612e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031322f30312f696d6167655f7468756d622d32353235354231362d3235323535442e706e67" alt="drawing" width="auto" max-width="100%" height="auto"/>
+<br>
 *Presentation of automatic classification of data temporal in ordered classes available on my [Github repository](https://github.com/mbenhamd/series-temporelles-fisher)*\:
 
 ###### Abstract

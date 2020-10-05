@@ -3,11 +3,14 @@ layout: post
 title: "Gated Linear Networks"
 description: "This paper presents a family of backpropagation-free neural architectures."
 date: 2019-10-07
-feature_image: https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo
+feature_image: 
 tags: [Backpropagation, Gated Linear Networks,  Probabilistic Models, Gated Geometric Mixture]
 ---
 
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1910.01526.pdf)*\:
+<img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="drawing" width="auto" max-width="100%" height="50%" />
+<br>
+
+*Presentation of a Paper avalaible : [here](https://arxiv.org/pdf/1910.01526.pdf)*
 
 This paper presents a family of backpropagation-free neural architectures, Gated Linear Networks (GLNs), that are well suited to online learning applications where sample efficiency is of paramount importance. The impressive empirical performance of these architectures has long been known within the data compression community, but a theoretically satisfying explanation as to how and why they perform so well has proven difficult.
 It's written by Joel Veness, Tor Lattimore, Avishkar Bhoopchand, David Budden, Christopher Mattern, Agnieszka Grabska-Barwinska, Peter Toth, Simon Schmitt and Marcus Hutter from DeepMind.

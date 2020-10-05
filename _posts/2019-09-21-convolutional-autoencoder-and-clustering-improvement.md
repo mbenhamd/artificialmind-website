@@ -7,6 +7,10 @@ date: 2019-09-21
 tags: [Autoencoder , PCA, t-SNE, K-means]
 ---
 
+<img src="https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques/blob/master/auto-encoder-conv.PNG?raw=true" alt="drawing" width="auto" max-width="100%" height="100%" />
+<br>
+
+
 *Presentation of comparison of discrimination characteristic extraction models available on my [Github repository](https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques)*\:
 
 ### Abstract

@@ -8,10 +8,6 @@ tags: [Sentiment Analysis, Twitter, CNN, Convolutional, Neural Network, Deep Lea
 
 *Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my [Github repository](https://github.com/mbenhamd/twitter-sentiment-cnn)*\:
 
-### TensorFlow implementation of a CNN.
-
-###### Part of the Twitter Sentiment Analysis Project
-
 *Link of the publication : [here](https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf)*
 
 We used those settings for training the CNN :
@@ -20,7 +16,7 @@ We used those settings for training the CNN :
 Flags:
 	batch_size = 128
 	checkpoint_freq = 1
-	custom_input =
+	custom_input = ""
 	dataset_fraction = 1.0
 	device = gpu
 	embedding_size = 128
@@ -42,7 +38,7 @@ Dataset:
 	Input layer size = 117
 	Number of classes = 2
 
-On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
+On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs)
 ~~~
 <!--more-->
 The CNN is about 424,1 Mo, it is a result of (round) 2h20 minute of computation with the GPU. At the end, the neural network comes up with a validation accuracy of 82%.

@@ -3,9 +3,13 @@ layout: post
 title: "Twitter Sentiment Analysis"
 description: "Build a powerful platform system for real-time data analysis of tweets on twitter trends."
 date: 2019-09-23
-feature_image: https://github.com/mbenhamd/database-publication-latex/blob/master/real_stream-schema.png?raw=true
+feature_image: 
 tags: [Twitter, Sentiment Analysis, Streaming, Spark]
 ---
+
+<img src="https://github.com/mbenhamd/database-publication-latex/blob/master/real_stream-schema.png?raw=true" alt="drawing" width="auto" max-width="100%" height="100%" />
+<br>
+
 
 *Presentation of a Twitter Sentiment Analysis available on my [Github repository](https://github.com/mbenhamd/twitter-sentiment-analysis) and [Publication](https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf)*\:
 
@@ -13,7 +17,7 @@ tags: [Twitter, Sentiment Analysis, Streaming, Spark]
 
 Scikit-learn, Spark, AWS EMR, S3, Lambda, Kinesis, API Gateway, MQTT, React JS, RDS (Postgres SQL).
 
-*Website for a demo: [here](https://twitter.yannistannier.io)*
+
 <!--more-->
 
 ##### Define a problem you want to solve

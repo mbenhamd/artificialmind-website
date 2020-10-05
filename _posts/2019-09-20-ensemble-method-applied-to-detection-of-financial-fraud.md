@@ -3,9 +3,11 @@ layout: post
 title: "Ensemble method applied to detection of financial fraud"
 description: "Implementing Fisher's algorithm (dynamic programming)"
 date: 2019-09-20
-feature_image: /ressources/ensemble-method/boxplot.png
+feature_image:
 tags: [Ensemble Method,  SMOTE, Imbalanced Dataset]
 ---
+<img src="/ressources/ensemble-method/boxplot.png" alt="drawing" width="auto" max-width="100%" height="20%"/>
+<br>
 
 *Presentation of ensemble method applied to Detection of financial fraud available on my [Github repository](https://github.com/mbenhamd/methodes-ensemblistes-fraudes)*\:
 

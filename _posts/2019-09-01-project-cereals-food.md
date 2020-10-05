@@ -3,10 +3,12 @@ layout: post
 title: "R Project with Cereals Food Dataset"
 description: "A Project to introduce R and Statistics"
 date: 2019-09-01
-feature_image: ressources/r-food/cercle_correlation.png
+feature_image: 
 tags: [Project, R, Statistics]
 permalink : /r-food/
 ---
+<img src="/ressources/r-food/cercle_correlation.png" alt="drawing" width="auto" max-width="100%" height="auto"/>
+<br>
 
 *Presentation of a R project to introduce data science available on my [Github repository](https://github.com/mbenhamd/cereals-data-project)*:
 

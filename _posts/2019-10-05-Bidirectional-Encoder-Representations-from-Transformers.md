@@ -1,22 +1,19 @@
 ---
 layout: post
-title: "Bidirectional Encoder Representations from Transformers."
+title: "BERT ?"
 description: "state-of-the-art in natural language processing by using a Transformer."
 date: 2019-10-05
-feature_image: https://github.com/mbenhamd/artificialmind-website/blob/master/images/Bert_smile.png?raw=true
+feature_image: 
 tags: [BERT, NLP, state-of-the-art, Tranformers]
 ---
-<!---
--->
+
+<img src="https://github.com/mbenhamd/artificialmind-website/blob/master/images/Bert_smile.png?raw=true" alt="drawing" width="auto" max-width="100%" height="100%" />
+<br>
 
 
-<!---
-Few important words
--->
+*Explanation of the model which upset the natural processing of language: [Publication](https://arxiv.org/pdf/1810.04805.pdf)*
 
-*Explanation of the model which upset the natural processing of language. [Publication](https://arxiv.org/pdf/1810.04805.pdf)*
-
-According to the researchers who designed BERT was thought to pre-form deep two-way representations from unlabeled text and jointly conditioning the left and right contexts. The result gives us that a pre-trained model can be refined by adding an additional superficial layer to meet the NLP task.
+According to the researchers who designed BERT (Bidirectional Encoder Representations from Transformers) was thought to pre-form deep two-way representations from unlabeled text and jointly conditioning the left and right contexts. The result gives us that a pre-trained model can be refined by adding an additional superficial layer to meet the NLP task.
 
 <!--more-->
 

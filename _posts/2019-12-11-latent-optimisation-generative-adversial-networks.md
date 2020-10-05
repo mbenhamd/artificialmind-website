@@ -2,9 +2,11 @@
 layout: post
 title: "LOGAN: Latent Optimisation for Generative Adversarial Networks"
 date: 2019-12-11
-feature_image: https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo
+feature_image: 
 tags: [Reiforcement learning, Associative memory, Gradient-Based Meta-Learning]
 ---
+<img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="drawing" width="auto" max-width="100%" height="auto"/>
+<br>
 
 *Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1912.00953.pdf)*\:
 

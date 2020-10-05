@@ -3,10 +3,11 @@ layout: post
 title: "Non-negative matrix factorization and image classification"
 description: "Clustering on images."
 date: 2019-09-12
-feature_image: https://www.researchgate.net/profile/Hongping_Cai/publication/290324486/figure/fig4/AS:613900601012249@1523376717327/Our-photo-art-dataset-containing-50-object-categories-Each-category-is-displayed-with.png
+feature_image: 
 tags: [Unsupervised Learning, Image Analaysis, NMF]
 ---
-
+<img src="https://www.researchgate.net/profile/Hongping_Cai/publication/290324486/figure/fig4/AS:613900601012249@1523376717327/Our-photo-art-dataset-containing-50-object-categories-Each-category-is-displayed-with.png" alt="drawing" width="auto" max-width="100%" height="auto"/>
+<br>
 *Presentation of a Non-negative matrix factorization and image classification project available on my [Github repository](https://github.com/mbenhamd/nmf-ter) and a french presentation available [here](https://github.com/mbenhamd/ter-presentation-beamer)*\:
 
 ###### Abstract

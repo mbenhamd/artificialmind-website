@@ -4,7 +4,7 @@
   link: https://github.com/mbenhamd/interpretation-neural-network-transcriptomic-data/blob/master/memoir.pdf
   github: https://github.com/mbenhamd/interpretation-neural-network-transcriptomic-data
   quote: >
-    Redaction of a memoir and development of a new method called InOmicNet
+    Redaction of a memoir and development of a new method called Deep GONet.
   description: | # this will include new lines to allow paragraphs
     Deep GONet, the purpose of this memoir is to develop a neural network able to learn and evolve the weights of the following layers by biological information introduced with a knowledge base outside.
 
@@ -15,4 +15,4 @@
   quote: >
     Twitter archive data and real stream tweets for sentiment and emotion analysis.
   description: | # this will include new lines to allow paragraphs
-    Our primary purpose is to build a robust platform system for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6 To). All this data analysis will be accessible via a [web interface](https://twitter.yannistannier.io/) that will be developed.
+    Our primary purpose is to build a robust platform system for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6 To). All this data analysis will be accessible via a [web interface](https://twitter.yannistannier.io/).

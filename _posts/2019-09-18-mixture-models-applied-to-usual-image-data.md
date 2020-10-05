@@ -3,9 +3,12 @@ layout: post
 title: "Mixture models applied to usual image data"
 description: "Implementation of different learning algorithms by reinforcement"
 date: 2019-09-18
-#feature_image: https://github.com/mbenhamd/twitter-analysis-mas/blob/master/app-screenshot.png?raw=true 
+feature_image: 
 tags: [Mixture Models, Image Analaysis, Unsupervised Learning]
 ---
+
+<img src="https://github.com/mbenhamd/mixture-model-images/blob/master/plot/show_images_mnist.png?raw=true" alt="drawing" width="auto" max-width="100%" height="25%"/>
+<br>
 
 *Presentation of mixture models applied to usual image data available on my [Github repository](https://github.com/mbenhamd/mixture-model-images)*\:
 
@@ -13,7 +16,7 @@ tags: [Mixture Models, Image Analaysis, Unsupervised Learning]
 
 Mixture models are routinely used to extract features from speech data, but also in object detection from images. By deducing parameters from the distribution of the data, they make it possible to predict the location of the objects with each image of a video sequence. The Gaussian mixing model is a probabilistic model that will be used to represent normally distributed subpopulations within a global population. Mixing models in general do not require knowing which subpopulation belongs to a data point, which allows the model to automatically learn subpopulations. As the assignment of subpopulations is not known, it is a form of unsupervised learning.
 
-![alt text](https://github.com/mbenhamd/mixture-model-images/blob/master/plot/show_images_mnist.png?raw=true "MNIST Sample") <!--more-->
+<!--more-->
 
 ###### Introduction
 

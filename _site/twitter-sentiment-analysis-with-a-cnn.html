@@ -28,14 +28,14 @@
 <meta property="article:published_time" content="2019-09-22T00:00:00+01:00" />
 <meta name="google-site-verification" content="jk_P6ub99gOREVqLFGd54Xe1Dgp57gAS248_qlRzIJg" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/twitter-sentiment-analysis-with-a-cnn","headline":"Twitter Sentiment Analysis with a CNN","dateModified":"2019-09-22T00:00:00+01:00","datePublished":"2019-09-22T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/twitter-sentiment-analysis-with-a-cnn"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"TensorFlow implementation of a CNN for Twitter Sentiment Analysis","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Twitter Sentiment Analysis with a CNN","dateModified":"2019-09-22T00:00:00+01:00","datePublished":"2019-09-22T00:00:00+01:00","url":"http://localhost:4000/twitter-sentiment-analysis-with-a-cnn","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/twitter-sentiment-analysis-with-a-cnn"},"author":{"@type":"Person","name":"Mohamed BEN HAMDOUNE"},"description":"TensorFlow implementation of a CNN for Twitter Sentiment Analysis","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
 <body>
 
   <div id="page" class="site">
-    <div class="inner">
+    <div class="inner" align="justify">
       <header class="site-header">
   
   <p class="site-title"><a class="logo-text" href="/">Artificial Mind Blog.</a></p>
@@ -93,12 +93,8 @@
 <!-- .post-meta -->
       
     </header><!-- .post-header -->
-    <div class="post-content">
-      <p><em>Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-cnn">Github repository</a></em>:</p>
-
-<h3 id="tensorflow-implementation-of-a-cnn">TensorFlow implementation of a CNN.</h3>
-
-<h6 id="part-of-the-twitter-sentiment-analysis-project">Part of the Twitter Sentiment Analysis Project</h6>
+      <div class="post-content" align="justify">
+        <p><em>Presentation of a TensorFlow implementation of a CNN for Twitter Sentiment Analysis available on my <a href="https://github.com/mbenhamd/twitter-sentiment-cnn">Github repository</a></em>:</p>
 
 <p><em>Link of the publication : <a href="https://github.com/mbenhamd/database-publication-latex/blob/master/publication.pdf">here</a></em></p>
 
@@ -107,7 +103,7 @@
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flags:
 	batch_size = 128
 	checkpoint_freq = 1
-	custom_input =
+	custom_input = ""
 	dataset_fraction = 1.0
 	device = gpu
 	embedding_size = 128
@@ -129,7 +125,7 @@ Dataset:
 	Input layer size = 117
 	Number of classes = 2
 
-On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs) :
+On a GTX 1060 (1280 cuda cores), we did 110 990 iterations (10 epochs)
 </code></pre></div></div>
 <!--more-->
 <p>The CNN is about 424,1 Mo, it is a result of (round) 2h20 minute of computation with the GPU. At the end, the neural network comes up with a validation accuracy of 82%.</p>
@@ -336,8 +332,10 @@ Actual output: [0.04109644 0.95890355]
 </code></pre></div></div>
 
 <p>and then navigate to <code class="language-plaintext highlighter-rouge">localhost:6006</code> from your browser (you’ll see the computation graph in the <em>Graph</em> section).</p>
-
-    </div>
+ 
+      </div>
+    </article></main>
+</div>
 <!-- .post-content -->
     <div class="post-share">
       <span>Share:</span>
@@ -355,7 +353,7 @@ Actual output: [0.04109644 0.95890355]
 <p>Mohamed is a Data Scientist working at Zifo RnD Solutions.</p>
 </div>
         
-        <span class="author-location">Cmabridge, United Kingdom</span>
+        <span class="author-location">Cambridge, United Kingdom</span>
         
         
         <span class="author-website"><a href="https://mbenhamd.github.io/" target="_blank" rel="noopener">https://mbenhamd.github.io/</a></span>
@@ -364,7 +362,7 @@ Actual output: [0.04109644 0.95890355]
 <!-- .author-details -->
     </div>
 <!-- .author-box -->
-  </article><!-- .post -->
+  <!-- .post -->
 
   
     <div class="comments-area">
@@ -398,7 +396,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8VZJBT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-</main><!-- .main-content -->
+<!-- .main-content -->
       <footer class="site-footer">
   <div class="offsite-links">
     
@@ -432,9 +430,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- .footer-bottom -->
 </footer><!-- .site-footer -->
 
-    </div>
-<!-- .inner -->
-  </div><!-- .site -->
+    </div><!-- .inner -->
+  <!-- .site -->
 
   <!-- Scripts -->
   <script src="/assets/js/plugins.js"></script>

@@ -1,0 +1,34 @@
+I"I<p><img src="/ressources/binero/welcome.jpg" alt="drawing" width="auto" max-width="100%" height="auto" />
+<br />
+<em>Presentation of the game available on my <a href="https://github.com/mbenhamd/Binero">Github repository</a></em>:</p>
+
+<p><strong>Takuzu</strong> is a puzzle game from Japan. It is based on logic a bit like sudoku. It is usually a 10x10 or 8x8 grid, containing only 1s and 0s, which must be completed according to three rules:</p>
+
+<ul>
+  <li>
+    <p>as many as 1 and 0 on each line and on each column.</p>
+  </li>
+  <li>
+    <p>no more than 2 identical digits side by side.</p>
+  </li>
+  <li>
+    <p>2 rows or 2 columns can not be identical.</p>
+  </li>
+</ul>
+
+<p><strong>Takuzu</strong> is also known as Binero or Bento.</p>
+
+<!--more-->
+
+<p>After this quick presentation of the game, we agree that the game is a certain simplicity to implement in its basic version. For this we will describe later the structure of the game and the algorithms describing the rules of the game.</p>
+
+<p>Throughout this documentation it should be noted that the language used is C.</p>
+
+<p>The basic Binero object:</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="o">**</span><span class="n">grille</span> <span class="p">;</span>
+<span class="kt">int</span> <span class="n">taille</span> <span class="p">;</span>
+</code></pre></div></div>
+<p>A binero is composed of a grid composed of 0 or 1 and a whole size.</p>
+
+<p><img src="/ressources/binero/ingame.png" alt="alt text" title="Exemple of a game execution" /></p>
+:ET

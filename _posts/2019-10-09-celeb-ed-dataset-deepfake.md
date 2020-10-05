@@ -3,11 +3,14 @@ layout: post
 title: "Celeb-DF: A New Dataset for DeepFake Forensics"
 description: " In this work, they present a new DeepFake dataset, Celeb-DF, for the development and evaluation of DeepFake detection algorithms."
 date: 2019-10-09
-feature_image: https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/rdvjaoctz3zp9cv9nbim.jpg
+feature_image: 
 tags: [Celeb-DF, Computer Vision,  DeepFake, Algorithms]
 ---
 
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1909.12962.pdf)*\:
+<img src="https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/rdvjaoctz3zp9cv9nbim.jpg" alt="drawing" width="auto" max-width="100%" height="50%" />
+<br>
+
+*Presentation of a Paper avalaible : [here](https://arxiv.org/pdf/1909.12962.pdf)*\
 
 AI-synthesized face-swapping videos, commonly known as DeepFakes, is an emerging problem threatening the trustworthiness of online information. The need to develop and evaluate DeepFake detection algorithms calls for large-scale datasets. However, current DeepFake datasets
 suffer from low visual quality and do not resemble DeepFake videos circulated on the Internet. We present a new large-scale challenging DeepFake video dataset, CelebDF, which contains 5, 639 high-quality DeepFake videos of celebrities generated using improved synthesis process. We

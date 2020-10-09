@@ -3,7 +3,7 @@ layout: post
 title: "Analyzing and Improving the Image Quality of StyleGAN"
 date: 2019-12-06
 feature_image: 
-tags: [Reiforcement learning, Associative memory, Gradient-Based Meta-Learning]
+tags: [StyleGAN, GAN, Computer Vision, AdaIN]
 ---
 <img src="https://miro.medium.com/max/1174/1*LgSQi3MLNE1l-T4vmjmybg.png" alt="drawing" width="auto" max-width="100%" height="auto"/>
 <br>

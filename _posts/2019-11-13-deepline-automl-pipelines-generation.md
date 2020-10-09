@@ -4,7 +4,7 @@ title: "DeepLine: AutoML Tool for Pipelines Generation using Deep Reinforcement
 Learning and Hierarchical Actions Filtering"
 date: 2019-11-13
 feature_image: 
-tags: [DeepLine, Associative memory, Gradient-Based Meta-Learning]
+tags: [DeepLine, Associative memory, Gradient-Based Meta-Learning, Deep Reinforcement Learning]
 ---
 
 <img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="drawing" width="auto" max-width="100%" height="50%" />
@@ -18,8 +18,7 @@ tags: [DeepLine, Associative memory, Gradient-Based Meta-Learning]
 
 Automatic machine learning (AutoML) is an area of research
 aimed at automating machine learning (ML) activities that
-currently require human experts. One of the most challenging tasks in this field is the automatic generation of end-toend ML pipelines: combining multiple types of ML algorithms into a single architecture used for end-to-end analysis of previously-unseen data. This task has two challenging
-aspects: the first is the need to explore a large search space
+currently require human experts. One of the most challenging tasks in this field is the automatic generation of end-toend ML pipelines: combining multiple types of ML algorithms into a single architecture used for end-to-end analysis of previously-unseen data. This task has two challenging aspects: the first is the need to explore a large search space
 of algorithms and pipeline architectures. The second challenge is the computational cost of training and evaluating
 multiple pipelines. In this study we present DeepLine, a reinforcement learning based approach for automatic pipeline
 generation. Our proposed approach utilizes an efficient representation of the search space and leverages past knowledge gained from previously-analyzed datasets to make the

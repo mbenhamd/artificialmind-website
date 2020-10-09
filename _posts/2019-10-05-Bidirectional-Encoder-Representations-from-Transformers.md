@@ -25,7 +25,7 @@ Write an intro (and make it captivating).
 
 No, it is not the first name as you could have understood it thanks to the title and the small introduction but beautiful and well a framework which can help you to solve your NLP projects. Coming from the Language department at Google Research and it has inspired many architectures known for example the OpenAI GPT-2 model.
 
-##### Why did we come up with this?
+##### Why did they come up with this?
 
 We had some problems with previous methods because language models only use left context or right context, but language understanding is bidirectional. 
 There are two main reasons why language models are unidirectional : 

@@ -3,7 +3,7 @@ layout: post
 title: "AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning"
 date: 2019-11-04
 feature_image: 
-tags: [Reiforcement learning, Imitation learning, AlphaStar,Multi Agent System]
+tags: [Reiforcement learning, Imitation learning, AlphaStar, Multi Agent System]
 ---
 
 <img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="drawing" width="auto" max-width="100%" height="50%" />

@@ -8,7 +8,7 @@ tags: [Visualisation, PCA, MDS, Isomap, LLE, LDA]
 ---
 <img src="https://github.com/mbenhamd/exploration-visuelles-genomique/blob/master/lle_exemple.PNG?raw=true" alt="drawing" width="auto" max-width="100%" height="auto"/>
 <br>
-*Presentation of visual exploration of genomic data available on my [Github repository](https://github.com/mbenhamd/exploration-visuelles-genomique)*\:
+*Presentation of a visual exploration on genomic data available on my [Github repository](https://github.com/mbenhamd/exploration-visuelles-genomique)*\:
 
 ###### Abstract
 

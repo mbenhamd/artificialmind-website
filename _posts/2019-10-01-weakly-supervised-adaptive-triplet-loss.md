@@ -10,7 +10,7 @@ tags: [Loss, Weakly Supervised, Learning Metrics, Triplet Loss, Semantic Classes
 <img src="https://miro.medium.com/max/1204/0*_WNBFcRVEOz6QM7R." alt="drawing" width="auto" max-width="100%" height="100%" />
 <br>
 
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1909.12939.pdf)*\:
+*Presentation of the paper available [here](https://arxiv.org/pdf/1909.12939.pdf)*\:
 
 The article presents an approach to the significant problems of learning metrics on the search for similarities in the case of image data sets. The authors present a method called a weakly supervised adaptive triplet loss (ATL) that can capture fine-grained semantic similarity.
 It's written by Xiaonan Zthao, Hian Qi, Rui Luo and Larry Davis from Amazon R&D.

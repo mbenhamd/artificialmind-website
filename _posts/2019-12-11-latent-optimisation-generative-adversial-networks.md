@@ -8,7 +8,7 @@ tags: [CS-GAN, GAN, LOGAN]
 <img src="https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo" alt="drawing" width="auto" max-width="100%" height="auto"/>
 <br>
 
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1912.00953.pdf)*\:
+*Presentation of the paper available [here](https://arxiv.org/pdf/1912.00953.pdf)*\:
 
 Training generative adversarial networks demand to match of dainty competitive dynamics. Yet by precise tuning, training may differ or end up in poor stability with dropped modes. In this work, they improved CS-GAN with natural gradient-based latent optimisation and confirm that it increases adversarial dynamics by intensifying interactions between the discriminator and the generator. Their experiments demonstrate that latent optimisation can significantly enhance GAN training, achieving state-of-the-art achievement for the ImageNet (128 × 128) dataset. Their model achieves an Inception Score (IS) of 148 and an Fréchet Inception Distance (FID) of 3.4, an enhancement of 17% and 32% in IS and FID individually, confronted with the baseline BigGAN-deep model with the same architecture and number of parameters.
 

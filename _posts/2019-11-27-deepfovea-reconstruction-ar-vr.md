@@ -10,7 +10,7 @@ tags: [DeepFovea, AR, VR,GAN]
 <br>
 
 
-*Presentation of a Paper avalaible [here](https://research.fb.com/wp-content/uploads/2019/11/DeepFovea-Neural-Reconstruction-for-Foveated-Rendering-and-Video-Compression-using-Learned-Statistics-of-Natural-Videos.pdf)*\:
+*Presentation of the paper available [here](https://research.fb.com/wp-content/uploads/2019/11/DeepFovea-Neural-Reconstruction-for-Foveated-Rendering-and-Video-Compression-using-Learned-Statistics-of-Natural-Videos.pdf)*\:
 
 DeepFovea is a new AI-powered 
 foveated rendering

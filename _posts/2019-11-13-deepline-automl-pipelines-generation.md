@@ -14,7 +14,7 @@ tags: [DeepLine, Associative memory, Gradient-Based Meta-Learning, Deep Reinforc
 
 
 
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1911.00061.pdf)*\:
+*Presentation of the paper available [here](https://arxiv.org/pdf/1911.00061.pdf)*\:
 
 Automatic machine learning (AutoML) is an area of research
 aimed at automating machine learning (ML) activities that

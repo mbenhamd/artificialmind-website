@@ -10,7 +10,7 @@ tags: [Recurrent Neural Networks, Associative memory, Gradient-Based Meta-Learni
 <img src="https://miro.medium.com/max/1121/1*voNageVB1gI8Dfrmr-U3Ew.png" alt="drawing" width="auto" max-width="100%" height="50%" />
 <br>
 
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1910.09890.pdf)*\:
+*Presentation of the paper avalaible [here](https://arxiv.org/pdf/1910.09890.pdf)*\:
 
 Gating mechanisms are widely used in neural
 network models, where they allow gradients to

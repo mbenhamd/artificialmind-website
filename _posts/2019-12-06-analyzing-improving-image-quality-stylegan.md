@@ -7,7 +7,7 @@ tags: [StyleGAN, GAN, Computer Vision, AdaIN]
 ---
 <img src="https://miro.medium.com/max/1174/1*LgSQi3MLNE1l-T4vmjmybg.png" alt="drawing" width="auto" max-width="100%" height="auto"/>
 <br>
-*Presentation of a Paper avalaible [here](https://arxiv.org/pdf/1912.04958.pdf)*\:
+*Presentation of the paper available [here](https://arxiv.org/pdf/1912.04958.pdf)*\:
 
 The style-based GAN architecture (StyleGAN) yields
 state-of-the-art results in data-driven unconditional generative image modeling. We expose and analyze several of

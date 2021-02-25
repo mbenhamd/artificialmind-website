@@ -11,7 +11,7 @@ tags: [BERT, NLP, state-of-the-art, Tranformers]
 <br>
 
 
-*Explanation of the model which upset the natural processing of language: [Publication](https://arxiv.org/pdf/1810.04805.pdf)*
+*Explanation of the model which transformed the NLP world community: [Publication](https://arxiv.org/pdf/1810.04805.pdf)*
 
 According to the researchers who designed BERT (Bidirectional Encoder Representations from Transformers) was thought to pre-form deep two-way representations from unlabeled text and jointly conditioning the left and right contexts. The result gives us that a pre-trained model can be refined by adding an additional superficial layer to meet the NLP task.
 

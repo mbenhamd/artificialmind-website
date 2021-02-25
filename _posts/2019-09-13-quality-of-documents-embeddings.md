@@ -9,7 +9,7 @@ tags: [NMF,  LSA, Doc2Vec, Data Mining]
 <img src="https://github.com/mbenhamd/documents-embeddings/blob/master/word-cloud-exemple.PNG?raw=true" alt="drawing" width="auto" max-width="100%" height="auto"/>
 <br>
 
-*Presentation of quality of embeddings documents available on my [Github repository](https://github.com/mbenhamd/documents-embeddings)*\:
+*Presentation of quality embeddings documents available on my [Github repository](https://github.com/mbenhamd/documents-embeddings)*\:
 
 ###### Abstract
 

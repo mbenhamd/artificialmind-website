@@ -96,13 +96,14 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.email -%}
+          <li>
+            <a target="_blank" href="mailto:{{- site.email -}}" class="button button--sacnite button--round-l">
+              <i class="fa fa-envelope" title="Email link"></i>
+            </a>
+          </li>
+        {%- endif -%}
       </ul>
-
-      {%- if site.email -%}
-        <p>
-          Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-        </p>
-      {%- endif -%}
       {%- if site.url -%}
         <p>
           Web: {% include a.html href=site.url %}{{ site.url | escape }}</a>

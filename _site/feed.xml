@@ -5,8 +5,8 @@
         <description>Welcome to my website, it covers a section regarding my vocation, but there are articles about my projects and some about new ideas in the field of artificial intelligence.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 01 Oct 2020 16:04:20 +0100</pubDate>
-        <lastBuildDate>Thu, 01 Oct 2020 16:04:20 +0100</lastBuildDate>
+        <pubDate>Thu, 27 May 2021 22:41:55 +0100</pubDate>
+        <lastBuildDate>Thu, 27 May 2021 22:41:55 +0100</lastBuildDate>
         <generator>Jekyll v4.1.1</generator>
         
             <item>
@@ -14,7 +14,7 @@
                 <description>&lt;p&gt;&lt;img src=&quot;https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1912.00953.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://arxiv.org/pdf/1912.00953.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;Training generative adversarial networks demand to match of dainty competitive dynamics. Yet by precise tuning, training may differ or end up in poor stability with dropped modes. In this work, they improved CS-GAN with natural gradient-based latent optimisation and confirm that it increases adversarial dynamics by intensifying interactions between the discriminator and the generator. Their experiments demonstrate that latent optimisation can significantly enhance GAN training, achieving state-of-the-art achievement for the ImageNet (128 × 128) dataset. Their model achieves an Inception Score (IS) of 148 and an Fréchet Inception Distance (FID) of 3.4, an enhancement of 17% and 32% in IS and FID individually, confronted with the baseline BigGAN-deep model with the same architecture and number of parameters.&lt;/p&gt;
 
@@ -54,11 +54,11 @@ To apply latent optimisation with NGD, they used the same large step size of α 
                 <link>http://localhost:4000/latent-optimisation-generative-adversial-networks</link>
                 <guid isPermaLink="true">http://localhost:4000/latent-optimisation-generative-adversial-networks</guid>
                 
-                <category>Reiforcement learning</category>
+                <category>CS-GAN</category>
                 
-                <category>Associative memory</category>
+                <category>GAN</category>
                 
-                <category>Gradient-Based Meta-Learning</category>
+                <category>LOGAN</category>
                 
                 
             </item>
@@ -67,7 +67,7 @@ To apply latent optimisation with NGD, they used the same large step size of α 
                 <title>Analyzing and Improving the Image Quality of StyleGAN</title>
                 <description>&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1174/1*LgSQi3MLNE1l-T4vmjmybg.png&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
 &lt;br /&gt;
-&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1912.04958.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://arxiv.org/pdf/1912.04958.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;The style-based GAN architecture (StyleGAN) yields
 state-of-the-art results in data-driven unconditional generative image modeling. We expose and analyze several of
@@ -168,18 +168,23 @@ intrinsic variation.&lt;/p&gt;
                 <link>http://localhost:4000/analyzing-improving-image-quality-stylegan</link>
                 <guid isPermaLink="true">http://localhost:4000/analyzing-improving-image-quality-stylegan</guid>
                 
-                <category>Reiforcement learning</category>
+                <category>StyleGAN</category>
                 
-                <category>Associative memory</category>
+                <category>GAN</category>
                 
-                <category>Gradient-Based Meta-Learning</category>
+                <category>Computer Vision</category>
+                
+                <category>AdaIN</category>
                 
                 
             </item>
         
             <item>
                 <title>DeepFovea: Using deep learning for foveated reconstruction in AR-VR</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://research.fb.com/wp-content/uploads/2019/11/DeepFovea-Neural-Reconstruction-for-Foveated-Rendering-and-Video-Compression-using-Learned-Statistics-of-Natural-Videos.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://research.fb.com/wp-content/uploads/2019/11/DeepFovea-Neural-Reconstruction-for-Foveated-Rendering-and-Video-Compression-using-Learned-Statistics-of-Natural-Videos.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;DeepFovea is a new AI-powered 
 foveated rendering
@@ -242,23 +247,27 @@ method for follow-up research on foveated reconstruction&lt;/p&gt;
                 <link>http://localhost:4000/deepfovea-reconstruction-ar-vr</link>
                 <guid isPermaLink="true">http://localhost:4000/deepfovea-reconstruction-ar-vr</guid>
                 
-                <category>Reiforcement learning</category>
+                <category>DeepFovea</category>
                 
-                <category>Associative memory</category>
+                <category>AR</category>
                 
-                <category>Gradient-Based Meta-Learning</category>
+                <category>VR</category>
+                
+                <category>GAN</category>
                 
                 
             </item>
         
             <item>
                 <title>DeepLine: AutoML Tool for Pipelines Generation using Deep Reinforcement Learning and Hierarchical Actions Filtering</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1911.00061.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://arxiv.org/pdf/1911.00061.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;Automatic machine learning (AutoML) is an area of research
 aimed at automating machine learning (ML) activities that
-currently require human experts. One of the most challenging tasks in this field is the automatic generation of end-toend ML pipelines: combining multiple types of ML algorithms into a single architecture used for end-to-end analysis of previously-unseen data. This task has two challenging
-aspects: the first is the need to explore a large search space
+currently require human experts. One of the most challenging tasks in this field is the automatic generation of end-toend ML pipelines: combining multiple types of ML algorithms into a single architecture used for end-to-end analysis of previously-unseen data. This task has two challenging aspects: the first is the need to explore a large search space
 of algorithms and pipeline architectures. The second challenge is the computational cost of training and evaluating
 multiple pipelines. In this study we present DeepLine, a reinforcement learning based approach for automatic pipeline
 generation. Our proposed approach utilizes an efficient representation of the search space and leverages past knowledge gained from previously-analyzed datasets to make the
@@ -330,12 +339,17 @@ better than -* and comparable to O* for any auxiliary gate *.&lt;/p&gt;
                 
                 <category>Gradient-Based Meta-Learning</category>
                 
+                <category>Deep Reinforcement Learning</category>
+                
                 
             </item>
         
             <item>
                 <title>AlphaStar: Grandmaster level in StarCraft II using multi-agent reinforcement learning</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://www.nature.com/articles/s41586-019-1724-z.epdf?author_access_token=lZH3nqPYtWJXfDA10W0CNNRgN0jAjWel9jnR3ZoTv0PSZcPzJFGNAZhOlk4deBCKzKm70KfinloafEF1bCCXL6IIHHgKaDkaTkBcTEv7aT-wqDoG1VeO9-wO3GEoAMF9bAOt7mJ0RWQnRVMbyfgH9A%3D%3D&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://www.nature.com/articles/s41586-019-1724-z.epdf?author_access_token=lZH3nqPYtWJXfDA10W0CNNRgN0jAjWel9jnR3ZoTv0PSZcPzJFGNAZhOlk4deBCKzKm70KfinloafEF1bCCXL6IIHHgKaDkaTkBcTEv7aT-wqDoG1VeO9-wO3GEoAMF9bAOt7mJ0RWQnRVMbyfgH9A%3D%3D&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;Many real-world applications require artificial agents to compete and coordinate with other agents in complex environments. As a stepping stone to this goal, the domain of StarCraft has emerged as an important challenge for artificial intelligence research, owing to its iconic and enduring status among the most difficult professional esports and its relevance to the real world in terms of its raw complexity and multi-agent challenges. Over the course of a decade and numerous competitions1,2,3, the strongest agents have simplified important aspects of the game, utilized superhuman capabilities, or employed hand-crafted sub-systems4. Despite these advantages, no previous agent has come close to matching the overall skill of top StarCraft players. We chose to address the challenge of StarCraft using general-purpose learning methods that are in principle applicable to other complex domains: a multi-agent reinforcement learning algorithm that uses data from both human and agent games within a diverse league of continually adapting strategies and counter-strategies, each represented by deep neural networks5,6. We evaluated our agent, AlphaStar, in the full game of StarCraft II, through a series of online games against human players. AlphaStar was rated at Grandmaster level for all three StarCraft races and above 99.8% of officially ranked human players.
 &lt;!--more--&gt;&lt;/p&gt;
@@ -382,7 +396,10 @@ better than -* and comparable to O* for any auxiliary gate *.&lt;/p&gt;
         
             <item>
                 <title>Improving the Gating Mechanism of Recurrent Neural Networks</title>
-                <description>&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1910.09890.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1121/1*voNageVB1gI8Dfrmr-U3Ew.png&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Presentation of the paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1910.09890.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;Gating mechanisms are widely used in neural
 network models, where they allow gradients to
@@ -496,10 +513,10 @@ to improve machine learning models at large.&lt;/p&gt;
         
             <item>
                 <title>Meta-Learning Deep Energy-Based Memory Models</title>
-                <description>&lt;p&gt;&lt;img src=&quot;https://ars.els-cdn.com/content/image/1-s2.0-S1568494619306350-gr3.jpg&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
+                <description>&lt;p&gt;&lt;img src=&quot;https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1910.02720.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://arxiv.org/pdf/1910.02720.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;p&gt;We study the problem of learning associative memory – a system which is able to retrieve a remembered pattern based on its distorted or incomplete version. Attractor networks provide a sound model of associative memory: patterns are stored as attractors of the network dynamics and associative retrieval is performed by running the dynamics starting from a query pattern until it converges to an attractor. In such models the dynamics are often implemented as an optimization procedure that minimizes an energy function, such as in the classical Hopfield network. In general it is difficult to derive a writing rule for a given dynamics and energy that is both compressive and fast. Thus, most research in energybased memory has been limited either to tractable energy models not expressive enough to handle complex high-dimensional objects such as natural images, or to models that do not offer fast writing. We present a novel meta-learning approach to energy-based memory models (EBMM) that allows one to use an arbitrary neural architecture as an energy model and quickly store patterns in its weights. We demonstrate experimentally that our EBMM approach can build compressed memories for synthetic and natural data, and is capable of associative retrieval that outperforms existing memory systems in terms of the reconstruction error and compression rate.
 &lt;!--more--&gt;&lt;/p&gt;
@@ -561,7 +578,7 @@ discovered and we believe that our results provide a good motivation for this li
                 <description>&lt;p&gt;&lt;img src=&quot;https://ars.els-cdn.com/content/image/1-s2.0-S1568494619306350-gr3.jpg&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible : &lt;a href=&quot;https://arxiv.org/pdf/1910.01858.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;\&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://arxiv.org/pdf/1910.01858.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;\ :&lt;/p&gt;
 
 &lt;p&gt;Extreme learning machine (ELM), which can be viewed as a variant of Random Vector Functional Link (RVFL) network without the input-output direct connections, has been extensively used to create multi-layer (deep) neural networks.
 Such networks employ randomization based autoencoders (AE) for unsupervised feature extraction followed by an ELM classifier for final decision making. Each randomization based AE acts as an independent feature extractor and a deep network is obtained by stacking several such AEs. Inspired by the better performance of RVFL over ELM, in this paper, we propose several deep RVFL variants by utilizing the framework of stacked autoencoders. Specifically, we introduce direct connections (feature reuse) from preceding layers to the fore layers of the network as in the original RVFL network. Such connections help to regularize the randomization and also reduce the model complexity. Furthermore, we also introduce denoising criterion, recovering clean inputs from their corrupted versions, in the autoencoders to achieve better higher level representations than the ordinary autoencoders. Extensive experiments on several classification datasets show that our proposed deep networks achieve overall better and faster generalization than the other relevant state-of-the-art deep neural networks.
@@ -610,7 +627,7 @@ During the training, they transform images into unit vector by defining the mini
                 <description>&lt;p&gt;&lt;img src=&quot;https://i.kinja-img.com/gawker-media/image/upload/c_scale,fl_progressive,q_80,w_800/rdvjaoctz3zp9cv9nbim.jpg&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible : &lt;a href=&quot;https://arxiv.org/pdf/1909.12962.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;\&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://arxiv.org/pdf/1909.12962.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;\ :&lt;/p&gt;
 
 &lt;p&gt;AI-synthesized face-swapping videos, commonly known as DeepFakes, is an emerging problem threatening the trustworthiness of online information. The need to develop and evaluate DeepFake detection algorithms calls for large-scale datasets. However, current DeepFake datasets
 suffer from low visual quality and do not resemble DeepFake videos circulated on the Internet. We present a new large-scale challenging DeepFake video dataset, CelebDF, which contains 5, 639 high-quality DeepFake videos of celebrities generated using improved synthesis process. We
@@ -659,30 +676,30 @@ During the training, they transform images into unit vector by defining the mini
                 <description>&lt;p&gt;&lt;img src=&quot;https://yt3.ggpht.com/a/AGF-l7-ncmSiLyMlXHexWBJfa61xH8Y02WWQbnI4rg=s900-c-k-c0xffffffff-no-rj-mo&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;50%&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible : &lt;a href=&quot;https://arxiv.org/pdf/1910.01526.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation of the paper available : &lt;a href=&quot;https://arxiv.org/pdf/1910.01526.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This paper presents a family of backpropagation-free neural architectures, Gated Linear Networks (GLNs), that are well suited to online learning applications where sample efficiency is of paramount importance. The impressive empirical performance of these architectures has long been known within the data compression community, but a theoretically satisfying explanation as to how and why they perform so well has proven difficult.
 It’s written by Joel Veness, Tor Lattimore, Avishkar Bhoopchand, David Budden, Christopher Mattern, Agnieszka Grabska-Barwinska, Peter Toth, Simon Schmitt and Marcus Hutter from DeepMind.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;introduction&quot;&gt;Introduction&lt;/h5&gt;
-&lt;p&gt;What distinguishes these architectures from other neural systems is the distributed and local nature of their credit assignment mechanism; each neuron directly predicts the target and has its own set of hard-gated weights that are locally adapted via online convex optimization. By providing an interpretation, generalization and subsequent theoretical analysis, we show that sufficiently large GLNs
-are universal in a strong sense: not only can they model any compactly supported, continuous density function to arbitrary accuracy, but that any choice of no-regret online convex optimization technique will provably converge to the correct solution with enough data. Empirically we show a collection of single-pass learning results on established machine learning benchmarks that are competitive with results obtained with general purpose batch learning techniques.&lt;/p&gt;
+&lt;p&gt;What distinguishes these architectures from other neural systems is the distributed and local nature of their credit assignment mechanism; each neuron directly predicts the target and has its own set of hard-gated weights that are locally adapted via online convex optimization. By providing an interpretation, generalization and subsequent theoretical analysis: They showed that sufficiently large GLNs
+are universal in a strong sense. Empirically they showed a collection of single-pass learning results on established machine learning benchmarks that are competitive with results obtained with general-purpose batch learning techniques.&lt;/p&gt;
 
 &lt;h6 id=&quot;what-do-they-propose-&quot;&gt;What do they propose ?&lt;/h6&gt;
 
-&lt;p&gt;Deep metric learning algorithms fail to learn distances that capture fined-grained sub-categories. Such fine-grained visual similarity distances are important to learn generalized visual features and to have robust performance on cross-domain data. So they construct an embedding of the product with text product production and use this to drive an adaptive triplet loss.&lt;/p&gt;
+&lt;p&gt;Deep metric learning algorithms fail to learn distances that capture fined-grained sub-categories. Such fine-grained visual similarity distances are essential to learn generalized visual features and to have a robust performance on cross-domain data. So they constructed an embedding of the product with text product production and use this to drive an adaptive triplet loss.&lt;/p&gt;
 
 &lt;h5 id=&quot;method&quot;&gt;Method&lt;/h5&gt;
 
-&lt;p&gt;They dataset is composed with images and textual description in the form of natural language or a set of key words.
-During the training, they transform images into unit vector by defining the mini-batch weakly&lt;/p&gt;
+&lt;p&gt;The dataset is composed of images and textual description in the form of natural language or a set of keywords.
+During the training, they transform images into a unit vector by defining the mini-batch weakly.&lt;/p&gt;
 
 &lt;h5 id=&quot;discussion&quot;&gt;Discussion&lt;/h5&gt;
 
-&lt;p&gt;We have introduced a new family of general purpose neural architectures, Gated Linear Networks, and studied the
-desirable characteristics that follow from their use of datadependent gating and local credit assignment. Their fast
-online learning properties, easy interpretability, and excellent robustness to catastrophic forgetting in continual learning settings makes them an interesting and complementary
+&lt;p&gt;We have introduced a new family of general-purpose neural architectures, Gated Linear Networks, and studied the
+desirable characteristics that follow from their use of data-dependent gating and local credit assignment. Their fast
+online learning properties, easy interpretability, and excellent robustness to catastrophic forgetting in continual learning settings makes them an exciting and complementary
 alternative to contemporary deep learning approaches.&lt;/p&gt;
 </description>
                 <pubDate>Mon, 07 Oct 2019 00:00:00 +0100</pubDate>
@@ -705,7 +722,7 @@ alternative to contemporary deep learning approaches.&lt;/p&gt;
                 <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/artificialmind-website/blob/master/images/Bert_smile.png?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;100%&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Explanation of the model which upset the natural processing of language: &lt;a href=&quot;https://arxiv.org/pdf/1810.04805.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Explanation of the model which transformed the NLP world community: &lt;a href=&quot;https://arxiv.org/pdf/1810.04805.pdf&quot;&gt;Publication&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;According to the researchers who designed BERT (Bidirectional Encoder Representations from Transformers) was thought to pre-form deep two-way representations from unlabeled text and jointly conditioning the left and right contexts. The result gives us that a pre-trained model can be refined by adding an additional superficial layer to meet the NLP task.&lt;/p&gt;
 
@@ -719,7 +736,7 @@ Write an intro (and make it captivating).
 
 &lt;p&gt;No, it is not the first name as you could have understood it thanks to the title and the small introduction but beautiful and well a framework which can help you to solve your NLP projects. Coming from the Language department at Google Research and it has inspired many architectures known for example the OpenAI GPT-2 model.&lt;/p&gt;
 
-&lt;h5 id=&quot;why-did-we-come-up-with-this&quot;&gt;Why did we come up with this?&lt;/h5&gt;
+&lt;h5 id=&quot;why-did-they-come-up-with-this&quot;&gt;Why did they come up with this?&lt;/h5&gt;
 
 &lt;p&gt;We had some problems with previous methods because language models only use left context or right context, but language understanding is bidirectional. 
 There are two main reasons why language models are unidirectional : 
@@ -748,35 +765,35 @@ Directionality is necessitated to make a well-formed probability pattern. The se
             </item>
         
             <item>
-                <title>A weakly supervised adaptive triplet loss for deep metric learning</title>
+                <title>A weakly-supervised adaptive triplet loss for deep metric learning</title>
                 <description>&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1204/0*_WNBFcRVEOz6QM7R.&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;100%&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Presentation of a Paper avalaible &lt;a href=&quot;https://arxiv.org/pdf/1909.12939.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation of the paper available &lt;a href=&quot;https://arxiv.org/pdf/1909.12939.pdf&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
-&lt;p&gt;The article presents an approach to the major problems of learning metrics on the search for similarities in the case of image data sets. The authors present a method called a weakly supervised adaptrive triplet loss (ATL) that can capture fine-grained semantic similarity.
+&lt;p&gt;The article presents an approach to the significant problems of learning metrics on the search for similarities in the case of image data sets. The authors present a method called a weakly supervised adaptive triplet loss (ATL) that can capture fine-grained semantic similarity.
 It’s written by Xiaonan Zthao, Hian Qi, Rui Luo and Larry Davis from Amazon R&amp;amp;D.
 &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;introduction&quot;&gt;Introduction&lt;/h5&gt;
-&lt;p&gt;In this paper, they apply different distance metric learning on fashion datasets. We can cite a well-known named DeepFashion that contains over 800,000 diverse fashion images ranging from well-posed shop images to unconstrained consumer photos and it is annotated with rich information of clothing items. Each image in this dataset is labeled with 50 categories, 1,000 descriptive attributes, bounding box and clothing landmarks.&lt;/p&gt;
+&lt;p&gt;In this paper, they apply different distance metric learning on fashion datasets. We can cite a well-known named DeepFashion that contains over 800,000 diverse fashion images ranging from well-posed shop images to unconstrained consumer photos, and it is annotated with rich information of clothing items. Each image in this dataset is labelled with 50 categories, 1,000 descriptive attributes, bounding box and clothing landmarks.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/attributes.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;A lot of approaches exist like contrastive loss where it produce a high loss (a penalty) when predicted distance is large when two object are similar and a low loss when the predicted distance is small, and vice versa for the case when the objects are different. Then we have triplet loss where a baseline (anchor) input is compared to a positive (truthy) input and a negative (falsy) input. The distance from the baseline (anchor) input to the positive (truthy) input is minimized, and the distance from the baseline (anchor) input to the negative (falsy) input is maximized. In other word, in triplet loss training a triplet contains two images belonging to the same class, referred to as the anchor and positive samples, and a thirs image, from a different class, which is referred to as the negative sample.&lt;/p&gt;
+&lt;p&gt;A lot of approaches exist like contrastive loss where it produces a high loss (a penalty) when the predicted distance is considerable when two objects are similar and a low loss when the expected spread is small, and vice versa for the case when the items are different. Then we have triplet loss where a baseline (anchor) input is compared to a positive (truthy) input and a negative (falsy) input. The distance from the baseline (anchor) information to the positive (truthy) input is minimized, and the distance from the baseline (anchor) input to the negative (falsy) intake is maximized. In other words, in triplet loss training a triplet contains two images belonging to the same class, referred to as the anchor and positive samples, and this image, from a different class, which is referred to as the negative sample.&lt;/p&gt;
 
 \[d(a,p)-d(a,n)+m\]
 
-&lt;p&gt;where a,p and n are anchor, positive and negative samples, respectively \(d(.,.)\) is the learned metric function and \(m\) is a margin term which encourages the negative sample to be further from the nachor than the positive sample. As they write in their paper, DNN base trimplet loss training commonly uses stochastic gradient decent on mini batches.&lt;/p&gt;
+&lt;p&gt;Where a,p and n are anchor, positive and negative samples, respectively \(d(.,.)\) is the learned metric function, and \(m\) is a margin term which encourages the negative sample to be further from the anchor than the positive sample. As they write in their paper, DNN based triplet loss training commonly uses stochastic gradient descent on mini-batches.&lt;/p&gt;
 
 &lt;h6 id=&quot;what-do-they-propose&quot;&gt;What do they propose&lt;/h6&gt;
 
-&lt;p&gt;Deep metric learning algorithms fail to learn distances that capture fined-grained sub-categories. Such fine-grained visual similarity distances are important to learn generalized visual features and to have robust performance on cross-domain data. So they construct an embedding of the product with text product production and use this to drive an adaptive triplet loss.&lt;/p&gt;
+&lt;p&gt;Deep metric learning algorithms fail to learn distances that capture fined-grained sub-categories. Such fine-grained visual similarity distances are essential to learn generalized visual features and to have a robust performance on cross-domain data. So they construct an embedding of the product with text product production and use this to drive an adaptive triplet loss.&lt;/p&gt;
 
 &lt;h5 id=&quot;method&quot;&gt;Method&lt;/h5&gt;
 
-&lt;p&gt;They dataset is composed with images and textual description in the form of natural language or a set of key words.
-During the training, they transform images into unit vector by defining the mini-batch weakly&lt;/p&gt;
+&lt;p&gt;The dataset is composed of images and textual description in the form of natural language or a set of keywords.
+During the training, they transform images into the unit vector by defining the mini-batch weakly.&lt;/p&gt;
 
 &lt;h5 id=&quot;result&quot;&gt;Result&lt;/h5&gt;
 
@@ -1086,7 +1103,7 @@ Actual output: [0.04109644 0.95890355]
                 <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques/blob/master/auto-encoder-conv.PNG?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;100%&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Presentation of comparison of discrimination characteristic extraction models available on my &lt;a href=&quot;https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation of a comparison of discrimination characteristic extraction models available on my &lt;a href=&quot;https://github.com/mbenhamd/autoencodeur-convolutionel-extraction-caracteristiques&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
 
@@ -1270,7 +1287,7 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
                 <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/documents-embeddings/blob/master/word-cloud-exemple.PNG?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Presentation of quality of embeddings documents available on my &lt;a href=&quot;https://github.com/mbenhamd/documents-embeddings&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Presentation of quality embeddings documents available on my &lt;a href=&quot;https://github.com/mbenhamd/documents-embeddings&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
@@ -1304,7 +1321,7 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
                 <title>Non-negative matrix factorization and image classification</title>
                 <description>&lt;p&gt;&lt;img src=&quot;https://www.researchgate.net/profile/Hongping_Cai/publication/290324486/figure/fig4/AS:613900601012249@1523376717327/Our-photo-art-dataset-containing-50-object-categories-Each-category-is-displayed-with.png&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
 &lt;br /&gt;
-&lt;em&gt;Presentation of a Non-negative matrix factorization and image classification project available on my &lt;a href=&quot;https://github.com/mbenhamd/nmf-ter&quot;&gt;Github repository&lt;/a&gt; and a french presentation available &lt;a href=&quot;https://github.com/mbenhamd/ter-presentation-beamer&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;em&gt;Presentation of a Non-negative matrix factorization and image classification project available on my &lt;a href=&quot;https://github.com/mbenhamd/nmf-ter&quot;&gt;Github repository&lt;/a&gt; and a French presentation available &lt;a href=&quot;https://github.com/mbenhamd/ter-presentation-beamer&quot;&gt;here&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
@@ -1345,7 +1362,7 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
                 <title>Visualisation method applied on genomic data</title>
                 <description>&lt;p&gt;&lt;img src=&quot;https://github.com/mbenhamd/exploration-visuelles-genomique/blob/master/lle_exemple.PNG?raw=true&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
 &lt;br /&gt;
-&lt;em&gt;Presentation of visual exploration of genomic data available on my &lt;a href=&quot;https://github.com/mbenhamd/exploration-visuelles-genomique&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;em&gt;Presentation of a visual exploration on genomic data available on my &lt;a href=&quot;https://github.com/mbenhamd/exploration-visuelles-genomique&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 
@@ -1383,7 +1400,7 @@ learning/papers/BRL-2000.pdf&quot;&gt;A Bayesian Framework for Reinforcement Lea
                 <title>Automatic classification of data temporal in ordered classes</title>
                 <description>&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/c27c4de4fa9dadfff3171d6af1f72f2208f2bd00/687474703a2f2f6372736f757a612e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031322f30312f696d6167655f7468756d622d32353235354231362d3235323535442e706e67&quot; alt=&quot;drawing&quot; width=&quot;auto&quot; max-width=&quot;100%&quot; height=&quot;auto&quot; /&gt;
 &lt;br /&gt;
-&lt;em&gt;Presentation of automatic classification of data temporal in ordered classes available on my &lt;a href=&quot;https://github.com/mbenhamd/series-temporelles-fisher&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
+&lt;em&gt;Presentation of an automatic classification on temporal data in ordered classes available on my &lt;a href=&quot;https://github.com/mbenhamd/series-temporelles-fisher&quot;&gt;Github repository&lt;/a&gt;&lt;/em&gt;:&lt;/p&gt;
 
 &lt;h6 id=&quot;abstract&quot;&gt;Abstract&lt;/h6&gt;
 

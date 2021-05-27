@@ -23,7 +23,7 @@ author: Mohamed BEN HAMDOUNE
 title: Artificial Mind Blog.
 subtitle: Yet Another Artificial Intelligence Blog.
 
-email: mbenhamd@gmail.com
+email: mohamed.benhamdoune@artificialmind.io
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website, it covers a section regarding my vocation, but there are articles about my projects and some about new ideas in the field of artificial intelligence.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -108,6 +108,7 @@ social:
     - https://www.facebook.com/mohamed.benhamdoune
     - https://www.linkedin.com/in/mohamed-ben-hamdoune-73197392/
     - https://github.com/mbenhamd
+    - mohamed.benhamdoune@artificialmind.io
 
 
 
@@ -167,9 +168,9 @@ more_content: | # this will include new lines to allow paragraphs
   I was born in France and did my schooling in France. I am fluent in English and French as well as Arabic.
   After a bachelor’s degree in mathematics and computer science, I specialized with a master’s degree in artificial intelligence. The learning axes are mainly carried out on these axes.
   - Clustering 
-  - Supervised learning (Classication / Regression)
+  - Supervised Learning (Classication / Regression)
   - Visualization
-  - Reinforcement learning
+  - Reinforcement Learning
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -184,10 +185,8 @@ about_content: | # this will include new lines to allow paragraphs
     - Kubernetes, Docker
     - Apache Spark / Hadoop
     - Elasticsearch
-    - AWS (Amazon Web Service)
-    - Microsoft Azure
-    - GCP (Google Cloud Computing)
-    - Angular, React, API RESTful
+    - AWS (Amazon Web Service), Microsoft Azure, GCP (Google Cloud Computing)
+    - Angular, React, RESTful API 
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
